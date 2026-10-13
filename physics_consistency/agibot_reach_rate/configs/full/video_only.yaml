@@ -1,0 +1,10 @@
+base: ../_base_full.yaml
+
+experiment:
+  model_name: video_only
+
+encoder:
+  backend: vjepa2_1
+  arch: vitg_384
+  checkpoint_key: auto
+  checkpoint: outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/last.pth.tar

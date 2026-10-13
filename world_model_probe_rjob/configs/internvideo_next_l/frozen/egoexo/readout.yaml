@@ -1,0 +1,11 @@
+# Inherit the exact EgoExo exo124/view03-OOD 9D readout protocol.
+base_config: covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/zero/egoexo_conv.yaml
+
+train:
+  arch: internvideo_next_l
+  encoder_family: internvideo_next
+  checkpoint_key: huggingface
+  encoder_checkpoint: InternVideo/checkpoints/internvideo_next_large_p14_res224_f16/model.safetensors
+  encoder_dtype: float16
+  kernel_mode: auto
+  output_dir: time-jepa/outputs_world_model/internvideo_next_l/frozen/egoexo/exo124_view3ood/readout/conv1x1

@@ -1,0 +1,63 @@
+dataset: egoexo
+ood: none
+egoexo_root: data/EgoExo4D_minimal
+egoexo_video_view: view01
+egoexo_train_video_keys:
+- view01
+- view02
+- view04
+egoexo_seen_video_keys:
+- view02
+- view04
+egoexo_ood_video_keys:
+- view03
+egoexo_split_dir: time-jepa/splits
+egoexo_split_prefix: egoexo_exo124_view3ood
+egoexo_manifest_path: time-jepa/splits/egoexo_exo124_view3ood_split_manifest.json
+egoexo_fps: 5.0
+egoexo_slice_stride_seconds: 12.8
+egoexo_max_time_delta: 0.05
+egoexo_pose_fps: 30.0
+egoexo_min_views: 2
+egoexo_smooth_window: 5
+egoexo_video_backend: auto
+egoexo_ffmpeg_timeout: 120
+egoexo_stats_cache: time-jepa/cache/egoexo_exo124_view3ood_whole9_shot_easy_v1_64f5fps_stats.json
+arch: vitg_384
+encoder_family: vjepa2_1
+checkpoint_key: auto
+target_mode: state
+targets:
+- whole9_shot_easy_v1
+probe_type: conv1x1
+probe_depth: 1
+probe_hidden_dim: 0
+tubelet_size: 2
+epochs: 15
+batch_size: 8
+num_workers: 2
+lr: 0.0001
+start_lr: null
+final_lr: 1.0e-06
+warmup_epochs: 1
+lr_schedule: cosine
+weight_decay: 0.01
+final_weight_decay: null
+train_split: probe_train
+val_split: probe_val
+test_split: test
+max_train_videos: 0
+max_val_videos: 0
+max_test_videos: 0
+frame_span: 128
+frame_stride: 0
+video_num_threads: 1
+keep_state_cache: false
+seed: 239
+device: cuda
+use_bfloat16: false
+tensorboard_dir: null
+no_tensorboard: false
+# Pretrained zero-Time-JEPA encoder -> recommended easy 5D geometry-shot baseline.
+encoder_checkpoint: vjepa2_1_vitg_384.pt
+output_dir: time-jepa/outputs_time_encoder_auto/egoexo/exo124_view3ood/whole/shot/9d/zero/egoexo_conv

@@ -1,0 +1,3040 @@
+[
+  {
+    "path": ".gitignore",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "a020d423dbd3af17746ef32a593fa7040740b9a46d6fdb8c2b5071b9b5ddc3c2"
+  },
+  {
+    "path": "APACHE-LICENSE",
+    "source": "APACHE-LICENSE",
+    "reason": "Upstream license notices",
+    "source_sha256": "a41e2fae9915ae56028f8dbd0bf27995f1907613cbcd2d81a61b010ad34e9fe9",
+    "release_sha256": "a41e2fae9915ae56028f8dbd0bf27995f1907613cbcd2d81a61b010ad34e9fe9"
+  },
+  {
+    "path": "CITATION.cff",
+    "generated": true,
+    "reason": "Software citation with confirmed author order; preprint citation pending",
+    "release_sha256": "d17a4fcb8844e95922983487d894e35cc74617267244bffa3855517efbef803d"
+  },
+  {
+    "path": "DATA-LICENSES.md",
+    "generated": true,
+    "reason": "Source dataset terms and separate retained AgiBot metadata license",
+    "release_sha256": "2ece335c1aecf890bdba43e475632b2d9f35d34e0182bfb4446760ab5b39cf30"
+  },
+  {
+    "path": "LICENSE",
+    "source": "LICENSE",
+    "reason": "Upstream license notices",
+    "source_sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173",
+    "release_sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  {
+    "path": "NOTICE",
+    "generated": true,
+    "reason": "Time-JEPA authorship, publication status and retained upstream notices",
+    "release_sha256": "a7c7e4f61912636f3c65bbae7822bca7ddc475dbe2ebb2dcd0a11b81f3ad442d"
+  },
+  {
+    "path": "README.md",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "3283e4120c8cab5e867dba1385590e981acbc53ee1dc0182b7c96f848a941ad4"
+  },
+  {
+    "path": "app/scaffold.py",
+    "source": "app/scaffold.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a962e73f7dcc70e9c07286c71ffc908189dd96e294d272e3d1adda26050ab8be",
+    "release_sha256": "a962e73f7dcc70e9c07286c71ffc908189dd96e294d272e3d1adda26050ab8be"
+  },
+  {
+    "path": "app/vjepa_2_1/models/predictor.py",
+    "source": "app/vjepa_2_1/models/predictor.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "30111720eb90c6dcdde44521cea53cc736020f984e5573150fd3dc7b4acc05d8",
+    "release_sha256": "30111720eb90c6dcdde44521cea53cc736020f984e5573150fd3dc7b4acc05d8"
+  },
+  {
+    "path": "app/vjepa_2_1/models/utils/masks_dist.py",
+    "source": "app/vjepa_2_1/models/utils/masks_dist.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "71c46e536b5db248de08ab3e40d32b71f2b67d148adec3dda88d92b98ca27c85",
+    "release_sha256": "71c46e536b5db248de08ab3e40d32b71f2b67d148adec3dda88d92b98ca27c85"
+  },
+  {
+    "path": "app/vjepa_2_1/models/utils/modules.py",
+    "source": "app/vjepa_2_1/models/utils/modules.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "64be6a87bd9f18d385f4e44186db3347d1665e18a1f0511d51d3b305531562e2",
+    "release_sha256": "64be6a87bd9f18d385f4e44186db3347d1665e18a1f0511d51d3b305531562e2"
+  },
+  {
+    "path": "app/vjepa_2_1/models/utils/patch_embed.py",
+    "source": "app/vjepa_2_1/models/utils/patch_embed.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "29e11ab97ab3ccdef107d6a7d0d7b374b58e712076cc3561f07b7e603c9b5165",
+    "release_sha256": "29e11ab97ab3ccdef107d6a7d0d7b374b58e712076cc3561f07b7e603c9b5165"
+  },
+  {
+    "path": "app/vjepa_2_1/models/vision_transformer.py",
+    "source": "app/vjepa_2_1/models/vision_transformer.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d2932eabeba684d8f558302a13cfd4be70a0170ee5112f5a794652d0a29089b9",
+    "release_sha256": "d2932eabeba684d8f558302a13cfd4be70a0170ee5112f5a794652d0a29089b9"
+  },
+  {
+    "path": "app/vjepa_2_1/train.py",
+    "source": "app/vjepa_2_1/train.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "64b56164721635d3c14de1630ec8e2e8fc2a3117f9161dcc3d13677ddbaa63a8",
+    "release_sha256": "64b56164721635d3c14de1630ec8e2e8fc2a3117f9161dcc3d13677ddbaa63a8"
+  },
+  {
+    "path": "app/vjepa_2_1/transforms.py",
+    "source": "app/vjepa_2_1/transforms.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "5aca995dd0150d6fddf011a2c1e39f673210b511b29fad049346d33e8aa68f21",
+    "release_sha256": "5aca995dd0150d6fddf011a2c1e39f673210b511b29fad049346d33e8aa68f21"
+  },
+  {
+    "path": "app/vjepa_2_1/utils.py",
+    "source": "app/vjepa_2_1/utils.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "0c0db89c6b03ec6dcffd16f30002dd940619b5dd2ef710b784a4488d529dd69c",
+    "release_sha256": "e1accccd53c6a0a99e532b15d42bf5347e2243d0ee07f47d93711388507610e9",
+    "modifications": [
+      "Removed the unused upstream RAdamW import (its source is absent); reject that option explicitly. All selected training configurations use the unchanged torch.optim.AdamW path."
+    ]
+  },
+  {
+    "path": "app/vjepa_2_1/wrappers.py",
+    "source": "app/vjepa_2_1/wrappers.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6cd07b4f67f22f1b5010adb98518260dfb931a45566bf1f2447e90a8e82c798e",
+    "release_sha256": "6cd07b4f67f22f1b5010adb98518260dfb931a45566bf1f2447e90a8e82c798e"
+  },
+  {
+    "path": "app/vjepa_2_1_a4/__init__.py",
+    "source": "app/vjepa_2_1_a4/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "89b39ba12b0e5d5a85848dba089bb855b4f4e91755a21b61913b4b8fdf79b7db",
+    "release_sha256": "89b39ba12b0e5d5a85848dba089bb855b4f4e91755a21b61913b4b8fdf79b7db"
+  },
+  {
+    "path": "app/vjepa_2_1_a4/train.py",
+    "source": "app/vjepa_2_1_a4/train.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "cfd1b66720b361c10b6b521903370e9b58701b3a48fc3057fe3d19048c57cdf2",
+    "release_sha256": "cfd1b66720b361c10b6b521903370e9b58701b3a48fc3057fe3d19048c57cdf2"
+  },
+  {
+    "path": "app/vjepa_2_1_head_sweep/train.py",
+    "source": "app/vjepa_2_1_head_sweep/train.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "167896869ca347355572104647dc9fcdaa19da6754a5ff769b77d5fb6e7c8624",
+    "release_sha256": "167896869ca347355572104647dc9fcdaa19da6754a5ff769b77d5fb6e7c8624"
+  },
+  {
+    "path": "app/vjepa_2_1_law/__init__.py",
+    "source": "app/vjepa_2_1_law/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "app/vjepa_2_1_law/train.py",
+    "source": "app/vjepa_2_1_law/train.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e4fb8ceeeeeb1f18e8b583237749d141b86026ded0792e949bbcdab8f5a4866d",
+    "release_sha256": "e4fb8ceeeeeb1f18e8b583237749d141b86026ded0792e949bbcdab8f5a4866d"
+  },
+  {
+    "path": "app/vjepa_2_1_sensor_robustness/__init__.py",
+    "source": "app/vjepa_2_1_sensor_robustness/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6cefecaf62b77aadb363340421fedc8c32f7b739b0b5902cac249b0c4f41b7be",
+    "release_sha256": "6cefecaf62b77aadb363340421fedc8c32f7b739b0b5902cac249b0c4f41b7be"
+  },
+  {
+    "path": "app/vjepa_2_1_sensor_robustness/train.py",
+    "source": "app/vjepa_2_1_sensor_robustness/train.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9f63ade1a5dc1e27e43ba5ec5276ea6188e72949204c54fc32971750104da1e6",
+    "release_sha256": "9f63ade1a5dc1e27e43ba5ec5276ea6188e72949204c54fc32971750104da1e6"
+  },
+  {
+    "path": "checkpoint-aliases.json",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "e54937bdb36b7b317519cd0f6beaa2baf00b6eecb78de99aea1dbbb0388da8a1"
+  },
+  {
+    "path": "configs/quickstart/covla_probe_smoke.yaml",
+    "generated": true,
+    "reason": "Public bounded CoVLA integration configuration; separate from paper experiments",
+    "release_sha256": "0c7590c966aa6f6ff7710f4de3f1790a0ee85ac1596c0bb43c4cb396aa06abd9"
+  },
+  {
+    "path": "configs/train_time_jepa/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_15000.yaml",
+    "source": "configs/train_time_jepa/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_15000.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "a6e37d730164ae0c33720b2ff0421a2a41058c7285a4bd66619b116278f5a866",
+    "release_sha256": "ca2d7c44dd65afdd581bde494d4df7071bd984c0eed62095d0c100c9b10cb5ae"
+  },
+  {
+    "path": "configs/train_time_jepa/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_final_15000.yaml",
+    "source": "configs/train_time_jepa/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_final_15000.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "8f2f782c40879cc0cd96b6ba78a4d9ad94eef125a04697c6afa57c47b1e07764",
+    "release_sha256": "b05b4e8c3e49ac4e95e3b94253b578fec1fefc5d0e6f33840634734308462317"
+  },
+  {
+    "path": "configs/train_time_jepa/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239.yaml",
+    "source": "configs/train_time_jepa/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "98c701d7b59fbeedda0bbe7ebd24c2f7f6202f3b25933f0b61ceb204bbe09b08",
+    "release_sha256": "7c62baf5c67862ae37c08595a12c7a35b1e9042cfef9fd1eb71685f3f8aea5a0"
+  },
+  {
+    "path": "configs/train_time_jepa/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239.yaml",
+    "source": "configs/train_time_jepa/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "716175c044aeeed566a388598db0aeac256b2e6774844c5b4b836f2dc94c31ed",
+    "release_sha256": "2529c86e1143f4c3b6d7e6f68c144fc2f4382d293f10aaf61f61f2bf8d3fce71"
+  },
+  {
+    "path": "configs/train_time_jepa/covla_egoexo/egoexo_only_exo124_view3ood_vitg384_64f5fps_time_jepa_seed239.yaml",
+    "source": "configs/train_time_jepa/covla_egoexo/egoexo_only_exo124_view3ood_vitg384_64f5fps_time_jepa_seed239.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "141cd0cac73e58cfd5b1747e5b95088919acddb6fd9836485c15827ccdf9ac23",
+    "release_sha256": "b59848669a1d8b88dc64b903eafb089502cf745ca4d9fcd8e327c7d8a8ff0d20"
+  },
+  {
+    "path": "configs/train_time_jepa/covla_egoexo/mix_exposure_covla_egoexo_vitg384_64f5fps_time_jepa_seed239.yaml",
+    "source": "configs/train_time_jepa/covla_egoexo/mix_exposure_covla_egoexo_vitg384_64f5fps_time_jepa_seed239.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "3af38c02f4d61261175cdcd594c6418b2dddba883121eeb98cd11f2daa1d3f60",
+    "release_sha256": "e5b9126ce59064ccbf4d538e0366f7097b8e1f5760951f5ff114aeb32a4e5cd0"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2.yaml",
+    "source": "configs/train_time_jepa/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "d1816f045ecf152e9f969ea8ee6dd589c521cceac1bc6a3f95ff93d5bf7dd156",
+    "release_sha256": "82b8aa887b796811fd7b1f1acc3c493339bbfa96c8457c08b94029d14a168ddc"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only.yaml",
+    "source": "configs/train_time_jepa/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "0ebd101e21765b5b0fe05adb7787e5f4e9e31da9e6dc6366b7d478e0e60534e6",
+    "release_sha256": "8da8d0f09dca040b40ff0bd32542f90f915135e7e29b20d24582d44910c2d691"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_ablation/egoexo_a4_m2c_1d_pelvis_speed.yaml",
+    "source": "configs/train_time_jepa/egoexo_ablation/egoexo_a4_m2c_1d_pelvis_speed.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "b61ecc7c89130dd0d1d94d5734fba623c5cf688fb500631f89b62eb5ccc22d14",
+    "release_sha256": "4f0f541e39034eb4a3fe7492e64ac7ad56d3e959eaecbb0aa430033246f997f9"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_ablation/egoexo_a4_m2c_5d_motion_only.yaml",
+    "source": "configs/train_time_jepa/egoexo_ablation/egoexo_a4_m2c_5d_motion_only.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "57850ba5200b957873b95be9c010ac03b8430619f01f02c9f633d09a09b4ede8",
+    "release_sha256": "e65adcd5b95e9f5dc89ffd4ecc557bd9e2473794c1aedc3084ed062ce7b81d98"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_ablation/egoexo_a4_m2d_take_derangement.yaml",
+    "source": "configs/train_time_jepa/egoexo_ablation/egoexo_a4_m2d_take_derangement.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "f413c5667c29b564e6167a6332bb1036e06f2b9aa650b3ed1da7799555687022",
+    "release_sha256": "0d95b47f334beca9ff7c4bd646e1a833fa7bd16776d470d3db0732692f69a864"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_head_sweep/h0_conv1x1.yaml",
+    "source": "configs/train_time_jepa/egoexo_head_sweep/h0_conv1x1.yaml",
+    "reason": "Appendix I: six reported auxiliary heads",
+    "source_sha256": "7dae619554be449b4ed7438e3a5a9fe92528ee6c06f53a00789e351586893b20",
+    "release_sha256": "cd50d34670884cccac0ab33243f9f51aac4ef4e5ab59373728906e3647b7e905"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_head_sweep/h2_large_k3.yaml",
+    "source": "configs/train_time_jepa/egoexo_head_sweep/h2_large_k3.yaml",
+    "reason": "Appendix I: six reported auxiliary heads",
+    "source_sha256": "ed81dd287e0ffda0c7a60b1643c819e4f99b48578d10fcc1c3586f27d989f1e6",
+    "release_sha256": "c5a022e9ac2909b697f599e7a628544a1451dc59079e9654ec14564d0c898657"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_head_sweep/h3_strong_dense_fusion.yaml",
+    "source": "configs/train_time_jepa/egoexo_head_sweep/h3_strong_dense_fusion.yaml",
+    "reason": "Appendix I: six reported auxiliary heads",
+    "source_sha256": "28d8aada8d3991c7486c65fc1bafa000404f84c55f21f3ce73400a095dc19cf5",
+    "release_sha256": "7763e305bf3959789dff7d2529e0cc7517acb30878c5ed73cefef96ae3d94ebe"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_head_sweep/h4_global_attention.yaml",
+    "source": "configs/train_time_jepa/egoexo_head_sweep/h4_global_attention.yaml",
+    "reason": "Appendix I: six reported auxiliary heads",
+    "source_sha256": "099a87baec6c70bca4bc0ceab80598428480d9ab5c22f81b2b7766bc8414c1d0",
+    "release_sha256": "5bf5f48249ae4907d3bdb9de465dc0729ec902f81fc8225f1a46f8225d1b8f61"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_head_sweep/h4_local_attention.yaml",
+    "source": "configs/train_time_jepa/egoexo_head_sweep/h4_local_attention.yaml",
+    "reason": "Appendix I: six reported auxiliary heads",
+    "source_sha256": "735437f1805085a40b0d1b35c556dbd0bdeef974df5ca0e3b67fcf6be937a164",
+    "release_sha256": "ee1f137fe6ce6c21b5d8ab9fac7a6f3392b27913422ebb662d3432e7701e1c2a"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_head_sweep/h4_temporal_attention.yaml",
+    "source": "configs/train_time_jepa/egoexo_head_sweep/h4_temporal_attention.yaml",
+    "reason": "Appendix I: six reported auxiliary heads",
+    "source_sha256": "e6a4c52a870067d3a8327184721c327f86d68d55ae030ede04371686354c3c09",
+    "release_sha256": "d801353a2f31524bba0be72e581cbfe478a0562ab1faaa063fbe3037ae69e362"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_sensor_robustness/egoexo_gaussian_noise_1p0sigma.yaml",
+    "source": "configs/train_time_jepa/egoexo_sensor_robustness/egoexo_gaussian_noise_1p0sigma.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "62352a60b67046063bb0041b21899dbc1eab7cc91c076562d051711dea04a97e",
+    "release_sha256": "588b8ce1f317c579cd88f0964eabd6748c121d3765bb422020f32148f3da8ca3"
+  },
+  {
+    "path": "configs/train_time_jepa/egoexo_sensor_robustness/egoexo_time_offset_0p8s.yaml",
+    "source": "configs/train_time_jepa/egoexo_sensor_robustness/egoexo_time_offset_0p8s.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "a25214bc974ee66652e9047efedd4812f8c71263ffa4634f24d54abbf1e37c7d",
+    "release_sha256": "54a96da690742fb3609bc59a60f52c7e3ccab4e1126c3032ef7c0c0a18eab236"
+  },
+  {
+    "path": "configs/train_time_jepa/weather_ood/covla_vitg384_64f_time_jepa_conv1x1_final.yaml",
+    "source": "configs/train_time_jepa/weather_ood/covla_vitg384_64f_time_jepa_conv1x1_final.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "46de6df9e2021cd68a4b43b6437344fdbd2d0c262d28afedb1a232cb813a0781",
+    "release_sha256": "2722196f33f1ad463f34a820d07733d88ad109f266f607370a0d78441205f5d0"
+  },
+  {
+    "path": "configs/train_time_jepa/weather_ood/covla_vitg384_64f_time_jepa_law_alpha0p5.yaml",
+    "source": "configs/train_time_jepa/weather_ood/covla_vitg384_64f_time_jepa_law_alpha0p5.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "86642df3fb734b0cd1496598c99f3ea03b66adf04550753f4d25cbbc06682107",
+    "release_sha256": "e23ad5f5c9737b8338acb873b3dbb8b8cf141e350578cb7c88460d452e666535"
+  },
+  {
+    "path": "configs/train_time_jepa/weather_ood/covla_vitg384_64f_video_only.yaml",
+    "source": "configs/train_time_jepa/weather_ood/covla_vitg384_64f_video_only.yaml",
+    "reason": "Paper main training, matched-domain sequence, or Appendices I/J/K",
+    "source_sha256": "57175db6a89335ce66cabb761e6ba9a48fc9312e6ecf8e2fd0913c6bebc3a42c",
+    "release_sha256": "a6cd06a761698eec4b1ac8bde7eb850cd02a978cbdf60b5a73adc870765637b3"
+  },
+  {
+    "path": "covla_jepa_rjob/split_config.py",
+    "source": "covla_jepa_rjob/split_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f28138fc7a12da93267f8e1ca4279df678d02e98a7e3e98a7abc2de8b3b8c865",
+    "release_sha256": "f28138fc7a12da93267f8e1ca4279df678d02e98a7e3e98a7abc2de8b3b8c865"
+  },
+  {
+    "path": "covla_jepa_rjob/train_from_yaml.py",
+    "source": "covla_jepa_rjob/train_from_yaml.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b1707fd86d78bcd643df6b17fa395e120407cd03fc6336f2725c6ae3f3722077",
+    "release_sha256": "b1707fd86d78bcd643df6b17fa395e120407cd03fc6336f2725c6ae3f3722077"
+  },
+  {
+    "path": "covla_law_rjob/gate.py",
+    "source": "covla_law_rjob/gate.py",
+    "reason": "Generate omitted law-supervision GT gate before training",
+    "source_sha256": "35defd5ee900ce320c4326301d1c229b3d8683063e4c3aebb1cfc5259f96e577",
+    "release_sha256": "35defd5ee900ce320c4326301d1c229b3d8683063e4c3aebb1cfc5259f96e577"
+  },
+  {
+    "path": "covla_law_rjob/probes/configs/current_law_readout.yaml",
+    "source": "covla_law_rjob/probes/configs/current_law_readout.yaml",
+    "reason": "Appendix K: law-supervision current/future probes",
+    "source_sha256": "6559d2588438dc470d80f24db4f8802e7edbe2170a505ed7f064ed993646dd20",
+    "release_sha256": "00b0dd151fcf620d91f1d05d4de4545bfe1b275a4d7f7c1dc80c3506313ff8b1"
+  },
+  {
+    "path": "covla_law_rjob/probes/configs/current_law_shot.yaml",
+    "source": "covla_law_rjob/probes/configs/current_law_shot.yaml",
+    "reason": "Appendix K: law-supervision current/future probes",
+    "source_sha256": "41d8fb1a218880b7dd790f4fbe510add38316e98581e44590fd765148d54de13",
+    "release_sha256": "674f4c01e566cdb205552c14bcc8cf2f34799636e7e3aa6a9b41974344d6057c"
+  },
+  {
+    "path": "covla_law_rjob/probes/configs/future_law_readout.yaml",
+    "source": "covla_law_rjob/probes/configs/future_law_readout.yaml",
+    "reason": "Appendix K: law-supervision current/future probes",
+    "source_sha256": "0f8ee3e5c4b8362b377b2cea4e84bbbe31b735be87576e5afb9df910079a0a41",
+    "release_sha256": "e7ac97461aa33f6531ed322279959b825a919e8672fd19e0d1e81b72854adb64"
+  },
+  {
+    "path": "covla_law_rjob/probes/configs/future_law_shot.yaml",
+    "source": "covla_law_rjob/probes/configs/future_law_shot.yaml",
+    "reason": "Appendix K: law-supervision current/future probes",
+    "source_sha256": "1f7666381515f10541d5532f3c19a43c472443ff037ce88eb897f7fd3a72078b",
+    "release_sha256": "4f6223a4afc73a730ebedfcfe85855719e62627ae619e296e49e85fb10f7fbe5"
+  },
+  {
+    "path": "covla_law_rjob/probes/configs/future_time_readout.yaml",
+    "source": "covla_law_rjob/probes/configs/future_time_readout.yaml",
+    "reason": "Appendix K: law-supervision current/future probes",
+    "source_sha256": "e447de1f1e8609a340590474c6479deec398fdef25cf92bd624d38805132d2cd",
+    "release_sha256": "bdf13726fbc554957d20ce6b84b19a25b7921ac7f3152ed8a2d9eef98661f771"
+  },
+  {
+    "path": "covla_law_rjob/probes/configs/future_time_shot.yaml",
+    "source": "covla_law_rjob/probes/configs/future_time_shot.yaml",
+    "reason": "Appendix K: law-supervision current/future probes",
+    "source_sha256": "1684716aadac7392f45c59e63b21e54535ae4a1d8be31b2e2f27d0014d12cfdb",
+    "release_sha256": "5f565d66f355baa907ff6d916940b7742411938855fbe1771cb2d96680a91c86"
+  },
+  {
+    "path": "covla_law_rjob/train_from_yaml.py",
+    "source": "covla_law_rjob/train_from_yaml.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d70031d1ec835668ab5b862854e91e457a63796b5575b30d82b1411567d3bb47",
+    "release_sha256": "d70031d1ec835668ab5b862854e91e457a63796b5575b30d82b1411567d3bb47"
+  },
+  {
+    "path": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/time/agibot_readout_probe_3view_conv.yaml",
+    "source": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/time/agibot_readout_probe_3view_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "88d9fc0c4f75b7ab53fb0533c1363e93d8b5a0ed66d94bbf9906bf6203cbd6de",
+    "release_sha256": "582eee9cf8594e44225f2a1ca212242a63c2a6e5bef0426d006f61a6cecad3e3"
+  },
+  {
+    "path": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/video_only/agibot_readout_probe_3view_conv.yaml",
+    "source": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/video_only/agibot_readout_probe_3view_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "b4760566d029a6b589d8d2c7490bfbe43d8093000fbda42378b94db3bb0175e7",
+    "release_sha256": "1be818b391af02169c3e96a619ac5e47c6fd8ea9125057a5e90d9bdf2d6d5fff"
+  },
+  {
+    "path": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/zero/agibot_readout_probe_3view_conv.yaml",
+    "source": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/zero/agibot_readout_probe_3view_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "764f42e0edc93d06dc15481611d487f7b3d02134a541546de25e00b4cec11150",
+    "release_sha256": "64038e0e64b9fc8474cf202286883cdfde9c026d0e3511dddac5f72aeb231a8e"
+  },
+  {
+    "path": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/time/agibot_shot_probe_3view_conv.yaml",
+    "source": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/time/agibot_shot_probe_3view_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "42aaac7b7207a7257ee7195ea84541bed0bc26f1dec37fdddb35a36e7b9dbb3b",
+    "release_sha256": "3852bc8262d5e893a3f5993ce72b965172d147afcf7a4ea860b7cf322ff514a1"
+  },
+  {
+    "path": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/video_only/agibot_shot_probe_3view_conv.yaml",
+    "source": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/video_only/agibot_shot_probe_3view_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "9a95f6860cb589821563fa505d54a89b32c9edf9bdcd14eb4c31e534b782f391",
+    "release_sha256": "af8e0c6800ddc908b33e4f5232d4c4e2c7d842868445041fc70f70b48c76758e"
+  },
+  {
+    "path": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/zero/agibot_shot_probe_3view_conv.yaml",
+    "source": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/zero/agibot_shot_probe_3view_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "e4d09613eb339df1f0abcf99a730781e9d0fb640334862eb8072f8faed448d79",
+    "release_sha256": "4197caa2c06d46ac1dec6737c6b82dae3bb1dd738da0ac5fced19244e9fbd519"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla/weather_ood/readout/time/covla_readout_conv.yaml",
+    "source": "covla_probe_rjob/configs/covla/weather_ood/readout/time/covla_readout_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "3a500b8f1819ab1425bbf9fa8b70cdb64fe38bf7d63468ca00be78c3ad9334fd",
+    "release_sha256": "cee1f3ff54315f00ffc49608d077571c2bb65ee8ce7be079fcea2815f885065a"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla/weather_ood/readout/video_only/covla_readout_conv.yaml",
+    "source": "covla_probe_rjob/configs/covla/weather_ood/readout/video_only/covla_readout_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "2b5c9165a50bf703f9016514d7abf157dbf4f556f9c083139bd0cdf702ff2fda",
+    "release_sha256": "96090b5030cf4e5fa078b5563a8c18a8ed175b0da670ac4ad86c1b11b31d5b01"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla/weather_ood/readout/zero/covla_readout_conv.yaml",
+    "source": "covla_probe_rjob/configs/covla/weather_ood/readout/zero/covla_readout_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "ab0167463de7e5c4be60ca3a5eaf38adf70bb074f8e8dffc976f7b0c0cdee2ac",
+    "release_sha256": "55db1ef96d765314174fd8357661023aa8fc49d9f6676409fefde628e4f98cb9"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla/weather_ood/shot/time/covla_shot_conv.yaml",
+    "source": "covla_probe_rjob/configs/covla/weather_ood/shot/time/covla_shot_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "418be97aafc3c2efa921befb757d2a0534ae5a4d1b36fec04754c7f1cbe310a6",
+    "release_sha256": "ac3620c49b8c99548198389af518a79e55cdfb3f16c13f06aac3a6fbd3b56c9e"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla/weather_ood/shot/video_only/covla_shot_conv.yaml",
+    "source": "covla_probe_rjob/configs/covla/weather_ood/shot/video_only/covla_shot_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "b9af2892f49ac41e5f4dca3e04a3c0f963f515cfe8fca05fe1a2631f53c3731b",
+    "release_sha256": "21f9f7bf28cd8ff61ec7ba46bc9f94ec6610e07280b0fc933d3d90d7b6a53227"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla/weather_ood/shot/zero/covla_shot_conv.yaml",
+    "source": "covla_probe_rjob/configs/covla/weather_ood/shot/zero/covla_shot_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "8148b5cb2128b4daa48d3faa61198c4f634f724f50323ac456b6bac79628583e",
+    "release_sha256": "28967b5e6234bacf022c827b1fca4fa9c003219409c03fbf6df769c13fb08bdd"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/agibot/readout.yaml",
+    "source": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/agibot/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "c44d8f5726bc4e81e9076cdbe85102cbde3237c7bf25092422006027aad1ee78",
+    "release_sha256": "921b5ff0b88eafe5ad30059406ea65fa87e43a07715ca0134f76920729d3018a"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/agibot/shot.yaml",
+    "source": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/agibot/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "b276e7ccc9d6aad5bef48ae584187c800e06bdf8e5ca8bbfda4e00e0c4d7bde7",
+    "release_sha256": "fdcc468189ddcca8e310e434394f4fff83f8b13721d7bf4877b6c86d04500ea9"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/covla/readout.yaml",
+    "source": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/covla/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "7a427f4f067885519f8b4dea6eb10ee36d9d26c900e9dbe4dbd9519f7fb2a9e0",
+    "release_sha256": "0725530c132f0751f1cacc29b1a7b51263e3a7f369a1212b00c39759879f4730"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/covla/shot.yaml",
+    "source": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/covla/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "fc9167509020686aed4d47298f3865a2d752655985134f634607794e5d6e34ac",
+    "release_sha256": "e13d1a0d2e54bd622704eadb53c991fec0d737e41901f98c10970e4b37cba280"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/egoexo/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "290b505e91242919aba46b391125e05babbf020a82078487457e0cc77895c0e7",
+    "release_sha256": "8c1d1cf508306f4fea49e846f5215dc7b395dd4f772eb2543031f61329eafc46"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/egoexo/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "87abac5944c1897ccef0c88ea4845451a1f4abf09208c0bff3e1f5c46878189f",
+    "release_sha256": "b595009f29ec9f50179036c9289869b86421594013c32821674e8c0a8a3b423b"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_egoexo/egoexo_only/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/covla_egoexo/egoexo_only/egoexo/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "5dc165e43ff8e6f32fc781b754d4bd80d7ce89723f4b21628bdfbef5e3e6dcb8",
+    "release_sha256": "dd3887806ee13b4569d6e4a0514166785b0156fc95494c659d313c314f8426a5"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_egoexo/egoexo_only/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/covla_egoexo/egoexo_only/egoexo/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "db5c8050978892577594021b72fd79d9d51f52bce944674be9794fccb06d85d9",
+    "release_sha256": "9bd43429d36be68f3eab8976380e6066e44eaa7c7ae03ba6b2717ddb8457e893"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_egoexo/mix_exposure/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/covla_egoexo/mix_exposure/egoexo/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "f230c6f85155d184e5f891a4f111b5e50515f45d541a885f39df26390d32be20",
+    "release_sha256": "8652d20609c4e0eb9aa1450fe430921c10a0a727b0af809f8ccfca295bc24370"
+  },
+  {
+    "path": "covla_probe_rjob/configs/covla_egoexo/mix_exposure/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/covla_egoexo/mix_exposure/egoexo/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "bee40ecfbc552700bddcea4819a70541ff327f51545dae0f923f7b20df858362",
+    "release_sha256": "8c831e7a8860565a9843247079a36e84d5cbc3502f46fd40cff8b9aec217983c"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/readout/full_aligned/egoexo_linear.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/readout/full_aligned/egoexo_linear.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "dc1911e67030da6b853a91522f51d6932e0d07149a9d5618b86f3d2c05fb0aef",
+    "release_sha256": "73a499b0586ff7c9eca735e7c99d57c2769a742a996d427517d65e51a59d6198"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/readout/video_only/egoexo_linear.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/readout/video_only/egoexo_linear.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "abb97e0d2ff023c45b96349336c1532cd6a2d7029a90f9f6214fc617f625abac",
+    "release_sha256": "463c7af5515c755f5862b60bd8ee732e8405d82bf6074fcc698f44dd05bcd652"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/shot/full_aligned/egoexo_linear.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/shot/full_aligned/egoexo_linear.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "d53762cdf7551273dc788a7a8ba4ce39370202cf0beab600d00148db35de6cae",
+    "release_sha256": "e8a19f83c58af022a1c1ee9451e44af9784f31b574bf3d144fb8ab9cdbbadee4"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/shot/video_only/egoexo_linear.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/shot/video_only/egoexo_linear.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "16d3d26c1c746b68b9903b2ab048acf6f22f8d55488552135a435349f593de09",
+    "release_sha256": "397f7df7013da88a496f6793b6db9d14c2f15e615e033ef55ea4ef690b68d9f1"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/full_misaligned/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/full_misaligned/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "69bea775ad9f0ca2dff8ce5d02d770b5a6c49c91442527389776495b4c74f88e",
+    "release_sha256": "05459a4a58a1dc9ac9e27ca5dc5d34de1bc67d1df8b07fb7e8527bce07f658ca"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/reduced_1d_pelvis_speed/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/reduced_1d_pelvis_speed/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "58f844c0e8bf41c705858686347b99682d11715987380f72b6c78665e89327a4",
+    "release_sha256": "0a5f03005696c7fe35f7705073da68b9d90e72c9fbe0a4ce85cd9aaba485870b"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/reduced_5d_motion_only/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/reduced_5d_motion_only/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "3f2b8ac44275f7adb54ed1a5c3cc20d9f843ae2dc63b3bbcec2e4b954b7027a8",
+    "release_sha256": "5b2dab7a18cfbc98f20e1d28e426eaece8e6e5257802c3a9fc8b9914ceeef8e5"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/shot/reduced_1d_pelvis_speed/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/shot/reduced_1d_pelvis_speed/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "5141efbe89a8a1185f2f066e35fda5e0d798294e72ca3b1988291540675f597c",
+    "release_sha256": "d49ec0e9a4f995cdbbccf48649f6ee4b334c62e8d889c34c045cbf6a64ac0218"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/shot/reduced_5d_motion_only/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/shot/reduced_5d_motion_only/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "31656a75e94c981ca8bc0e1e7600f2aa1dd43836b5f8e81d14f2a4a88a1dd95e",
+    "release_sha256": "f98c8cf33127e53dc774684db48b82f42a98d86e89f6da96b7f27fccc1e833be"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/sensor_robustness/gaussian_noise_1p0sigma/readout/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/sensor_robustness/gaussian_noise_1p0sigma/readout/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "2711cd3edaa3792a2945012c1a52bfd3a75c6deffaf4e689b71c3142322ee391",
+    "release_sha256": "0c2aeda261c1e114a929ac40731dd85c23d9d5ad7e6c3271a34a4a8074afc095"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/sensor_robustness/time_offset_0p8s/readout/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/sensor_robustness/time_offset_0p8s/readout/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "42c233d4707de98120cbccab741b84350aef7a9fc65e9da7038f1c38a0c9d741",
+    "release_sha256": "5a84c8f6fbd70b9670a76b7c2449ea1129feb501241c3ed1284a031103499b8e"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/time/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/time/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "cabeb257eaa25503347a3e3ef6b1b0fa7e1adc30180fc9e7e3063783db6334bd",
+    "release_sha256": "405558413e67eb1bae1ca064eef0a1e347fa00cc15e094a0f79c23ff26399809"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/video_only/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/video_only/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "03de3c4fa95d38441541bec2f9c3870d6e35a870a2ae0a3497a37ccadddf2fa8",
+    "release_sha256": "563eab61f092c3773ed470493e969f56c64b3abd66e2dd40fb3d54438addeddb"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/zero/egoexo_conv.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/zero/egoexo_conv.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "b41bb7f7fb4cdf152324c105fc7a55386e2f22514b07637b0c6d2907dfcdd98c",
+    "release_sha256": "20cc2be5c0f0cca640f5282add98f7f61ffeec650afe07e72fe5c35f0f4d47f3"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/time/egoexo_conv_9d.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/time/egoexo_conv_9d.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "3096890543f05eeaa8dc593adbdd9b2bfc1cdd412acae770ac6068350f0b22c3",
+    "release_sha256": "e8ad2dc7b8fe4e8ea402adad83c79a938a45910ee37df2b6bb5eaf5545009cbc"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/video_only/egoexo_conv_9d.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/video_only/egoexo_conv_9d.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "f2b022b006f37acb944f5263d6571e7ea4de45c73376f7847deddd2398f08b69",
+    "release_sha256": "936513ef8d993c891c66963723228573e1af472495f1ff610e7be518dc95f7e5"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/zero/egoexo_conv_9d.yaml",
+    "source": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/zero/egoexo_conv_9d.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "8b21f8a62c0be233cac98b975d77a67f7faa1d3715006b19ff100b8200e20734",
+    "release_sha256": "adca049ac2069e274ea55b71da8076ecc88630c817c0fb140dc4548b915423a5"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h0_conv1x1.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h0_conv1x1.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "e623c546a61ca54b6a40dec3e8c4f1f4e3ff613754c505c6bc1cb3273553374a",
+    "release_sha256": "85fd19581c168e39edaebff2be99cc7469c235f54463f97af1aaaac35a7be661"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h2_large_k3.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h2_large_k3.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "098d1d287f41d56217466c53bd8453b0a02d7e0a9feb5b3a590ac5fe6bc79c08",
+    "release_sha256": "95a1d43da89cc06b72097ae0672ce7637bffcc1dec1146fd066c2dfaa6332bd9"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h3_strong_dense_fusion.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h3_strong_dense_fusion.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "afdec54fbcafa7c4528dc3add378c02cf59ae97536f8e4c6ec07557b12107fd2",
+    "release_sha256": "14d95c998a6fddcc980e9d62299370b17e0d182c05f813caa647e2a90493ded6"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_global_attention.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_global_attention.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "d04d6aba7c2c6c92c2c6bbdb397e0a2dbf3630c7ceb849ea63d08951bb7902a2",
+    "release_sha256": "35dce923c69b227090ec01f61d4e433c5a4aca880b59d3352de56a3ac14d45ff"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_local_attention.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_local_attention.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "d09565dcbe76e5db38558b5cfc199895184de034c08bd5eeb147bd9e49cccc60",
+    "release_sha256": "2a8e23eea9683be8c9118c6a17351a93c5b3f2cf1be2f09dba4bb599f45e95ee"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_temporal_attention.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_temporal_attention.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "7ec4690db644a5e66bb844d479137694a8453e6ea0d82ce8b67e0c05351af3ef",
+    "release_sha256": "7c62200e73fc51ef8c9561214eeb47f1bc5741a7f570b888596ad829322bad5f"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h0_conv1x1.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h0_conv1x1.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "bafe2a29c5ca69f4bb41e765d7366ef91c6e42754f39e264b059a09afffac4a5",
+    "release_sha256": "27512381b2677b0cbe8d165da143120422427581c3697f33a2dd50038b5c6959"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h2_large_k3.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h2_large_k3.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "31005f608e183a0add8960f38aa3718bbfed3cabc9375131eee072b0ce2daafe",
+    "release_sha256": "010b441257602c71d83ea2463b2dd7f74af994e13b036fa33735d6a004a2c438"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h3_strong_dense_fusion.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h3_strong_dense_fusion.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "c2d1c7958e29d6bfcd31b4f4d40e6f8b82f60a753b9a5b4d856f634e5233972e",
+    "release_sha256": "bb082357037200e0f70254eed51ba9e162adc33a814da776ecc7981bee8fa3bd"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_global_attention.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_global_attention.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "a8b1854cb0f8f4b1fe417beb9bdf119eb6ab802f53a5ae7020a9f4821a299ab9",
+    "release_sha256": "91907ab11c94c2663ae5ae49d677b1a6f7e78204f04c5c19a9f3fa60965b14f8"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_local_attention.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_local_attention.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "88c1b094c38ed0817e15d08937e65e94a1f3645be1edcf3e661cc998d93051b8",
+    "release_sha256": "a9658c5ae82bbe60ade2c1264ce27c6db7d4b8a68774f9c5526b067af00bd107"
+  },
+  {
+    "path": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_temporal_attention.yaml",
+    "source": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_temporal_attention.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "e855ac68fc3a4604766738b3c521c4bdca603357868049baa8781ddfa55b776f",
+    "release_sha256": "6cfedbbc7d7d10fb5fcc58c6ed66c1be749bc05b3bac5c179e20abc7b783c93d"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/agibot/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/readout.yaml",
+    "reason": "Appendix G: five-horizon base plus published eight-horizon CLI overrides",
+    "generated": true,
+    "release_sha256": "9874b0a8dc03f9a4e6fe22dc9087d1a461101b72023fe38f3ad895e244e0506d"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/agibot/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/shot.yaml",
+    "reason": "Appendix G: five-horizon base plus published eight-horizon CLI overrides",
+    "generated": true,
+    "release_sha256": "a580df18f677add90b4642d304d32f91f4ff5bae8c77a8c7cceceb79fae8cbee"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/covla/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/readout.yaml",
+    "reason": "Appendix G: five-horizon base plus published eight-horizon CLI overrides",
+    "generated": true,
+    "release_sha256": "9378687e596fb94f212ff00bf355665c59f505e43dd251875a7057abff00d1e7"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/covla/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/shot.yaml",
+    "reason": "Appendix G: five-horizon base plus published eight-horizon CLI overrides",
+    "generated": true,
+    "release_sha256": "d17a3923e248d7a89033e8affc080545ab05961aef3b0b39bdae0a65ad10a7a9"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/readout.yaml",
+    "reason": "Appendix G: five-horizon base plus published eight-horizon CLI overrides",
+    "generated": true,
+    "release_sha256": "16082f93b37d5d3c3b1bccf5397c77cc0459de198008e9a3844810597f4cc8ed"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/shot.yaml",
+    "reason": "Appendix G: five-horizon base plus published eight-horizon CLI overrides",
+    "generated": true,
+    "release_sha256": "62c742bdfa25af0307252c48407f38da634e52c0098ad7a2512e37e55f377cb3"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/agibot_single_n15000_e17/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/agibot_single_n15000_e17/readout.yaml",
+    "reason": "Inherited config required by a selected formal experiment",
+    "source_sha256": "aeea4015ac8195ee93d1a6133cab0abc0ec49acb3a07e7188b6938a9f69de5ea",
+    "release_sha256": "c138f7b707851e061a9ed98e4b3e524c01a1d2a077f234a508355ea92aeceb71"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/agibot_single_n15000_e17/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/agibot_single_n15000_e17/shot.yaml",
+    "reason": "Inherited config required by a selected formal experiment",
+    "source_sha256": "e49b0890b56dadca4f781525efaf6da7996911eb383fbcbb52b609570e28f331",
+    "release_sha256": "8be056880c5a856266115a7a0d6c1622faa41c9b5fa1628389f1c0706f8f9e88"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "438d7f5b15665a28e83aa0f83bc74bf7737b2b177e3f15e6b4fba8a8ca425ed8",
+    "release_sha256": "bd11c5525fac801c72384e1f944613a44ab8906265b9f452269708308ddb61c2"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "a372c3343ad7383ee32e73245e5bbc28a35743473b3c87016146f1b2bd452807",
+    "release_sha256": "c68be8d17159d2671e3e65035820b34eeabccdaac80c205456e67d2effb214a0"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "26c35cc3b37fab0033dfb5d64cfea8d3dbb44053c5d596d270381998ac93aa65",
+    "release_sha256": "9e220d52510928583cd008c13fe404903dff3b48d6e0421c28a85aaa3718eacc"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "60e34d41bbf91dbc053a8e993ca99162b4cad6fb6f12a35937cdf16681078951",
+    "release_sha256": "4af1d150faffbaca0a8d7c1e20a275f50803b429d8a4327249bb8a9e29edf529"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "d8fe18e8873c2465026aa5fd641c4814edf392f585b8c26f9978a682ba026d7a",
+    "release_sha256": "450cd033648e16ed2abc0b14a462dcbd492636b1ad96a3d869f38d7e1ee281ce"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "92d92e573b8ed975154acef1ed0f064ae4a0017937f28a953c2dc1d81fd2cf30",
+    "release_sha256": "1b5b74242b28ff65b5f7c160c7e17459b63d62a15ca6afb129d7c8c4b53a3d3b"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/video_only_e19/agibot/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/video_only_e19/agibot/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "50007e7422ccab1e644675414fa5a2402b82172f525dd002e0487de40f44d502",
+    "release_sha256": "c26a78625d2d456d924ee469ca8d605ed9ddb49da32e181cb824f37c1509452c"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/video_only_e19/agibot/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/video_only_e19/agibot/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "ec1852497b98deeceda0bcffe4cdcd9f22c8774e7dec081e4e934d643baf4578",
+    "release_sha256": "420b9317972994a962feb12e75819dbfaec14358b2a056d04e46b2b9c276f31e"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/video_only_e19/covla/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/video_only_e19/covla/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "8bf01ddcab59835411fd79a6d35666a281cf626aa078645ac4cdbe4b441a2928",
+    "release_sha256": "ee4db74da56db8e9d9b585103b7fea66cf78a816e5b6d52d7cbd5d54cb238d1f"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/video_only_e19/covla/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/video_only_e19/covla/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "857af0086a216897f218e5b4fe2002c853eaeb52d777e35b1043fbd9c9a6968b",
+    "release_sha256": "99e2ba0e463f09729923020e244ddf85cfd788711ab0940f90ebf38dae9eb215"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/video_only_e19/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/video_only_e19/egoexo/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "258038844ea4e05492084ee7c80bfa8cef07d7fbffabc45ebb0b98b5924f84f6",
+    "release_sha256": "461508f2d635a15bd7d225b2fc290d4964a42c49afc50ac2cde60c3dabae7d36"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/video_only_e19/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/video_only_e19/egoexo/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "9cfcfedafcd47c221ab02581641cf8400810280ebae4cc9f44488c3da6b99aea",
+    "release_sha256": "2a0ce347315903270e4beca8ab56e41645cfed98663e296a960dd5e622cfae5f"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/zero/agibot/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/zero/agibot/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "803cc34ac39b7dc8fea943a00225f9b4740d91566eb03dc09893e26013173912",
+    "release_sha256": "4a9d2cf0fa10a6a1b839949d459c807e656e64149c9b0451ba8a126d38ee4234"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/zero/agibot/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/zero/agibot/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "ac95110dfb0e94e9d886a4c05d25e8c2d0a73c7f9f920c3528987b9a5bbb5c98",
+    "release_sha256": "6e034123a77e5b501dbb489fd641043368dc2523ebde6b33bee3fe47a48c0f9c"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/zero/covla/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/zero/covla/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "a880a57efb2b70992bb63dc239cea2a3394ce6201c54a07576264ef34b2e2657",
+    "release_sha256": "0262ea1a150c04699536b625216ce7900b94b1e352157bfe2b493463547ff53e"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/zero/covla/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/zero/covla/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "735bfa6a7cb36b542b33c31bc33512a248af30862a3690197de67dda13b77540",
+    "release_sha256": "031efa41b42c7c1e175898ac17619e1b50b0b10eb6932c4600274a88c8bc8c1d"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/zero/egoexo/readout.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/zero/egoexo/readout.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "562cbe004e5d3f5de0048f49cac3c3d240bd6d6cc53a7461a61f8cd63b02bff6",
+    "release_sha256": "3ec352f9230a3e50c143aca32fbfc04e0c92a8cbc45a2b7d224ca444ac71be37"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_1s/zero/egoexo/shot.yaml",
+    "source": "covla_probe_rjob/configs/future_state_1s/zero/egoexo/shot.yaml",
+    "reason": "Current-state/future-state, multi-domain, or reported Appendix I/J probe",
+    "source_sha256": "3143cf3d884eab608b51e02b8edf17d5b3956396c068a3be9bda4d7ac932eb30",
+    "release_sha256": "497b9caf94200e63eaf61f0f4569e96a98a3f8673347172ec2c4f8a97421fbdd"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_single_domain/agibot_seen.yaml",
+    "source": "covla_probe_rjob/runs/single_domain_future_20260915/configs/agibot_seen.yaml",
+    "reason": "Appendix F/G: formal single-domain five-horizon probes",
+    "source_sha256": "c9bcba1ba65200271736b7200dcb31554a5546f6d7bdd0bd7a42f9150f8b8cd3",
+    "release_sha256": "f244014b8b9c28c4c2b331730221fc13a478db327595c9b34ee186c6cb9b15b4"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_single_domain/agibot_unseen.yaml",
+    "source": "covla_probe_rjob/runs/single_domain_future_20260915/configs/agibot_unseen.yaml",
+    "reason": "Appendix F/G: formal single-domain five-horizon probes",
+    "source_sha256": "576c085dfe04e6e21035b2b50f2b3bac50e0c687a4f6afee4bcd8e4cec572a3e",
+    "release_sha256": "0fdc04bd9f7533df18c6ebbaef39281141bb24ca8089a16f8a148052ddcfc032"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_single_domain/covla_seen.yaml",
+    "source": "covla_probe_rjob/runs/single_domain_future_20260915/configs/covla_seen.yaml",
+    "reason": "Appendix F/G: formal single-domain five-horizon probes",
+    "source_sha256": "d3b10e2f308c65336794834d37a6ccc464f0ccaf533f5bc622b6ef19bfa0561e",
+    "release_sha256": "46b91ecbc3dfa43d635bcb965770f9599fc787993b597d9b95bac7e32c155731"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_single_domain/covla_unseen.yaml",
+    "source": "covla_probe_rjob/runs/single_domain_future_20260915/configs/covla_unseen.yaml",
+    "reason": "Appendix F/G: formal single-domain five-horizon probes",
+    "source_sha256": "db0a790eb6b715607ebdb9e5bb6f88cf02abc30da70590063dd077568bfc51a9",
+    "release_sha256": "d9e33dae7151aae331e82861a2353602ddd456dbac75c745c98e8a8c1b38f3fe"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_single_domain/egoexo_seen.yaml",
+    "source": "covla_probe_rjob/runs/single_domain_future_20260915/configs/egoexo_seen.yaml",
+    "reason": "Appendix F/G: formal single-domain five-horizon probes",
+    "source_sha256": "90454def997d9ab836f5d0a0099b9e855e0479f1957fa1f438f3f73765c1979f",
+    "release_sha256": "0648ff328bed6ddea99630b6f77586de99cedb686d1f98011aa9a6657616134c"
+  },
+  {
+    "path": "covla_probe_rjob/configs/future_state_single_domain/egoexo_unseen.yaml",
+    "source": "covla_probe_rjob/runs/single_domain_future_20260915/configs/egoexo_unseen.yaml",
+    "reason": "Appendix F/G: formal single-domain five-horizon probes",
+    "source_sha256": "8d5c4703b1918877c322f1f8df4c2942a0cfa8849b53261809834ec6cf9dd659",
+    "release_sha256": "aeff595bf1edefe27b5ca3fadd3a76a0baddbdf598019cc3c2eb4ae806aaf021"
+  },
+  {
+    "path": "covla_probe_rjob/probe_config.py",
+    "source": "covla_probe_rjob/probe_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e309aa1010f04efc6e093176a4545c2732150a45336e488e100011b01ea30cbe",
+    "release_sha256": "adf6f2ff816c1cb6c945929fb28b9ed08f0d31bb49e234d0d59967012c513425",
+    "modifications": [
+      "Apply max_test_videos to the additional CoVLA OOD split as well as ID; zero/full-data configurations are unchanged."
+    ]
+  },
+  {
+    "path": "covla_probe_rjob/probe_constants.py",
+    "source": "covla_probe_rjob/probe_constants.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "30f49a7371bf9550384adc2e0368889db2aa4ed58c8302a83e84e673203d9775",
+    "release_sha256": "30f49a7371bf9550384adc2e0368889db2aa4ed58c8302a83e84e673203d9775"
+  },
+  {
+    "path": "covla_probe_rjob/probe_datasets.py",
+    "source": "covla_probe_rjob/probe_datasets.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "db4db5a93ad7f4639f0b7a252c4ff5e8b42db411ade0eb0af1d108adbe9a340f",
+    "release_sha256": "db4db5a93ad7f4639f0b7a252c4ff5e8b42db411ade0eb0af1d108adbe9a340f"
+  },
+  {
+    "path": "covla_probe_rjob/probe_engine.py",
+    "source": "covla_probe_rjob/probe_engine.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a95693cd6defe28f134ade8a2250730259e61dc1b412b773420b937f423cd82e",
+    "release_sha256": "a95693cd6defe28f134ade8a2250730259e61dc1b412b773420b937f423cd82e"
+  },
+  {
+    "path": "covla_probe_rjob/probe_models.py",
+    "source": "covla_probe_rjob/probe_models.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f6b1769018e1d5c1c6794965dd2a8feacccf9c67aa2ff64e7607cd310ab8af74",
+    "release_sha256": "f6b1769018e1d5c1c6794965dd2a8feacccf9c67aa2ff64e7607cd310ab8af74"
+  },
+  {
+    "path": "covla_probe_rjob/probe_optim.py",
+    "source": "covla_probe_rjob/probe_optim.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6c065bc4531abc436d4c4162182afbe2f5af15aec62cc9f8957dbcc8d520963f",
+    "release_sha256": "6c065bc4531abc436d4c4162182afbe2f5af15aec62cc9f8957dbcc8d520963f"
+  },
+  {
+    "path": "covla_probe_rjob/probe_paths.py",
+    "source": "covla_probe_rjob/probe_paths.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f5d9847ed9e5201c9ba3d399bebd5dbe0d46a71c36f3a0b966af590ba9c1ff52",
+    "release_sha256": "f5d9847ed9e5201c9ba3d399bebd5dbe0d46a71c36f3a0b966af590ba9c1ff52"
+  },
+  {
+    "path": "covla_probe_rjob/probe_sampling.py",
+    "source": "covla_probe_rjob/probe_sampling.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e115cf15f87160e13e1bd29b368e7e5cf442cdb414b46aa3729057839b58ef95",
+    "release_sha256": "e115cf15f87160e13e1bd29b368e7e5cf442cdb414b46aa3729057839b58ef95"
+  },
+  {
+    "path": "covla_probe_rjob/probe_stats.py",
+    "source": "covla_probe_rjob/probe_stats.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "19e846ddeb64410fe1c4f8b2339de5e5e6405ed930faceed5b8a377e2b3b5c16",
+    "release_sha256": "19e846ddeb64410fe1c4f8b2339de5e5e6405ed930faceed5b8a377e2b3b5c16"
+  },
+  {
+    "path": "covla_probe_rjob/probe_targets.py",
+    "source": "covla_probe_rjob/probe_targets.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "2e489a1e3aa14cbada657d8d25d05a68d303fef63d43b653794b98374ae06e06",
+    "release_sha256": "2e489a1e3aa14cbada657d8d25d05a68d303fef63d43b653794b98374ae06e06"
+  },
+  {
+    "path": "covla_probe_rjob/probe_transforms.py",
+    "source": "covla_probe_rjob/probe_transforms.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e63ae681e6f886a3ed1594a0e913477ea9ef089e9e7aa1eb8b1e74b01be554e5",
+    "release_sha256": "e63ae681e6f886a3ed1594a0e913477ea9ef089e9e7aa1eb8b1e74b01be554e5"
+  },
+  {
+    "path": "covla_probe_rjob/probe_utils.py",
+    "source": "covla_probe_rjob/probe_utils.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "3ec53c889e40d2be77b04780986affa85bd6f117efc9f659c1159ff6b8d93e5d",
+    "release_sha256": "3ec53c889e40d2be77b04780986affa85bd6f117efc9f659c1159ff6b8d93e5d"
+  },
+  {
+    "path": "covla_probe_rjob/probe_view_metrics.py",
+    "source": "covla_probe_rjob/probe_view_metrics.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "70cad878c9d50f9fb2a432a4d71e2812ae6ffacb896539239c7c7ea2bd94956f",
+    "release_sha256": "70cad878c9d50f9fb2a432a4d71e2812ae6ffacb896539239c7c7ea2bd94956f"
+  },
+  {
+    "path": "covla_probe_rjob/tests/test_future_state.py",
+    "source": "covla_probe_rjob/tests/test_future_state.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "88558e452cc94036cea52e6c44efb0ef869a1c9e697e8bf288e42575c80e17d4",
+    "release_sha256": "88558e452cc94036cea52e6c44efb0ef869a1c9e697e8bf288e42575c80e17d4"
+  },
+  {
+    "path": "covla_probe_rjob/train_covla_probe.py",
+    "source": "covla_probe_rjob/train_covla_probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e2c92aa27f4b27738f21ce80815b435fe29b70637e1b49aa60a03cd9dcff4329",
+    "release_sha256": "9e961195f8c908bc4db3be52675b46102c12b07810706bbf90c388cba6392cd5",
+    "modifications": [
+      "Apply max_test_videos to the additional CoVLA OOD split as well as ID; zero/full-data configurations are unchanged."
+    ]
+  },
+  {
+    "path": "docs/acceptance.md",
+    "generated": true,
+    "reason": "Verified real-data GPU integration and CoVLA OOD sample-limit repair",
+    "release_sha256": "258dace05741d142884287437d8bc1bf9dcb318ff7d4a580ba7f45daf7679e54"
+  },
+  {
+    "path": "docs/checkpoints.md",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "aa996e5f97d9161ff3195da484d821a1c07cabbafac7f74d4b4edd8a320462d4"
+  },
+  {
+    "path": "docs/data.md",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "39ebcb9068328bccd97938b4f49242a8ddbb59dd3cc6a8eec69ab93f145b701c"
+  },
+  {
+    "path": "docs/dependencies.md",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "84abc61f18b57fc9e2795577111ec9e24a08160757b5e957534b3570d2885948"
+  },
+  {
+    "path": "docs/experiment-index.csv",
+    "generated": true,
+    "reason": "Current formal experiment/encoder/resource index; excludes historical checkpoint correspondence",
+    "release_sha256": "4a4489ebc8da63f69d0705aa7c99fb87ce099e8182755676ce537c1621048832"
+  },
+  {
+    "path": "docs/experiment-index.json",
+    "generated": true,
+    "reason": "Current formal experiment/encoder/resource index; excludes historical checkpoint correspondence",
+    "release_sha256": "ee2867df585e55f0527649bfd442dd51075b40cd8b69e1f62df480363dbb4e7d"
+  },
+  {
+    "path": "docs/experiments.md",
+    "generated": true,
+    "reason": "Current formal experiment/encoder/resource index; excludes historical checkpoint correspondence",
+    "release_sha256": "d370de169384799e9b7d4378355af08393202fa04033dbea89105ffd8fb885e4"
+  },
+  {
+    "path": "docs/models.md",
+    "generated": true,
+    "reason": "Current formal experiment/encoder/resource index; excludes historical checkpoint correspondence",
+    "release_sha256": "1a15f86377a2e8eb283c39ab5e7b799293dbaefc484d911dfe90226c9dc6ef3a"
+  },
+  {
+    "path": "docs/publication.md",
+    "generated": true,
+    "reason": "arXiv preprint and GitHub publication workflow",
+    "release_sha256": "8e0a9a3997a65f68134e8a73bb0b967c9993cc3daa9cadcca33e1ab837f70f67"
+  },
+  {
+    "path": "docs/quickstart.md",
+    "generated": true,
+    "reason": "Public resource preparation and bounded integration instructions",
+    "release_sha256": "f732ac57ffd9c1aac0e6d906057120fabe84e2099ae793ae858e27ba61bb5280"
+  },
+  {
+    "path": "docs/release.md",
+    "generated": true,
+    "reason": "Clean directory and archive packaging instructions",
+    "release_sha256": "f941129fdd4850bb63368c9f10dd019700cf7905877e534593d29f0655105f87"
+  },
+  {
+    "path": "docs/reproduction.md",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "1bc18efe2154ed26638f1cd011a5489f564928679e47c97bd938c09038ee5c9b"
+  },
+  {
+    "path": "docs/validation.md",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "43caa6f17f9437873a16b426d9b61d35267da10d95d00c65d7f6e604d779bdfc"
+  },
+  {
+    "path": "environment-jepa.json",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "9cc812bd6d8fa1de649a8493e05c793f890c9170438971b0980d203d2f6246dc"
+  },
+  {
+    "path": "external_baselines/psg_jepa/__init__.py",
+    "source": "external_baselines/psg_jepa/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e21afef79fbb5ac418be56117f82fa1d1c4df3927cc82edfb92b55bb97e104df",
+    "release_sha256": "e21afef79fbb5ac418be56117f82fa1d1c4df3927cc82edfb92b55bb97e104df"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/agibot_full_vitg_n15000.yaml",
+    "source": "external_baselines/psg_jepa/configs/agibot_full_vitg_n15000.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "2c18173f34b6ee3e4fc5a132b847c14bb276e23244d8b38ee89e190710bee3e1",
+    "release_sha256": "b3daa52eca54fd02efda02e3e0d72590616b253b17e6021792be82b1c37fce5c"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/agibot_static_vitg_n15000.yaml",
+    "source": "external_baselines/psg_jepa/configs/agibot_static_vitg_n15000.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "34419bc185a8c9fda80481a235d6773baa37d1ca59ad761fbbc33c139abe05f6",
+    "release_sha256": "426afc502c89d3e6cb74fedf33f3ba656786744a01e9d1b8b3747a78dca8a495"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_future_readout.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_future_readout.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "7cfab6fa6dca77430b4c63d5538411fc1d6e2e473e7fef367551381cbd5b7748",
+    "release_sha256": "d9e343a9711e3541d535504975aae22b698dbbb711d4930a2dd0ab0975e69f28"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_future_shot.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_future_shot.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "1607e0e62ebfe2d4dc9331946c2867a7074b5ef85b85122c32712342d6e2c332",
+    "release_sha256": "47cbf817f4bd83804722a1a3e8deda37afe05a7eb76e705a3069996bc399c383"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_readout.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_readout.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "f1d17e01845a4a18dfd93cb0f76d7a855d639a94b283340f836f38ea53a8beeb",
+    "release_sha256": "71384968387d44a5c33ce5d5a532089920e586e6beb9af5c7d0478f420794a4b"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_shot.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_shot.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "e4441f6d11e573c1c801a5362ddae862010aab134c237cf4b82f219887e6c657",
+    "release_sha256": "f0cf574994eac266ce0cfbbf5ec2db13f6a14bef15de694a6099f468593f26e8"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_future_readout.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_future_readout.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "9c4e16a07da40b354f4958373c5b0d957f9d36989f48618246148fd8a101dfa6",
+    "release_sha256": "aa10c9c5e79f4f0b4de9205dacf6371d84babd026a950763f158bcbc1feefd5f"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_future_shot.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_future_shot.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "939dc6f264ea5f3c3a5b0efdc52b6a5648db27087f29855d27e8e5b2fac81c87",
+    "release_sha256": "2b987faf42aa556f1250b5edf0d9a0006a2ddb9974c86ce4cc9fdd054448eb0e"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_readout.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_readout.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "78d9ef59ebfb1a551262727031d471fd8a427181a67ed074ea652f8b0ba9cf59",
+    "release_sha256": "ddb788c017e2f4d7817d299b6fed9015d89497be203f1d384606257e690b1154"
+  },
+  {
+    "path": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_shot.yaml",
+    "source": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_shot.yaml",
+    "reason": "Appendix K: paper-standard PSG-JEPA comparison",
+    "source_sha256": "8cd96449f2ec737caefcfbafde74f4cc09b74ddf9f29445bbec73cb7dc2021a0",
+    "release_sha256": "90948ec8815e075a6cd845c8f8a9e55c4cf3939e6a7d78233788a550171c0ad0"
+  },
+  {
+    "path": "external_baselines/psg_jepa/data.py",
+    "source": "external_baselines/psg_jepa/data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "175accbfaa0788430ae3008dce31e94c8eee561b830c1e2e7af8696fcea9cccd",
+    "release_sha256": "175accbfaa0788430ae3008dce31e94c8eee561b830c1e2e7af8696fcea9cccd"
+  },
+  {
+    "path": "external_baselines/psg_jepa/modeling.py",
+    "source": "external_baselines/psg_jepa/modeling.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "1a73f194045f7e28b84b5dddf032f887d12f9322d5e6ac73cffe73b751e92782",
+    "release_sha256": "1a73f194045f7e28b84b5dddf032f887d12f9322d5e6ac73cffe73b751e92782"
+  },
+  {
+    "path": "external_baselines/psg_jepa/probe.py",
+    "source": "external_baselines/psg_jepa/probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "dea2dc2fef163c03f7ed1edb6b88c0b1989f53e2934ede4532680ca3cfc52485",
+    "release_sha256": "dea2dc2fef163c03f7ed1edb6b88c0b1989f53e2934ede4532680ca3cfc52485"
+  },
+  {
+    "path": "external_baselines/psg_jepa/probe_adapter.py",
+    "source": "external_baselines/psg_jepa/probe_adapter.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "eeab241fa833f8a8d61e0d606374a5aa22ba0e674ea4faebe603f2ee4dac4779",
+    "release_sha256": "eeab241fa833f8a8d61e0d606374a5aa22ba0e674ea4faebe603f2ee4dac4779"
+  },
+  {
+    "path": "external_baselines/psg_jepa/probe_config.py",
+    "source": "external_baselines/psg_jepa/probe_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "ce03c804bdcb5f60eb873fa0921463519ff68fc98ce4b0b317d0871c9bb3dabd",
+    "release_sha256": "84c66d606575fbbe04be4cd697e30c02278f25ed4f7dda31de9325926aeabd29"
+  },
+  {
+    "path": "external_baselines/psg_jepa/protocol.py",
+    "source": "external_baselines/psg_jepa/protocol.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "2b0b0194cf307ce805a5a2a869fff1e2d27e209daac1429925cb24cc65601e4c",
+    "release_sha256": "2b0b0194cf307ce805a5a2a869fff1e2d27e209daac1429925cb24cc65601e4c"
+  },
+  {
+    "path": "external_baselines/psg_jepa/static_only.py",
+    "source": "external_baselines/psg_jepa/static_only.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e04d91866ceb6154c23d850d9e7c8d8a851bb15cd202622af1632d8574f01f62",
+    "release_sha256": "e04d91866ceb6154c23d850d9e7c8d8a851bb15cd202622af1632d8574f01f62"
+  },
+  {
+    "path": "external_baselines/psg_jepa/stats.py",
+    "source": "external_baselines/psg_jepa/stats.py",
+    "reason": "Generate formal train-only PSG action statistics",
+    "source_sha256": "e29075ef84d1ce30ec79c043e84a7d1642b75a8bf1a63a8343809797c8b8833b",
+    "release_sha256": "e29075ef84d1ce30ec79c043e84a7d1642b75a8bf1a63a8343809797c8b8833b"
+  },
+  {
+    "path": "external_baselines/psg_jepa/summarize_vitg_n15000_results.py",
+    "source": "external_baselines/psg_jepa/summarize_vitg_n15000_results.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "4e2ad7395064bcac19f57787fc571b31360d44d34a51849af75ca3f19c8a877a",
+    "release_sha256": "4e2ad7395064bcac19f57787fc571b31360d44d34a51849af75ca3f19c8a877a"
+  },
+  {
+    "path": "external_baselines/psg_jepa/summarize_vitg_results.py",
+    "source": "external_baselines/psg_jepa/summarize_vitg_results.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e285e1d4159d07c3d2bc4a52acd80d265d597da67a4208d01d14441ad5a370ad",
+    "release_sha256": "579e13565b7623a1d454837fa60896b6cca8f0863c5776c7054f17cdc0086a0a"
+  },
+  {
+    "path": "external_baselines/psg_jepa/summarize_vitg_visible_results.py",
+    "source": "external_baselines/psg_jepa/summarize_vitg_visible_results.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9524d87aaaac97c93e7c7b7762f09d6239e9419f62e0c390e53d24a405621eff",
+    "release_sha256": "9524d87aaaac97c93e7c7b7762f09d6239e9419f62e0c390e53d24a405621eff"
+  },
+  {
+    "path": "external_baselines/psg_jepa/train_vitg.py",
+    "source": "external_baselines/psg_jepa/train_vitg.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e3551a1018dd182bc5da4a0cfe2c3f0f0c26d93f8174f1a688b404b2ad87d8e6",
+    "release_sha256": "e3551a1018dd182bc5da4a0cfe2c3f0f0c26d93f8174f1a688b404b2ad87d8e6"
+  },
+  {
+    "path": "external_baselines/psg_jepa/vitg_modeling.py",
+    "source": "external_baselines/psg_jepa/vitg_modeling.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "8017e215e5067669445aa9b3386bcfdec6a641ad6bd51d305f93bd85976556c4",
+    "release_sha256": "8017e215e5067669445aa9b3386bcfdec6a641ad6bd51d305f93bd85976556c4"
+  },
+  {
+    "path": "external_baselines/psg_jepa/vitg_objective.py",
+    "source": "external_baselines/psg_jepa/vitg_objective.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "87cade49e943e595b4acc32b03632a12d5b06ec09b2f6f03ba92488ce4caf0da",
+    "release_sha256": "87cade49e943e595b4acc32b03632a12d5b06ec09b2f6f03ba92488ce4caf0da"
+  },
+  {
+    "path": "external_baselines/psg_jepa/vitg_probe_adapter.py",
+    "source": "external_baselines/psg_jepa/vitg_probe_adapter.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d0e049955be1e2eb4b5ae205daa2d67b23b5284a87235034b6f12d58830d0157",
+    "release_sha256": "d0e049955be1e2eb4b5ae205daa2d67b23b5284a87235034b6f12d58830d0157"
+  },
+  {
+    "path": "grasp_eval_rjob/__init__.py",
+    "source": "grasp_eval_rjob/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "53696c1a4630803c2550eba4c4070eeaf3e62b2a7e038001601a20681663ef05",
+    "release_sha256": "53696c1a4630803c2550eba4c4070eeaf3e62b2a7e038001601a20681663ef05"
+  },
+  {
+    "path": "grasp_eval_rjob/audit_data.py",
+    "source": "grasp_eval_rjob/audit_data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "bb878ad0afae5a01f90e9ac590bd29b9e54c327cab22eaee3d29081e78cc0c3d",
+    "release_sha256": "bb878ad0afae5a01f90e9ac590bd29b9e54c327cab22eaee3d29081e78cc0c3d"
+  },
+  {
+    "path": "grasp_eval_rjob/check_environment.py",
+    "source": "grasp_eval_rjob/check_environment.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e7e7a2796496976ddf265159cfdbdde74e2440ccf0b0956ae346bf392e06594d",
+    "release_sha256": "e7e7a2796496976ddf265159cfdbdde74e2440ccf0b0956ae346bf392e06594d"
+  },
+  {
+    "path": "grasp_eval_rjob/compare_models.py",
+    "source": "grasp_eval_rjob/compare_models.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "8cb26bc1e42185251a97c1e6730f03085a4c6f6bbc5a79cc7a1af227f84ce369",
+    "release_sha256": "8cb26bc1e42185251a97c1e6730f03085a4c6f6bbc5a79cc7a1af227f84ce369"
+  },
+  {
+    "path": "grasp_eval_rjob/config.py",
+    "source": "grasp_eval_rjob/config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "0d58dc6df4932d8e869142cd1adc51bd7bf0297e80d85626f08660ea3489cc84",
+    "release_sha256": "0d58dc6df4932d8e869142cd1adc51bd7bf0297e80d85626f08660ea3489cc84"
+  },
+  {
+    "path": "grasp_eval_rjob/configs/m0_official_vjepa21.yaml",
+    "source": "grasp_eval_rjob/configs/m0_official_vjepa21.yaml",
+    "reason": "Main external physical evaluation",
+    "source_sha256": "672498efb0ba72fd27e981ea45b398e840d21813b4629c333049f940c1afca94",
+    "release_sha256": "793902f5154e34922d6efb6ea255109af26367436fa3083c3cd0aafd7742d4c2"
+  },
+  {
+    "path": "grasp_eval_rjob/configs/m1_mix_video_only_e19.yaml",
+    "source": "grasp_eval_rjob/configs/m1_mix_video_only_e19.yaml",
+    "reason": "Main external physical evaluation",
+    "source_sha256": "73a04189594eaa357d4ab099ab31a4d327cbf42e5f4430ade8ebc7fb797bff5f",
+    "release_sha256": "2f268e45560c81fcf1f10e29db329cdb4b5658222bb24d653f4222d101a9c9b2"
+  },
+  {
+    "path": "grasp_eval_rjob/configs/m2_mix_time_e19.yaml",
+    "source": "grasp_eval_rjob/configs/m2_mix_time_e19.yaml",
+    "reason": "Main external physical evaluation",
+    "source_sha256": "b444225ce3bebea943200ddf28eb27e1abe80194802b74b80d2952f0d84d71d8",
+    "release_sha256": "99b3be1811ac4ca811df2f4210ca146a924e006ee100d51292378dfe807f80fd"
+  },
+  {
+    "path": "grasp_eval_rjob/constants.py",
+    "source": "grasp_eval_rjob/constants.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "ca33c4569facca8e4d47bd165040d429a5ef11364cd109a4657670420506c616",
+    "release_sha256": "ca33c4569facca8e4d47bd165040d429a5ef11364cd109a4657670420506c616"
+  },
+  {
+    "path": "grasp_eval_rjob/dataset.py",
+    "source": "grasp_eval_rjob/dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "82584738f5830c85c0218d434cdc1129b9d356174aaa85877cd3c145fb9e3baf",
+    "release_sha256": "82584738f5830c85c0218d434cdc1129b9d356174aaa85877cd3c145fb9e3baf"
+  },
+  {
+    "path": "grasp_eval_rjob/freeze_protocol.py",
+    "source": "grasp_eval_rjob/freeze_protocol.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "21733f885231d7db745534f6e8c1a1f35cb2014c16ebc359454df8beab6ce0a7",
+    "release_sha256": "21733f885231d7db745534f6e8c1a1f35cb2014c16ebc359454df8beab6ce0a7"
+  },
+  {
+    "path": "grasp_eval_rjob/run_eval.py",
+    "source": "grasp_eval_rjob/run_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9a564ec0fddcb23eaf48554ba0ecde875e4d3eef2e3ef86abe19d7ab0e7ecc54",
+    "release_sha256": "9a564ec0fddcb23eaf48554ba0ecde875e4d3eef2e3ef86abe19d7ab0e7ecc54"
+  },
+  {
+    "path": "grasp_eval_rjob/score.py",
+    "source": "grasp_eval_rjob/score.py",
+    "reason": "Formal GRASP property scoring CLI and regression tests",
+    "source_sha256": "fabf8b985f44e30844274b9725b8d37e59085298d22ca44db5d76e4fd9a865fb",
+    "release_sha256": "fabf8b985f44e30844274b9725b8d37e59085298d22ca44db5d76e4fd9a865fb"
+  },
+  {
+    "path": "intphys2_eval_rjob/__init__.py",
+    "source": "intphys2_eval_rjob/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a6c0f8a3ca699a9d70d998674afc291ef705faa32d11d0472a8b2eee96c50e62",
+    "release_sha256": "a6c0f8a3ca699a9d70d998674afc291ef705faa32d11d0472a8b2eee96c50e62"
+  },
+  {
+    "path": "intphys2_eval_rjob/model.py",
+    "source": "intphys2_eval_rjob/model.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "ecf57d38398fd6acff69699289becfc89ae3ff9752f401774e0cdfba34a5d10d",
+    "release_sha256": "ecf57d38398fd6acff69699289becfc89ae3ff9752f401774e0cdfba34a5d10d"
+  },
+  {
+    "path": "metadata-policy.json",
+    "generated": true,
+    "reason": "Public metadata boundaries and local generation entrypoints",
+    "release_sha256": "fef826c60a2f98d77c5cbeb67f465391d2ac440266dbda2f1a3dd51953e37d61"
+  },
+  {
+    "path": "metadata-protocol.json",
+    "generated": true,
+    "reason": "Fixed split recipes, counts and checksums without sample IDs",
+    "release_sha256": "66b2bc0f33f393e25cf4dd4d0d3a54fbbc8eec8cf65499ba060fe24fff45f2ec"
+  },
+  {
+    "path": "paper/scripts/aggregate_ivideogpt_current_state.py",
+    "source": "paper/scripts/aggregate_ivideogpt_current_state.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "67107edac17f7b1548962a3695b80752bc05c6a2001976b7f10cb414444fdc66",
+    "release_sha256": "67107edac17f7b1548962a3695b80752bc05c6a2001976b7f10cb414444fdc66"
+  },
+  {
+    "path": "physics_consistency/agibot/__init__.py",
+    "source": "physics_consistency/agibot/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b20a88b54cb9d70e15712039fb64d70d601fb222cdaf4f7d143ea2488b480f9f",
+    "release_sha256": "b20a88b54cb9d70e15712039fb64d70d601fb222cdaf4f7d143ea2488b480f9f"
+  },
+  {
+    "path": "physics_consistency/agibot/bank_common.py",
+    "source": "physics_consistency/agibot/bank_common.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "16e8c322a310d8b0d2d0666934ede6074c0fccf425de7ca045310ed63945684d",
+    "release_sha256": "16e8c322a310d8b0d2d0666934ede6074c0fccf425de7ca045310ed63945684d"
+  },
+  {
+    "path": "physics_consistency/agibot/bank_data.py",
+    "source": "physics_consistency/agibot/bank_data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "7b92dc63176e7a75322edd166482a35cec72a34fa146aa71bed4ee0cbfa84e17",
+    "release_sha256": "7b92dc63176e7a75322edd166482a35cec72a34fa146aa71bed4ee0cbfa84e17"
+  },
+  {
+    "path": "physics_consistency/agibot/bank_model.py",
+    "source": "physics_consistency/agibot/bank_model.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "10decad56b6a9b83270303adfd4e3f8462b5e20b34ffa10b5aaba8ea906c5df7",
+    "release_sha256": "10decad56b6a9b83270303adfd4e3f8462b5e20b34ffa10b5aaba8ea906c5df7"
+  },
+  {
+    "path": "physics_consistency/agibot/grounded_fk_eval.py",
+    "source": "physics_consistency/agibot/grounded_fk_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "7f5c18fb01dc2abe8c1e184882ad41a3a539439159afbf7a2f5f582d5da09311",
+    "release_sha256": "7f5c18fb01dc2abe8c1e184882ad41a3a539439159afbf7a2f5f582d5da09311"
+  },
+  {
+    "path": "physics_consistency/agibot/train_independent_head_bank.py",
+    "source": "physics_consistency/agibot/train_independent_head_bank.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "5e26e584925ca6e188ea382382695d08eb951ead3025558dc01dc0b15f8003db",
+    "release_sha256": "5e26e584925ca6e188ea382382695d08eb951ead3025558dc01dc0b15f8003db"
+  },
+  {
+    "path": "physics_consistency/agibot/urdf_fk.py",
+    "source": "physics_consistency/agibot/urdf_fk.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "be15ade631a6db2e746e34f68adc80fb328f84b0e54e73c2abf1f2549bf9a5e6",
+    "release_sha256": "be15ade631a6db2e746e34f68adc80fb328f84b0e54e73c2abf1f2549bf9a5e6"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/__init__.py",
+    "source": "physics_consistency/agibot_reach_rate/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "5d43a2d7e172ef9ae46ff283b10f2988594681fcbef6720b4b9671d229b7544a",
+    "release_sha256": "5d43a2d7e172ef9ae46ff283b10f2988594681fcbef6720b4b9671d229b7544a"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/aggregate.py",
+    "source": "physics_consistency/agibot_reach_rate/aggregate.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "0f5ffe29cad9b0541904b3f54961ef6607899d2850cf6a3accd618f3b69a565a",
+    "release_sha256": "0f5ffe29cad9b0541904b3f54961ef6607899d2850cf6a3accd618f3b69a565a"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/common.py",
+    "source": "physics_consistency/agibot_reach_rate/common.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "1dc092406a2280961f8ec70bc34c5d8969a0687073d02e0aa371a394222fcdfb",
+    "release_sha256": "1dc092406a2280961f8ec70bc34c5d8969a0687073d02e0aa371a394222fcdfb"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/_base_full.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "d84df91cfef193fccba6e94e767472488585873146848e319e371c09b67fe31a",
+    "release_sha256": "c35012979499c77783f0404b9163433b78de45769a736902585fcaaf8dd7d3b6"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/full/multidomain.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/full/multidomain.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "ea321c2fac3cb7fa9175aabb5dd487c8c8db4a3334f0bf7127e125a53a41d3d7",
+    "release_sha256": "b317ff3e53a5aaa829210c40dda6be6061130f100678bcf1a242530724590202"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/full/multidomain_video.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/full/multidomain_video.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "82915d9bff958f075502cad2834e00e7a62f5ce26c1640c50025986024b8185c",
+    "release_sha256": "13e717e41d37893c75bece185c856557af084e6499028728669eaf581a3ef6f4"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/full/time.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/full/time.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "9332aa59e90c65e489a89862d09f64f88464867d061fa639536f7cb340f53682",
+    "release_sha256": "51f2aedf7588e556aa317827909366914b1e6d17b4476c6784d36fb4590c47d6"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/full/video_only.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/full/video_only.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "12a36afd347f097992a160a615a5e5ce8d9b3e43875f0a1483060889d9bc8164",
+    "release_sha256": "ca804913fe3d8156b986d9d707bca21e7e2659f05542f96f649ddbfcd2d3029c"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/full/zero.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/full/zero.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "8194ef938c1be33507f6adf25e01cd54281e98be274292fc1252b20bcb4902cd",
+    "release_sha256": "f48811dced7252a2200b6941309d08363e2f5a7ed82193b1d9e9a4a623d27e4a"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/gt_gate.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/gt_gate.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "b93862cf540f27235bd24b280f4e824d6a86bf14eeec2aa9badb23c91f30ec0d",
+    "release_sha256": "5b9e2ee9c3eddd90df429808cefb8703d25b3daa8ac26dbde1cae1a346500ca0"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/configs/world_models/_base_full.yaml",
+    "source": "physics_consistency/agibot_reach_rate/configs/world_models/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "19c0c1cc105e5fc2a1d6b602f95ede666beb7f4f3545b7e27669b5de8f98da40",
+    "release_sha256": "c037334c15e9892ea6522e631afde7e7db9519ed2d21ce0125947408302aab0b"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/data.py",
+    "source": "physics_consistency/agibot_reach_rate/data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "74fa1c26ed83bc1ecd63e0dc17b3777ccef6402c2266ed3e2c881afe962633ee",
+    "release_sha256": "74fa1c26ed83bc1ecd63e0dc17b3777ccef6402c2266ed3e2c881afe962633ee"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/gate_data.py",
+    "source": "physics_consistency/agibot_reach_rate/gate_data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "ab32381c8798abaefe3f1f26240b2290359548ce2a799191d4ac720ab67de9ed",
+    "release_sha256": "ab32381c8798abaefe3f1f26240b2290359548ce2a799191d4ac720ab67de9ed"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/grounded_eval.py",
+    "source": "physics_consistency/agibot_reach_rate/grounded_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d00a4edfb554da910de4f47dd8b5bfd780212cc0a5510464f474ff9bb01b1ae1",
+    "release_sha256": "d00a4edfb554da910de4f47dd8b5bfd780212cc0a5510464f474ff9bb01b1ae1"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/gt_gate.py",
+    "source": "physics_consistency/agibot_reach_rate/gt_gate.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "63b47391c068d6d944f41b21abb80987c558aeca81c7547ae934335b83d6a1db",
+    "release_sha256": "63b47391c068d6d944f41b21abb80987c558aeca81c7547ae934335b83d6a1db"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/metrics.py",
+    "source": "physics_consistency/agibot_reach_rate/metrics.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6f5ed12ff55baae9bacd2a6eafc29113b3f2f6ad890e9d317badbb54ef12461f",
+    "release_sha256": "6f5ed12ff55baae9bacd2a6eafc29113b3f2f6ad890e9d317badbb54ef12461f"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/reach_math.py",
+    "source": "physics_consistency/agibot_reach_rate/reach_math.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f226e2a7e6855f426b9d4ddbca0d82b6d2c669a0e8999a768fcd87e34644c75b",
+    "release_sha256": "f226e2a7e6855f426b9d4ddbca0d82b6d2c669a0e8999a768fcd87e34644c75b"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/results/cache/agibot_q14_endpoint_v6_probe_train_stats_seed239.json",
+    "source": "physics_consistency/agibot_reach_rate/results/cache/agibot_q14_endpoint_v6_probe_train_stats_seed239.json",
+    "reason": "Formal train-only normalization/PCA metadata",
+    "source_sha256": "418c7ae5450d3bbd2e8e0555751b83059676cd8104dd666c8eced3f0ea3b4f54",
+    "release_sha256": "418c7ae5450d3bbd2e8e0555751b83059676cd8104dd666c8eced3f0ea3b4f54"
+  },
+  {
+    "path": "physics_consistency/agibot_reach_rate/train_head_bank.py",
+    "source": "physics_consistency/agibot_reach_rate/train_head_bank.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6f3296decb1723c895d62a3d348b1c2be8499fdd63b3e455d642cf731d2dc905",
+    "release_sha256": "6f3296decb1723c895d62a3d348b1c2be8499fdd63b3e455d642cf731d2dc905"
+  },
+  {
+    "path": "physics_consistency/covla/__init__.py",
+    "source": "physics_consistency/covla/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9ef83063909293b55712d92a4234768b30af3991f59db04dd4863fe3eca8db37",
+    "release_sha256": "9ef83063909293b55712d92a4234768b30af3991f59db04dd4863fe3eca8db37"
+  },
+  {
+    "path": "physics_consistency/covla/aggregate_grounded.py",
+    "source": "physics_consistency/covla/aggregate_grounded.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "543fcfd340f0427a867ed3a27e65c53870d3ce905f0a02f017f0e5d8ccf24783",
+    "release_sha256": "543fcfd340f0427a867ed3a27e65c53870d3ce905f0a02f017f0e5d8ccf24783"
+  },
+  {
+    "path": "physics_consistency/covla/bank_common.py",
+    "source": "physics_consistency/covla/bank_common.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "afd4642219c0733a91aed4073eef8318b1063ce7f63e3132ffabb35e35e97f29",
+    "release_sha256": "afd4642219c0733a91aed4073eef8318b1063ce7f63e3132ffabb35e35e97f29"
+  },
+  {
+    "path": "physics_consistency/covla/bank_data.py",
+    "source": "physics_consistency/covla/bank_data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "19b16f79dd523d08994e08ebfe118eacd421c6c920bc5f188081b96481c7a7b6",
+    "release_sha256": "19b16f79dd523d08994e08ebfe118eacd421c6c920bc5f188081b96481c7a7b6"
+  },
+  {
+    "path": "physics_consistency/covla/bank_model.py",
+    "source": "physics_consistency/covla/bank_model.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "37d145b20c682357b510223c230bce6f2193d3f55714cf216f4800f35f3604dc",
+    "release_sha256": "37d145b20c682357b510223c230bce6f2193d3f55714cf216f4800f35f3604dc"
+  },
+  {
+    "path": "physics_consistency/covla/configs/_base_full.yaml",
+    "source": "physics_consistency/covla/configs/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "154c5ef15066921094846340fae9738ecebb747ac49d643dd4a87b1e0dac9e67",
+    "release_sha256": "78eee6b1c54ba6827d2279c8802cc4723319a2229fe00d5b401bd5cd0f88096e"
+  },
+  {
+    "path": "physics_consistency/covla/configs/full/law.yaml",
+    "source": "physics_consistency/covla/configs/full/law.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "2f8af380abc902680acdc37aef3b9eae1ffa5e244618f3e1e528db170c707c1b",
+    "release_sha256": "26b28aa2e53dc9684d1613f357b01e191c23b621f57b2a6cbe8568e0b953cd9b"
+  },
+  {
+    "path": "physics_consistency/covla/configs/full/multidomain.yaml",
+    "source": "physics_consistency/covla/configs/full/multidomain.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "b603f6579a528b641e1bbbd234b204a753dd036695969f12c6c186e24ce52058",
+    "release_sha256": "7b7287acd07fa34ff99c6d78a868abe3ee5acd2c9bb089b7e0c082b8a267b156"
+  },
+  {
+    "path": "physics_consistency/covla/configs/full/multidomain_video.yaml",
+    "source": "physics_consistency/covla/configs/full/multidomain_video.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "86e091089dceb220427d1d363208cb544068bba86084c9d2712c4d5f5d051bf6",
+    "release_sha256": "c2c24326cd9469385f5c966cc45e5cafcec7b01d6b845ab30873853705c8c4e4"
+  },
+  {
+    "path": "physics_consistency/covla/configs/full/time.yaml",
+    "source": "physics_consistency/covla/configs/full/time.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "d14e77b8ed20d8caa10a9900f5f3f110d9fcfe0e4604ba613a78f702df6891be",
+    "release_sha256": "c4cbbe9be28c3f3977b4a82cb29190f3721c3f45abc11687f3d230d9596bc6bc"
+  },
+  {
+    "path": "physics_consistency/covla/configs/full/video_only.yaml",
+    "source": "physics_consistency/covla/configs/full/video_only.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "b1c5d8db30f526bc2531ccba24ce84143bd294c09694c7295fbae13fb9481008",
+    "release_sha256": "a17cf4fe37b4a05198f628923024dbeee02d5f30552cf9b17ea77e1d6fa7428d"
+  },
+  {
+    "path": "physics_consistency/covla/configs/full/zero.yaml",
+    "source": "physics_consistency/covla/configs/full/zero.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "43de46006f896f29732d11f52372422e410f0726d3c99cbffe98bb499d06e1cc",
+    "release_sha256": "e455a4c1f8fbf1a8d82dbb39ca6fc4e09cbcfdbc5f737524a86221bf6b565709"
+  },
+  {
+    "path": "physics_consistency/covla/configs/world_models/_base_full.yaml",
+    "source": "physics_consistency/covla/configs/world_models/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "2ea47e597f91546bcca8d3f181a3d1f919f0cde60a0daca4d803af5297f7a0d9",
+    "release_sha256": "03dda88792945167612be4f6735d48bdc2b30d9e28a83226d077d69e68fe2df1"
+  },
+  {
+    "path": "physics_consistency/covla/consistency_eval.py",
+    "source": "physics_consistency/covla/consistency_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "113312c9bd82063e9ced1b19ec76e0845239dce5ca7d3e10d4ccd12dd46a055c",
+    "release_sha256": "113312c9bd82063e9ced1b19ec76e0845239dce5ca7d3e10d4ccd12dd46a055c"
+  },
+  {
+    "path": "physics_consistency/covla/covla_gt_consistency_gate.py",
+    "source": "physics_consistency/covla/covla_gt_consistency_gate.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "fc955a254c36ec0f8f6eda87d05073c8dd0996475557e04f3c3f667f873fec97",
+    "release_sha256": "c76f8bf7d6b0afccd6918325c792d19aa4db04d7bdd3c38876c674d58dcbd854"
+  },
+  {
+    "path": "physics_consistency/covla/grounded_eval.py",
+    "source": "physics_consistency/covla/grounded_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "031131081748e6691154d6fe037c24c0575668d29e64b264c760dbd32928d01e",
+    "release_sha256": "031131081748e6691154d6fe037c24c0575668d29e64b264c760dbd32928d01e"
+  },
+  {
+    "path": "physics_consistency/covla/train_independent_head_bank.py",
+    "source": "physics_consistency/covla/train_independent_head_bank.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b722a688dbbcd9042aefc9b86adf13ba1c941f18816c28b816035f3d3b0595b1",
+    "release_sha256": "b722a688dbbcd9042aefc9b86adf13ba1c941f18816c28b816035f3d3b0595b1"
+  },
+  {
+    "path": "physics_consistency/egoexo/__init__.py",
+    "source": "physics_consistency/egoexo/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a58e0559dbb03a7218bc79e7be97f2976c1156207eadc7001204ce67e1f6d5ba",
+    "release_sha256": "a58e0559dbb03a7218bc79e7be97f2976c1156207eadc7001204ce67e1f6d5ba"
+  },
+  {
+    "path": "physics_consistency/egoexo/aggregate_grounded.py",
+    "source": "physics_consistency/egoexo/aggregate_grounded.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "52c88244acdfd31782508e47034f9cd40e60f985da0d72ce938926ef4946edb3",
+    "release_sha256": "52c88244acdfd31782508e47034f9cd40e60f985da0d72ce938926ef4946edb3"
+  },
+  {
+    "path": "physics_consistency/egoexo/bank_common.py",
+    "source": "physics_consistency/egoexo/bank_common.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b836903195dc5bbb7258a8eac9397e533ddd9ab08d5a1e1218a3168635d2b559",
+    "release_sha256": "b836903195dc5bbb7258a8eac9397e533ddd9ab08d5a1e1218a3168635d2b559"
+  },
+  {
+    "path": "physics_consistency/egoexo/bank_data.py",
+    "source": "physics_consistency/egoexo/bank_data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6a1265297b2f51537ad9fe59a6f5f73cffc163f073f4333cb6d99bc58ed4500e",
+    "release_sha256": "6a1265297b2f51537ad9fe59a6f5f73cffc163f073f4333cb6d99bc58ed4500e"
+  },
+  {
+    "path": "physics_consistency/egoexo/bank_model.py",
+    "source": "physics_consistency/egoexo/bank_model.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "c8c4292ee9f1b47d5c9120d14d56cb5071f1c9c149be3e00097ea0cb9ffaec55",
+    "release_sha256": "c8c4292ee9f1b47d5c9120d14d56cb5071f1c9c149be3e00097ea0cb9ffaec55"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/_base_full.yaml",
+    "source": "physics_consistency/egoexo/configs/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "9e3797dd619f1322498e9232628d1e1e801874cb70fa686585ba1d2fce0667ab",
+    "release_sha256": "3497a102907ec2b76e7448639f2d2028c14a33b7baf18e5a34a4e0d5bd180825"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/full/multidomain.yaml",
+    "source": "physics_consistency/egoexo/configs/full/multidomain.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "b603f6579a528b641e1bbbd234b204a753dd036695969f12c6c186e24ce52058",
+    "release_sha256": "7b7287acd07fa34ff99c6d78a868abe3ee5acd2c9bb089b7e0c082b8a267b156"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/full/multidomain_video.yaml",
+    "source": "physics_consistency/egoexo/configs/full/multidomain_video.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "86e091089dceb220427d1d363208cb544068bba86084c9d2712c4d5f5d051bf6",
+    "release_sha256": "c2c24326cd9469385f5c966cc45e5cafcec7b01d6b845ab30873853705c8c4e4"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/full/time.yaml",
+    "source": "physics_consistency/egoexo/configs/full/time.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "ba1c91389db0092aafdc33dd636951dbcd1d034c47c1b42c825e62edfba9834f",
+    "release_sha256": "d25dee046b7ecec5ffa9c4d1b171cf78766c6309052f112999b6d1b590e66422"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/full/video_only.yaml",
+    "source": "physics_consistency/egoexo/configs/full/video_only.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "fd453e8e8f73f7b00618dfd74613e2e215bdef9b886a9ee311b2aed63f9f33d4",
+    "release_sha256": "020ab47de811be54ccc3522a5e1432f57ca6c62785f882c3a02e254f14e311ee"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/full/zero.yaml",
+    "source": "physics_consistency/egoexo/configs/full/zero.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "43de46006f896f29732d11f52372422e410f0726d3c99cbffe98bb499d06e1cc",
+    "release_sha256": "e455a4c1f8fbf1a8d82dbb39ca6fc4e09cbcfdbc5f737524a86221bf6b565709"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/gt_gate.yaml",
+    "source": "physics_consistency/egoexo/configs/gt_gate.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "24474343b3e49a5e1ef300f3c7f90c34cefaf3cc7ea91b9d8bcd9d93dd6395a3",
+    "release_sha256": "260f3e282676577899365e453e851eec1e209a0490da37d0ed76e6028454aba4"
+  },
+  {
+    "path": "physics_consistency/egoexo/configs/world_models/_base_full.yaml",
+    "source": "physics_consistency/egoexo/configs/world_models/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "44ceb2ebf540a5f90e1adc1b8b3fa9a9a1358a94b9aace58d665b4034826832a",
+    "release_sha256": "2d0b4818fc320cb083075fd5de1820e5fff599d3215c90e53e761d8362eda907"
+  },
+  {
+    "path": "physics_consistency/egoexo/grounded_eval.py",
+    "source": "physics_consistency/egoexo/grounded_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "571695ff38c719c87103c2f0c8766ea9856574fd971bd953b33a6b5338b127f3",
+    "release_sha256": "571695ff38c719c87103c2f0c8766ea9856574fd971bd953b33a6b5338b127f3"
+  },
+  {
+    "path": "physics_consistency/egoexo/gt_kinematic_gate.py",
+    "source": "physics_consistency/egoexo/gt_kinematic_gate.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e1a72bdb0d13d7283b6497c612d1e2dca5b526edbeed34434d20e67810d409c4",
+    "release_sha256": "e1a72bdb0d13d7283b6497c612d1e2dca5b526edbeed34434d20e67810d409c4"
+  },
+  {
+    "path": "physics_consistency/egoexo/metrics.py",
+    "source": "physics_consistency/egoexo/metrics.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a5252b80669c6e718a8358f4206e98a40314122bd2cf5df1a5d169f4542f5020",
+    "release_sha256": "a5252b80669c6e718a8358f4206e98a40314122bd2cf5df1a5d169f4542f5020"
+  },
+  {
+    "path": "physics_consistency/egoexo/pose_geometry.py",
+    "source": "physics_consistency/egoexo/pose_geometry.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f32b1dce8234b26d91bfd914f3b7af7814f5b273680c43fdffc0fe7e1a7b7781",
+    "release_sha256": "f32b1dce8234b26d91bfd914f3b7af7814f5b273680c43fdffc0fe7e1a7b7781"
+  },
+  {
+    "path": "physics_consistency/egoexo/train_independent_head_bank.py",
+    "source": "physics_consistency/egoexo/train_independent_head_bank.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "0d69957bc4afa32cafc84634daeb04455e55e6568712bace902ebafe3fec6ebe",
+    "release_sha256": "0d69957bc4afa32cafc84634daeb04455e55e6568712bace902ebafe3fec6ebe"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/__init__.py",
+    "source": "physics_consistency/egoexo_knee/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a73d1713919cf8a0d8baf5b3b781b8d8f416c4a75516b84714260a741703aff3",
+    "release_sha256": "a73d1713919cf8a0d8baf5b3b781b8d8f416c4a75516b84714260a741703aff3"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/aggregate_grounded.py",
+    "source": "physics_consistency/egoexo_knee/aggregate_grounded.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e45634dcb7a93027a17a0e24a2effc67a5184b2a9e8687ed355030226d7c0359",
+    "release_sha256": "e45634dcb7a93027a17a0e24a2effc67a5184b2a9e8687ed355030226d7c0359"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/bank_common.py",
+    "source": "physics_consistency/egoexo_knee/bank_common.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "7d62d8a5cf16b6407c71b1046d9271ca1e04a40bbe46f60ca22b3267be4eea75",
+    "release_sha256": "7d62d8a5cf16b6407c71b1046d9271ca1e04a40bbe46f60ca22b3267be4eea75"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/_base_full.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "6ce228e29492fa0c74a2e602cecda9a42c46ede2c2f8e325ba331a8fca37e86d",
+    "release_sha256": "ffbe76cdd69bfef2b99a9ac1cef221451631948e3b80fb4eb927a49e617445f8"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/full/multidomain.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/full/multidomain.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "b603f6579a528b641e1bbbd234b204a753dd036695969f12c6c186e24ce52058",
+    "release_sha256": "7b7287acd07fa34ff99c6d78a868abe3ee5acd2c9bb089b7e0c082b8a267b156"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/full/multidomain_video.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/full/multidomain_video.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "86e091089dceb220427d1d363208cb544068bba86084c9d2712c4d5f5d051bf6",
+    "release_sha256": "c2c24326cd9469385f5c966cc45e5cafcec7b01d6b845ab30873853705c8c4e4"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/full/time.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/full/time.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "ba1c91389db0092aafdc33dd636951dbcd1d034c47c1b42c825e62edfba9834f",
+    "release_sha256": "d25dee046b7ecec5ffa9c4d1b171cf78766c6309052f112999b6d1b590e66422"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/full/video_only.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/full/video_only.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "fd453e8e8f73f7b00618dfd74613e2e215bdef9b886a9ee311b2aed63f9f33d4",
+    "release_sha256": "020ab47de811be54ccc3522a5e1432f57ca6c62785f882c3a02e254f14e311ee"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/full/zero.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/full/zero.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "43de46006f896f29732d11f52372422e410f0726d3c99cbffe98bb499d06e1cc",
+    "release_sha256": "e455a4c1f8fbf1a8d82dbb39ca6fc4e09cbcfdbc5f737524a86221bf6b565709"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/gt_gate.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/gt_gate.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "2c3c316727b6cc295f7bac7264ef499cfd5bd8eef4c525388cdcf115946c3c83",
+    "release_sha256": "287d64ff52edeffd339adda8668423f8c30e71551c5f55568c2479010d41bf86"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/configs/world_models/_base_full.yaml",
+    "source": "physics_consistency/egoexo_knee/configs/world_models/_base_full.yaml",
+    "reason": "Main/Appendix E/F/K kinematic reconstruction and GT-gate generation",
+    "source_sha256": "307f97bf170071dbc74be348c95539ef79fb03138802054a3633d59453a59433",
+    "release_sha256": "0dcddd6f1cae122c9115da9386d53d3e6a3627b59dfacd0337868b0ea41da805"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/grounded_eval.py",
+    "source": "physics_consistency/egoexo_knee/grounded_eval.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "038d62f985a15c7cdc911a91f3a94e2a75b7a5bd391f089a1b72cd23b096295f",
+    "release_sha256": "038d62f985a15c7cdc911a91f3a94e2a75b7a5bd391f089a1b72cd23b096295f"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/gt_kinematic_gate.py",
+    "source": "physics_consistency/egoexo_knee/gt_kinematic_gate.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "bbf6a00808ec935a659c8e756d42e821c27b108e12a5b6e3cd7be6142e1f5d1c",
+    "release_sha256": "bbf6a00808ec935a659c8e756d42e821c27b108e12a5b6e3cd7be6142e1f5d1c"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/pose_geometry.py",
+    "source": "physics_consistency/egoexo_knee/pose_geometry.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a852cffcc3545d19c4894ab85b761e1d4f5cdb34eebf331d0fec3bfbd5af53bf",
+    "release_sha256": "a852cffcc3545d19c4894ab85b761e1d4f5cdb34eebf331d0fec3bfbd5af53bf"
+  },
+  {
+    "path": "physics_consistency/egoexo_knee/train_independent_head_bank.py",
+    "source": "physics_consistency/egoexo_knee/train_independent_head_bank.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "92b5ba8e2fb473609fb96896ba02c08bcc0fa1852e3e94c3dede787fb23bd938",
+    "release_sha256": "92b5ba8e2fb473609fb96896ba02c08bcc0fa1852e3e94c3dede787fb23bd938"
+  },
+  {
+    "path": "physion_ocp_rjob/__init__.py",
+    "source": "physion_ocp_rjob/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b5b6e357252191c9d55b20dcf130324d04d81208ca0a3c62a38a841b26cb84d5",
+    "release_sha256": "b5b6e357252191c9d55b20dcf130324d04d81208ca0a3c62a38a841b26cb84d5"
+  },
+  {
+    "path": "physion_ocp_rjob/check_environment.py",
+    "source": "physion_ocp_rjob/check_environment.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6b3ae792ba166e0ca22f4b30a7acd35d46024812cb05b1865d9d6b0b46a8fc6c",
+    "release_sha256": "6b3ae792ba166e0ca22f4b30a7acd35d46024812cb05b1865d9d6b0b46a8fc6c"
+  },
+  {
+    "path": "physion_ocp_rjob/config.py",
+    "source": "physion_ocp_rjob/config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "37dcbef8473a5acc250b9acf0e3047e5ce0204c52082da0b501b1b541a0cef73",
+    "release_sha256": "37dcbef8473a5acc250b9acf0e3047e5ce0204c52082da0b501b1b541a0cef73"
+  },
+  {
+    "path": "physion_ocp_rjob/configs/main/m0_official_vjepa21.yaml",
+    "source": "physion_ocp_rjob/configs/main/m0_official_vjepa21.yaml",
+    "reason": "Main external physical evaluation",
+    "source_sha256": "960566586a21a20e3d696436a8afbea3851fc56e0f8c4f55de4cacc21c7347e0",
+    "release_sha256": "469c42232ba6f7e8517665aca836003d50f89b4c780764bea047378f1a947212"
+  },
+  {
+    "path": "physion_ocp_rjob/configs/main/m1_mix_video_only_e19.yaml",
+    "source": "physion_ocp_rjob/configs/main/m1_mix_video_only_e19.yaml",
+    "reason": "Main external physical evaluation",
+    "source_sha256": "365774689d5f20493f07d730dfe759f180ebc0148962b565e843c669b0a3cd5a",
+    "release_sha256": "a93b51bc2e0d79eddc8a781e5eb1dce54af5eb61b8c2b25226b21278e67b08de"
+  },
+  {
+    "path": "physion_ocp_rjob/configs/main/m2_mix_time_e19.yaml",
+    "source": "physion_ocp_rjob/configs/main/m2_mix_time_e19.yaml",
+    "reason": "Main external physical evaluation",
+    "source_sha256": "d57319dc1b0dcf7b3f8fc200e08fbd102755aa621bd96beac551c588836b6f1b",
+    "release_sha256": "b630e512b55268405bcb1fefd4137fe2f2fbf8a353b81ca47f66c4c263cae09b"
+  },
+  {
+    "path": "physion_ocp_rjob/dataset.py",
+    "source": "physion_ocp_rjob/dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "42203d6e1cd8799f740392de72f76cf0079ce40cba7f97753e5c63227115bcec",
+    "release_sha256": "42203d6e1cd8799f740392de72f76cf0079ce40cba7f97753e5c63227115bcec"
+  },
+  {
+    "path": "physion_ocp_rjob/extract_features.py",
+    "source": "physion_ocp_rjob/extract_features.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "362a0f07a6b5d76bc5eac2cd8a638dab2c0565abf9f4696b70fe64daf15c39c9",
+    "release_sha256": "362a0f07a6b5d76bc5eac2cd8a638dab2c0565abf9f4696b70fe64daf15c39c9"
+  },
+  {
+    "path": "physion_ocp_rjob/feature_store.py",
+    "source": "physion_ocp_rjob/feature_store.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "2fd57c1b4259273c98ef9543a364d06f1f21d8a8ef0c4a0edd46a67707a80a21",
+    "release_sha256": "2fd57c1b4259273c98ef9543a364d06f1f21d8a8ef0c4a0edd46a67707a80a21"
+  },
+  {
+    "path": "physion_ocp_rjob/model.py",
+    "source": "physion_ocp_rjob/model.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d52ea2eba92d5bfab505c9e42b966e8901e4ad99994657e7293322604035d20c",
+    "release_sha256": "d52ea2eba92d5bfab505c9e42b966e8901e4ad99994657e7293322604035d20c"
+  },
+  {
+    "path": "physion_ocp_rjob/probe.py",
+    "source": "physion_ocp_rjob/probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d6c24b6ee1739255aac2f64779675289f8de7f6cd20f75a0b7f1bf9607aae542",
+    "release_sha256": "d6c24b6ee1739255aac2f64779675289f8de7f6cd20f75a0b7f1bf9607aae542"
+  },
+  {
+    "path": "physion_ocp_rjob/run_probe.py",
+    "source": "physion_ocp_rjob/run_probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "cadbb2cee2b8c7441a252bfd71f23a8968cbdbe6e070ad84c0bc4d0baad24ec3",
+    "release_sha256": "cadbb2cee2b8c7441a252bfd71f23a8968cbdbe6e070ad84c0bc4d0baad24ec3"
+  },
+  {
+    "path": "publication.json",
+    "generated": true,
+    "reason": "Confirmed preprint status, repository URL and author order",
+    "release_sha256": "9ff05687d6a667f962e6c8f7e3e5795440e1c5dc3ab08ca7c23838859e023c12"
+  },
+  {
+    "path": "pyproject.toml",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "dd2e3d99fb8ee5757eabfdec32d5b1245d5094bc65b2115ab4948fcd3390a927"
+  },
+  {
+    "path": "requirements-dev.txt",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "cda92e7c67f3a654a3242d1c4ffe2f7170305fd543074648135b2cec0da771ca"
+  },
+  {
+    "path": "requirements-ivideogpt.txt",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "7e6e088d4abe7b67e3232f450275169421d6ff99d3fd48e3b90e25f61785dbf4"
+  },
+  {
+    "path": "requirements-psg.txt",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "8b049f0404bf2279fc609ec0d41a44ba7b03a8549ff66e1984491d9792fb5c00"
+  },
+  {
+    "path": "requirements.txt",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "6a62db54db043c6e69da942365ad72ee1083621683ed37f95f63259a98f5d546"
+  },
+  {
+    "path": "scripts/build_experiment_index.py",
+    "generated": true,
+    "reason": "Current formal experiment/encoder/resource index; excludes historical checkpoint correspondence",
+    "release_sha256": "9ad1bdcf35f2a1a17b458d7da2678f4d20f7931fa9ee21fbd868f6be95bd29ad"
+  },
+  {
+    "path": "scripts/package_release.py",
+    "generated": true,
+    "reason": "Deterministic manifest-only clean release packager",
+    "release_sha256": "aedaed6b19cd21ea52e1c7603304c75c20d6c97e3ddab7fe0198c8c9760ac01c"
+  },
+  {
+    "path": "scripts/prepare_metadata.py",
+    "generated": true,
+    "reason": "Local restricted-domain split generation and verification",
+    "release_sha256": "ad31ba2e8c74641c4d246a411f5b11585d176e278b5ecd5e5b50a2c7e9e945aa"
+  },
+  {
+    "path": "scripts/quickstart.py",
+    "generated": true,
+    "reason": "Public quickstart entrypoint with preview and external resource-path checks",
+    "release_sha256": "38d6289eaf1a71b120e874b716ec5fec7b815e1617b1d4785c24d3ae7c88935e"
+  },
+  {
+    "path": "scripts/setup_third_party.py",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "1dc233b7c86d44a7389491472fbf6f856fcc4aaadcc384c8d5a3ce7d7841dbfc"
+  },
+  {
+    "path": "scripts/summarize_future_state_ood.py",
+    "source": "scripts/summarize_future_state_ood.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "0a822de1f17fb0e056ef024c1a6d1fdcc50552ff408f6b53c7f0be25f2caf507",
+    "release_sha256": "0a822de1f17fb0e056ef024c1a6d1fdcc50552ff408f6b53c7f0be25f2caf507"
+  },
+  {
+    "path": "scripts/summarize_single_domain_future.py",
+    "source": "scripts/summarize_single_domain_future.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "5198619ed8bf40d5d1baec48b464fd5a394ad138f9e96b482b5f171b1f3472ff",
+    "release_sha256": "5198619ed8bf40d5d1baec48b464fd5a394ad138f9e96b482b5f171b1f3472ff"
+  },
+  {
+    "path": "scripts/validate_release.py",
+    "generated": true,
+    "reason": "Validate published manifest files; local ignored data/weight links and acceptance outputs are outside the release scope.",
+    "release_sha256": "62d4e6cd5661e0c87c5aa4dac4a96185c806af4c0f9eedc8eeed18081b5dc7df"
+  },
+  {
+    "path": "setup.py",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "20c60dd72e6dc2710fd7e9bd3c49e7cb0cff57ac3edfa554d52a75a4f52890b8"
+  },
+  {
+    "path": "src/datasets/covla_video_dataset.py",
+    "source": "src/datasets/covla_video_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "cd34dc7cc6b185f32b51ad869e326ca2f939d19855b99a95dbe50dd4709f3160",
+    "release_sha256": "cd34dc7cc6b185f32b51ad869e326ca2f939d19855b99a95dbe50dd4709f3160"
+  },
+  {
+    "path": "src/datasets/data_manager.py",
+    "source": "src/datasets/data_manager.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "bb0d13a30edd104de18f2042167be253c6d76b87ef51b7b989c075c193237fc1",
+    "release_sha256": "bb0d13a30edd104de18f2042167be253c6d76b87ef51b7b989c075c193237fc1"
+  },
+  {
+    "path": "src/datasets/imagenet1k.py",
+    "source": "src/datasets/imagenet1k.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+    "release_sha256": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80"
+  },
+  {
+    "path": "src/datasets/utils/dataloader.py",
+    "source": "src/datasets/utils/dataloader.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+    "release_sha256": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e"
+  },
+  {
+    "path": "src/datasets/utils/video/functional.py",
+    "source": "src/datasets/utils/video/functional.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+    "release_sha256": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad"
+  },
+  {
+    "path": "src/datasets/utils/video/randaugment.py",
+    "source": "src/datasets/utils/video/randaugment.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+    "release_sha256": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd"
+  },
+  {
+    "path": "src/datasets/utils/video/randerase.py",
+    "source": "src/datasets/utils/video/randerase.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+    "release_sha256": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6"
+  },
+  {
+    "path": "src/datasets/utils/video/transforms.py",
+    "source": "src/datasets/utils/video/transforms.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+    "release_sha256": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64"
+  },
+  {
+    "path": "src/datasets/utils/video/volume_transforms.py",
+    "source": "src/datasets/utils/video/volume_transforms.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+    "release_sha256": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8"
+  },
+  {
+    "path": "src/datasets/utils/weighted_sampler.py",
+    "source": "src/datasets/utils/weighted_sampler.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+    "release_sha256": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd"
+  },
+  {
+    "path": "src/datasets/video_dataset.py",
+    "source": "src/datasets/video_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "4316fb58e676424b347489a9a71cf046caf47a9bc0cd5bf2cf8d4df93ea7013d",
+    "release_sha256": "4316fb58e676424b347489a9a71cf046caf47a9bc0cd5bf2cf8d4df93ea7013d"
+  },
+  {
+    "path": "src/masks/multiseq_multiblock3d.py",
+    "source": "src/masks/multiseq_multiblock3d.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+    "release_sha256": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9"
+  },
+  {
+    "path": "src/masks/utils.py",
+    "source": "src/masks/utils.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+    "release_sha256": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0"
+  },
+  {
+    "path": "src/models/attentive_pooler.py",
+    "source": "src/models/attentive_pooler.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+    "release_sha256": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb"
+  },
+  {
+    "path": "src/models/utils/modules.py",
+    "source": "src/models/utils/modules.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+    "release_sha256": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0"
+  },
+  {
+    "path": "src/models/utils/patch_embed.py",
+    "source": "src/models/utils/patch_embed.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+    "release_sha256": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d"
+  },
+  {
+    "path": "src/models/utils/pos_embs.py",
+    "source": "src/models/utils/pos_embs.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+    "release_sha256": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e"
+  },
+  {
+    "path": "src/models/vision_transformer.py",
+    "source": "src/models/vision_transformer.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+    "release_sha256": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74"
+  },
+  {
+    "path": "src/time_jepa/__init__.py",
+    "source": "src/time_jepa/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "bd3ac87f3537fbffdccc9ca4de6faed752b7b257a1ba896d3df64552ae95eaf4",
+    "release_sha256": "bd3ac87f3537fbffdccc9ca4de6faed752b7b257a1ba896d3df64552ae95eaf4"
+  },
+  {
+    "path": "src/time_jepa/agibot_derived_targets.py",
+    "source": "src/time_jepa/agibot_derived_targets.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "8b25d05d6abf04b0a09bf6d6e9c64331a000948463cff778f06e764c2a0186e6",
+    "release_sha256": "8b25d05d6abf04b0a09bf6d6e9c64331a000948463cff778f06e764c2a0186e6"
+  },
+  {
+    "path": "src/time_jepa/agibot_time_dataset.py",
+    "source": "src/time_jepa/agibot_time_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "9755a9c9919c07d9aa23f7694d7079346fc37d08c3e138cbbfc4ec7869d60ae8",
+    "release_sha256": "9755a9c9919c07d9aa23f7694d7079346fc37d08c3e138cbbfc4ec7869d60ae8"
+  },
+  {
+    "path": "src/time_jepa/covla_law.py",
+    "source": "src/time_jepa/covla_law.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a4bca4ecfd4d723dc50f8d8f0bf8c7877eedd822efb53b8069f7807423fa1fe0",
+    "release_sha256": "a4bca4ecfd4d723dc50f8d8f0bf8c7877eedd822efb53b8069f7807423fa1fe0"
+  },
+  {
+    "path": "src/time_jepa/covla_law_dataset.py",
+    "source": "src/time_jepa/covla_law_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "ba2e6731da67ff57314279b55c5892ce3f37ff4ff23cb943b21b1bb25d57f3a3",
+    "release_sha256": "ba2e6731da67ff57314279b55c5892ce3f37ff4ff23cb943b21b1bb25d57f3a3"
+  },
+  {
+    "path": "src/time_jepa/covla_time_dataset.py",
+    "source": "src/time_jepa/covla_time_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "5a4e463321edf4f1f56af891cd94f70dea3b3fd5aef749f172a9cbddb5b258b3",
+    "release_sha256": "5a4e463321edf4f1f56af891cd94f70dea3b3fd5aef749f172a9cbddb5b258b3"
+  },
+  {
+    "path": "src/time_jepa/egoexo_a4_misaligned_dataset.py",
+    "source": "src/time_jepa/egoexo_a4_misaligned_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "72bb5feed3193b38ad75d10b7db372332a67832c3faeb2016f49da397e2d14e9",
+    "release_sha256": "72bb5feed3193b38ad75d10b7db372332a67832c3faeb2016f49da397e2d14e9"
+  },
+  {
+    "path": "src/time_jepa/egoexo_pose_targets.py",
+    "source": "src/time_jepa/egoexo_pose_targets.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "cc4eaa4c29b9cd73a7f2d2621a18e34b63e7c417482abe07ebe3568a005625d4",
+    "release_sha256": "cc4eaa4c29b9cd73a7f2d2621a18e34b63e7c417482abe07ebe3568a005625d4"
+  },
+  {
+    "path": "src/time_jepa/egoexo_sensor_robustness_dataset.py",
+    "source": "src/time_jepa/egoexo_sensor_robustness_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "64b8170df081391c6c57c49e58642c03d6b2aeb51ef7f92087a11d835d772263",
+    "release_sha256": "64b8170df081391c6c57c49e58642c03d6b2aeb51ef7f92087a11d835d772263"
+  },
+  {
+    "path": "src/time_jepa/egoexo_time_dataset.py",
+    "source": "src/time_jepa/egoexo_time_dataset.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "78a1b9f56fc9677153ac84f91140a94e23e21a249b500d469c6f1366444d40ba",
+    "release_sha256": "78a1b9f56fc9677153ac84f91140a94e23e21a249b500d469c6f1366444d40ba"
+  },
+  {
+    "path": "src/time_jepa/egoexo_views.py",
+    "source": "src/time_jepa/egoexo_views.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "90f1da408cefc8a69f55d501bcea00c1350a3d7562194ee2323919409d947c6e",
+    "release_sha256": "90f1da408cefc8a69f55d501bcea00c1350a3d7562194ee2323919409d947c6e"
+  },
+  {
+    "path": "src/time_jepa/multidomain.py",
+    "source": "src/time_jepa/multidomain.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f7f318d79e3d378091393c02182847a353ada8c79f392ecbacedfd15e2ff02b0",
+    "release_sha256": "f7f318d79e3d378091393c02182847a353ada8c79f392ecbacedfd15e2ff02b0"
+  },
+  {
+    "path": "src/time_jepa/physical_aux.py",
+    "source": "src/time_jepa/physical_aux.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "384dcd81d028a18871c0b08759665734363652ef871e62065ab231254984f5f7",
+    "release_sha256": "384dcd81d028a18871c0b08759665734363652ef871e62065ab231254984f5f7"
+  },
+  {
+    "path": "src/time_jepa/physical_aux_head_sweep.py",
+    "source": "src/time_jepa/physical_aux_head_sweep.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "4b5ba89a1b4802a6821e843bb808d5ebb3c7b5fcc85262bca616a2228d7cfdab",
+    "release_sha256": "4b5ba89a1b4802a6821e843bb808d5ebb3c7b5fcc85262bca616a2228d7cfdab"
+  },
+  {
+    "path": "src/time_jepa/physical_targets.py",
+    "source": "src/time_jepa/physical_targets.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "c74c1b76fca01400f34d4586fced3d1528b474c9fc74f1a4ea23dfa7e9e25645",
+    "release_sha256": "c74c1b76fca01400f34d4586fced3d1528b474c9fc74f1a4ea23dfa7e9e25645"
+  },
+  {
+    "path": "src/time_jepa/time_sampling.py",
+    "source": "src/time_jepa/time_sampling.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a76f747f20208a91df01455459c074a13734d9ca5ca8be330a9fdf664ddbc503",
+    "release_sha256": "a76f747f20208a91df01455459c074a13734d9ca5ca8be330a9fdf664ddbc503"
+  },
+  {
+    "path": "src/utils/checkpoint_loader.py",
+    "source": "src/utils/checkpoint_loader.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+    "release_sha256": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce"
+  },
+  {
+    "path": "src/utils/distributed.py",
+    "source": "src/utils/distributed.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "62800ab1273e3a72c317b2fd895b789cb1647e2d3316a04ea225759fa4717f31",
+    "release_sha256": "62800ab1273e3a72c317b2fd895b789cb1647e2d3316a04ea225759fa4717f31"
+  },
+  {
+    "path": "src/utils/logging.py",
+    "source": "src/utils/logging.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+    "release_sha256": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e"
+  },
+  {
+    "path": "src/utils/monitoring.py",
+    "source": "src/utils/monitoring.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+    "release_sha256": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5"
+  },
+  {
+    "path": "src/utils/schedulers.py",
+    "source": "src/utils/schedulers.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+    "release_sha256": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659"
+  },
+  {
+    "path": "src/utils/tensors.py",
+    "source": "src/utils/tensors.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+    "release_sha256": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8"
+  },
+  {
+    "path": "tests/__init__.py",
+    "source": "tests/__init__.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "f5193302a8be95cb9b994e08305c521e0459a8400cea0a0f98cf32df036f2fd3",
+    "release_sha256": "f5193302a8be95cb9b994e08305c521e0459a8400cea0a0f98cf32df036f2fd3"
+  },
+  {
+    "path": "tests/test_agibot_same_side_ood.py",
+    "source": "tests/test_agibot_same_side_ood.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "72034cab776b69955f1a227bbf0153b4d8e33f011977b0ddd2b7cbe01691d78c",
+    "release_sha256": "72034cab776b69955f1a227bbf0153b4d8e33f011977b0ddd2b7cbe01691d78c"
+  },
+  {
+    "path": "tests/test_agibot_target_presets.py",
+    "source": "tests/test_agibot_target_presets.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "db342ae713735e97d77072b95f965ddd48763007ee1af7b6d2fc8270cbbfa56d",
+    "release_sha256": "db342ae713735e97d77072b95f965ddd48763007ee1af7b6d2fc8270cbbfa56d"
+  },
+  {
+    "path": "tests/test_aligned_temporal_probe.py",
+    "source": "tests/test_aligned_temporal_probe.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "4c113bea60c5ce0b5d201d75cefa06342de7a59369a3184cf4fa3ea2d06f5bed",
+    "release_sha256": "4c113bea60c5ce0b5d201d75cefa06342de7a59369a3184cf4fa3ea2d06f5bed"
+  },
+  {
+    "path": "tests/test_egoexo_a4_misalignment.py",
+    "source": "tests/test_egoexo_a4_misalignment.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "3e264b7474f55954f209cca4b2babdef330780953545df104611ac0a0020b8c7",
+    "release_sha256": "3e264b7474f55954f209cca4b2babdef330780953545df104611ac0a0020b8c7"
+  },
+  {
+    "path": "tests/test_egoexo_pose_targets.py",
+    "source": "tests/test_egoexo_pose_targets.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "7d574352400b9049cb8002606d2403ec51424e086487eeba88e0882f4332cfa5",
+    "release_sha256": "7d574352400b9049cb8002606d2403ec51424e086487eeba88e0882f4332cfa5"
+  },
+  {
+    "path": "tests/test_egoexo_view_protocol.py",
+    "source": "tests/test_egoexo_view_protocol.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "a4f0c95367098e2d99ad8fb540e3dfddf68344a39dc37902143b74ede0d21c59",
+    "release_sha256": "a4f0c95367098e2d99ad8fb540e3dfddf68344a39dc37902143b74ede0d21c59"
+  },
+  {
+    "path": "tests/test_encoder_split_config.py",
+    "source": "tests/test_encoder_split_config.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "64537d10fd918aeff955c5b9163a5ff33e403fa0f118bc61b818cdf97a450fd3",
+    "release_sha256": "64537d10fd918aeff955c5b9163a5ff33e403fa0f118bc61b818cdf97a450fd3"
+  },
+  {
+    "path": "tests/test_experimental_physical_aux_heads.py",
+    "source": "tests/test_experimental_physical_aux_heads.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "9277749318dcb66ca3dfe1a530d2f7a7086125dbb40fa8441d907215a52d6bba",
+    "release_sha256": "9277749318dcb66ca3dfe1a530d2f7a7086125dbb40fa8441d907215a52d6bba"
+  },
+  {
+    "path": "tests/test_grasp_eval.py",
+    "source": "tests/test_grasp_eval.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "8efb39b5de5fbe7653320bce7f6459a0848ce323383c9ae44bda4e3744a2f88e",
+    "release_sha256": "8efb39b5de5fbe7653320bce7f6459a0848ce323383c9ae44bda4e3744a2f88e"
+  },
+  {
+    "path": "tests/test_multidomain_schedule.py",
+    "source": "tests/test_multidomain_schedule.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "db3142e742a05883d5be72abd25376d65df4d87bc4913e75089d0b1bab5fad3c",
+    "release_sha256": "db3142e742a05883d5be72abd25376d65df4d87bc4913e75089d0b1bab5fad3c"
+  },
+  {
+    "path": "tests/test_physical_aux_heads.py",
+    "source": "tests/test_physical_aux_heads.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "1c8a42ab22ac0b2adc2f8f782fd2d6ab0ebb5435ec951cce2393ba49006e1636",
+    "release_sha256": "1c8a42ab22ac0b2adc2f8f782fd2d6ab0ebb5435ec951cce2393ba49006e1636"
+  },
+  {
+    "path": "tests/test_probe_engine_metrics.py",
+    "source": "tests/test_probe_engine_metrics.py",
+    "reason": "Scientific protocol/target/sampling/metric regression test",
+    "source_sha256": "ebac2352c4d5c9ba77a49b46fbe1db2ad3dbe16b96af95d839be731084ec620a",
+    "release_sha256": "ebac2352c4d5c9ba77a49b46fbe1db2ad3dbe16b96af95d839be731084ec620a"
+  },
+  {
+    "path": "third-party.json",
+    "generated": true,
+    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
+    "release_sha256": "c84fabf8b60419d394ab99dd3379c1650a592e7cda85693b1b281d405ffd24c8"
+  },
+  {
+    "path": "time-jepa/cache/agibot_3view_top_head_hand_left_hand_right_wholebody_cartesian_v2_64f5fps_stats.json",
+    "source": "time-jepa/cache/agibot_3view_top_head_hand_left_hand_right_wholebody_cartesian_v2_64f5fps_stats.json",
+    "reason": "Formal train-only normalization/PCA metadata",
+    "source_sha256": "ff169e78a92dbf433adf78951cb7fd6d5bb3e22d7a6fa58cc2d13c4b41ac0b99",
+    "release_sha256": "ff169e78a92dbf433adf78951cb7fd6d5bb3e22d7a6fa58cc2d13c4b41ac0b99"
+  },
+  {
+    "path": "time-jepa/cache/agibot_psg_action40_5fps_grid_stats.json",
+    "source": "time-jepa/cache/agibot_psg_action40_5fps_grid_stats.json",
+    "reason": "Formal train-only normalization/PCA metadata",
+    "source_sha256": "1b50d3ac89d91d3682f220787e9089c694e0f25bcd76760de21938b5c3c00263",
+    "release_sha256": "91262814f43fcfa5bbedbd07f1ce573ddf878d70ef0dd6303dcab4898af14b0f"
+  },
+  {
+    "path": "time-jepa/cache/agibot_wholebody_cartesian_v1_waist_pca.json",
+    "source": "time-jepa/cache/agibot_wholebody_cartesian_v1_waist_pca.json",
+    "reason": "Formal train-only normalization/PCA metadata",
+    "source_sha256": "916a3429465df2ee154e674029668dc34b853c892aa5233e8ae6e78001b67f90",
+    "release_sha256": "d8b932e097f83ee07fb5ed30bb96285741e8deca47d0f39e097437b1bc8540a5"
+  },
+  {
+    "path": "time-jepa/fit_agibot_waist_pca.py",
+    "source": "time-jepa/fit_agibot_waist_pca.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "9d7f7cf584fc2a7de1f913dd4fe69d98ce2178e9503af139d37c53dec304a023",
+    "release_sha256": "2dc885a8cd3f07db03f98c95c0a52f04486c51e98f0cbdb74205cda4ad889ce5"
+  },
+  {
+    "path": "time-jepa/make_agibot_splits.py",
+    "source": "time-jepa/make_agibot_splits.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "23bb047a27988845cdfed8a281409e2b0ab6e5eab490f43b8ad155c1d9f6f0ea",
+    "release_sha256": "919a1d46c95d744f23cb1836813e77ffe99a3a40ff3401af15deb6e5792768b2"
+  },
+  {
+    "path": "time-jepa/make_covla_weather_ood_splits.py",
+    "source": "time-jepa/make_covla_weather_ood_splits.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "a95be6b44466742b3d003ec247f2a851a0b2c1bf737207aecd0dab0573531fad",
+    "release_sha256": "8a859308415d86bd11709aefb26479316f80695efc32bea842bb584a6f1ca31e"
+  },
+  {
+    "path": "time-jepa/make_egoexo_splits.py",
+    "source": "time-jepa/make_egoexo_splits.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "07b0bec64dfc468713de06dfdddc4c5722f11ddea564da5f51fc60363b5d515b",
+    "release_sha256": "9304f7d3399eccb036ecc5eb9204c34c7381785a2c243801a3b0e2196923555f"
+  },
+  {
+    "path": "time-jepa/splits/agibot_top_head_encoder_train.json",
+    "source": "time-jepa/splits/agibot_top_head_encoder_train.json",
+    "reason": "Formal AgiBot/EgoExo4D split metadata",
+    "source_sha256": "4d5dd2d6bf0cc0962a0efc2f37fc4e743f601242b880f52ec32672a36fdb6124",
+    "release_sha256": "4d5dd2d6bf0cc0962a0efc2f37fc4e743f601242b880f52ec32672a36fdb6124"
+  },
+  {
+    "path": "time-jepa/splits/agibot_top_head_probe_train.json",
+    "source": "time-jepa/splits/agibot_top_head_probe_train.json",
+    "reason": "Formal AgiBot/EgoExo4D split metadata",
+    "source_sha256": "9573ad2ff1865d1743fa9b8e41faf643e7b582923f82e00653db448ee36d022c",
+    "release_sha256": "9573ad2ff1865d1743fa9b8e41faf643e7b582923f82e00653db448ee36d022c"
+  },
+  {
+    "path": "time-jepa/splits/agibot_top_head_probe_val.json",
+    "source": "time-jepa/splits/agibot_top_head_probe_val.json",
+    "reason": "Formal AgiBot/EgoExo4D split metadata",
+    "source_sha256": "18d651bf1eb04a5958129e4ba3d851a885bd9f61e3c0866538c74fc404a81d1f",
+    "release_sha256": "18d651bf1eb04a5958129e4ba3d851a885bd9f61e3c0866538c74fc404a81d1f"
+  },
+  {
+    "path": "time-jepa/splits/agibot_top_head_split_manifest.json",
+    "source": "time-jepa/splits/agibot_top_head_split_manifest.json",
+    "reason": "Formal AgiBot/EgoExo4D split metadata",
+    "source_sha256": "4614a176727323109d04d35ea305f0a14f2f5680375b34db7ebb5f788d427469",
+    "release_sha256": "0d314b1bd9611f55d73d4cc2a02d64a2c4260d7c132da3fbf07af75e6ef88902"
+  },
+  {
+    "path": "time-jepa/splits/agibot_top_head_test.json",
+    "source": "time-jepa/splits/agibot_top_head_test.json",
+    "reason": "Formal AgiBot/EgoExo4D split metadata",
+    "source_sha256": "5baba30596630bafb0b673e05e751cfa6115a3b519ddf668b457eea4d6a8cf2f",
+    "release_sha256": "5baba30596630bafb0b673e05e751cfa6115a3b519ddf668b457eea4d6a8cf2f"
+  },
+  {
+    "path": "time-jepa/transcode_agibot_h264.py",
+    "source": "time-jepa/transcode_agibot_h264.py",
+    "reason": "Formal data preparation or paper result aggregation",
+    "source_sha256": "d17b0425f49fa014ca08377cd3a2c5cced9cd4f7cbd8fba92de742174bef4039",
+    "release_sha256": "36d5bc4e3dc13b561d5676a8e2bee215f37f289c66c1cf133173caaa11c9a128"
+  },
+  {
+    "path": "world_model_probe_rjob/__init__.py",
+    "source": "world_model_probe_rjob/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "eb0deb2b7477ceea179c31ae891c1a80b7e475ff4e46b90ceeb86909990365a5",
+    "release_sha256": "eb0deb2b7477ceea179c31ae891c1a80b7e475ff4e46b90ceeb86909990365a5"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/internvideo_next_l/frozen/agibot/readout.yaml",
+    "source": "world_model_probe_rjob/configs/internvideo_next_l/frozen/agibot/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "f6fb4eb988ce297fe08164df022ed451e180af52c95353d1c67c6d3c23f7e799",
+    "release_sha256": "1222f5a012c473b55382c45d9604f91d0880c1e792ee09247e6a51f287313fcc"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/internvideo_next_l/frozen/agibot/shot.yaml",
+    "source": "world_model_probe_rjob/configs/internvideo_next_l/frozen/agibot/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "6384235a02d4a7b12aefbee86698512a7cbd34da4cc8ba3ba3c446bc4c913c85",
+    "release_sha256": "112a00002ecde67cb4d0808d67689a8db8c2ec4bdf68079d46ef897b4f7aad89"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/internvideo_next_l/frozen/covla/readout.yaml",
+    "source": "world_model_probe_rjob/configs/internvideo_next_l/frozen/covla/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "8ed5ce4b3dbb89a5d7dda11ac841dd0f36602a8d67de218c5c967726e46630c5",
+    "release_sha256": "326f083706e801fe3969c0fb4f3cf22ec6784ba862fc36612451c60745d177ae"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/internvideo_next_l/frozen/covla/shot.yaml",
+    "source": "world_model_probe_rjob/configs/internvideo_next_l/frozen/covla/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "538bbbf506eaf958e9f6b332f657d6898b869b82fede5910b58df314e15340d7",
+    "release_sha256": "52fd7e2889ae537f4846aa210a646a08c03ab7c2c9ef6239adaacfb4a0f1a7be"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/internvideo_next_l/frozen/egoexo/readout.yaml",
+    "source": "world_model_probe_rjob/configs/internvideo_next_l/frozen/egoexo/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "a7a817207f09bc0a8b197fc554d9735fde2690b1ad00bec897e6690f06ccede2",
+    "release_sha256": "e1a9c06004c44a4f49f924f5031d220e03afa94836354db8e3c8fded88f48fa4"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/internvideo_next_l/frozen/egoexo/shot.yaml",
+    "source": "world_model_probe_rjob/configs/internvideo_next_l/frozen/egoexo/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "e2835648e9f033870a9de09632f39fe929be172e1cf818dd15c36b809225bc35",
+    "release_sha256": "4af91aec6e7f695a3ebbc9a90becdd2a815f881934664c3faff9b51ba98d545a"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/agibot/time.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/agibot/time.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "71415b9cfe63f068c56939e76e08e3ea0e9e0b118300388f6233ab4e28f28721",
+    "release_sha256": "38b251c3d3e52c29f977ff542601f84c52dad73c7c62f6f77f4dab9b022c4fa6"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/agibot/video_only.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/agibot/video_only.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "475fc6206207299c1b9cd7c3bae82517a9cc8565a4d94f439d345e2e20363cc1",
+    "release_sha256": "fd2235636bfc6fb1e7a3e2fe7a45de84a23fafc9712db1761f5bd90ed9c7bcf6"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/covla/time.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/covla/time.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "80a7f5e432529ebed1bb94053ea3087cc35578ad152f9b1518530831cb02c549",
+    "release_sha256": "6ed37fd5c5ce2f3f529c0feb1825e07f54b2bcd40091cbc867e7ab25b9049a61"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/covla/video_only.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/covla/video_only.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "1f0831f4b4786e03445cfb9f09d850e8df5031c70604c80d72630d4f20655498",
+    "release_sha256": "5267cb5ad1dcd9b751471242628ec8997a61194ae7fd55f836e4e68d6d427958"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/egoexo/time.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/egoexo/time.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "ee45516bec24d4ccf0e9f12ec0190b71251aa49e780b7ccd03d9407e94783e07",
+    "release_sha256": "8a23613678087c5ae0c6b8fc746ea59dc78f6c42d388ca0e4e133ccb5af350dd"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/egoexo/video_only.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/adaptation/egoexo/video_only.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "bf65a6a71bba77bce4ed79269706e73cda35c1da045217e559cc74def02aa7f1",
+    "release_sha256": "82f70d4117a71245077658d058ea40d3de954f069baf0d3ba5db08cb7fdca53f"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/agibot/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/agibot/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "4b1cb30f29b2f4f760e062938eaea9e930291d20deb69d3032f78fc100d693c4",
+    "release_sha256": "6954536ee76277946d5e0485a468a01ef0d044a13b8b3773cab78a0e92eeaf0d"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/agibot/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/agibot/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "4c8492f5f1302a8f416150efa7140840754cc6e9cb9cb0839733b36b281301af",
+    "release_sha256": "502d537460f2d2b2248eff4daca335f7172c9bb2de1729b3bb76c92ce28e9bc5"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/covla/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/covla/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "de6c363c39e43c3748317232ba309b4b9913729130d6ab530ad5ba1fca1b0aa4",
+    "release_sha256": "e750a5b9450f9809147071e2420a794c36584906887e0469fdfb63fec6782040"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/covla/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/covla/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "3d61a4cce58229353138d83f2e7430e2a7e793d6e39600172507da3198160793",
+    "release_sha256": "e449dcfb6a55868ca1fbf3f00f9338b9dd52e21d656b9cd17c8f99a3c25e82c1"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/egoexo/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/egoexo/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "c4b0798557d341cd2136b3b49a06d45be2ce869cdb7814f09209967118ff4d35",
+    "release_sha256": "001a20a6e51ae51107f74907f8b8d1232f1e887b6751dac355978827ef0a003c"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/egoexo/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/egoexo/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "bfb8c3b4d6df874929af53511a194db6e96289c902ed9b14e05e56abde891825",
+    "release_sha256": "016159fb23f8cabb99ff5609ca855c6ac34a803f3b8a011cc02b6a6c670170db"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/agibot/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/agibot/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "6e3cb26668d0f62d2ec1442becc7f9dc47b5b161306f370d647576ea528cb4ee",
+    "release_sha256": "9628fa82b54c51cae69d5afcb14da594af501431c8a05aa539754c20cdd99d58"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/agibot/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/agibot/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "8b008eb6713026360d6260db43f1553460be02891c2c74750dc6de217eea03af",
+    "release_sha256": "ac45958c2d54468b76c9d53ce5f46b7b66abd2894ed1454918783eb39d86d533"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/covla/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/covla/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "0e59bd655a42871bd2b8c8c9e904c92fea5bd2a4bded9170b1f06543f604e09f",
+    "release_sha256": "98d39b1c7bbad56dce92f8d4af2284666ee2c2bded73b8fa1a9f74bbddd2ec0d"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/covla/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/covla/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "e2aab6cda607f355f40db75f1ca8db148cce664a302d541e600368cbba8ed1d4",
+    "release_sha256": "5afb87760aa2c831a0e603c77fa4d340c66c8b1a9da7abfd70f4b459d5d36e7e"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/egoexo/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/egoexo/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "c0349dbc3f503c56428186252d4bd8b7383f788c6fda70f9db8ce0e0ec702672",
+    "release_sha256": "8b8288361e78f71edb91eb48b42ef23cf8a3edec0d80100b554a36fee9478e0f"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/egoexo/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/egoexo/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "d7403b7884ca92f5e5c28c68fec63321e4e9345f340f947a016fb50f1611e853",
+    "release_sha256": "564c690989b4ec1cd717705967a7dc13b15b6569c606a023e3c9707cc91c9743"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/agibot/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/agibot/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "936f6168eb202dd7b0f643970fd480659c5f38fe4043e240ad4489202403a2a7",
+    "release_sha256": "dd134cf79392a4da4edbd65800aed8256ce464b276101fd45f368adb6e7e0a0b"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/agibot/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/agibot/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "8163c66f4a296a71633d333dce37d050751d9cbf48e34bb4fc7b20961e311a74",
+    "release_sha256": "339faff7f3f30851641042959c32ff9c45447ef183042000e51438fd63ce3fdb"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/covla/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/covla/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "6835022e20910e9d639e2cce530bf8dcac686d5e44c24e46c4816f67a5779166",
+    "release_sha256": "f14f61211f32d9c773235ceb3dd529205eec7fafd0740f1b3f70a413ff5a3251"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/covla/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/covla/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "efca98752cd5dfa73d0e3178b361e3874ae4da4ae7fac0b52eaca4b31292cef9",
+    "release_sha256": "028d0e592db418887fdc24722c8e94d965674640525e6bcc44cd070e39c65ec5"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/egoexo/readout.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/egoexo/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "b4441fe7ee9c0d15155542225ecdec61f1c969bdcfdeaffc45997955b6d64094",
+    "release_sha256": "39130ba1557ab813e3a4913a54a3a2f823ec123384d647af3890cfa157b0cc89"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/egoexo/shot.yaml",
+    "source": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/egoexo/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "6a11b8eb7402d8cfbd1b268b3966fb1a544e18450812bb18c68b9586ec58dd7d",
+    "release_sha256": "32beda323fb9174afd7d5620d282722821f3a65335c7f509c07ae61d94653c1a"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/videomaev2_g/frozen/agibot/readout.yaml",
+    "source": "world_model_probe_rjob/configs/videomaev2_g/frozen/agibot/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "15ead211b567deeccf623100fa01ded7a25408baed14d12a5eb8ba324be48b95",
+    "release_sha256": "c90cf2fbcabb581efb2cf96eef28269d1e31aa0b1573dc24e6b8d3e42c910f91"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/videomaev2_g/frozen/agibot/shot.yaml",
+    "source": "world_model_probe_rjob/configs/videomaev2_g/frozen/agibot/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "597243843dcd28e4c3ee3ef171fb62bbe5ce26b1ba310772ed3a8fe2f9ca9d7a",
+    "release_sha256": "d45f8f20402c6bb5f86b35a878d1de3ef3ec53b56d1657e78dc241e9263aa1d4"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/videomaev2_g/frozen/covla/readout.yaml",
+    "source": "world_model_probe_rjob/configs/videomaev2_g/frozen/covla/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "05d228e81731cba1b0a5836666ad37710380705f9bff2fde3b3bdb264e1a43e8",
+    "release_sha256": "8d8ee86f3e8aeaaac6fc03090111d4a7fd1125ce36afe4ae0fd14870569173c3"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/videomaev2_g/frozen/covla/shot.yaml",
+    "source": "world_model_probe_rjob/configs/videomaev2_g/frozen/covla/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "5a9763b4f1a77d4c5c6122ee91901b14ab4d88c4fb7097187a28a36a1e148c3a",
+    "release_sha256": "f530b41e9d59eb2f17d80e936eeaeac237f7c0b4e92d0e2af28fe3133d8d7a0c"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/videomaev2_g/frozen/egoexo/readout.yaml",
+    "source": "world_model_probe_rjob/configs/videomaev2_g/frozen/egoexo/readout.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "1f8035bbdcf6b18024ad01d3a7e54bbd310206f1f295d52e7933d9520c002ac4",
+    "release_sha256": "9bdf1f0679fcf366f0f752e68597424fd9e65f6659ba444dd80befe6408a3500"
+  },
+  {
+    "path": "world_model_probe_rjob/configs/videomaev2_g/frozen/egoexo/shot.yaml",
+    "source": "world_model_probe_rjob/configs/videomaev2_g/frozen/egoexo/shot.yaml",
+    "reason": "Additional-backbone current-state comparisons and iVideoGPT adaptation",
+    "source_sha256": "40ae64791a08cf7c64caefd0d25d616b57f7ef70a103b5921efbaa15550f0559",
+    "release_sha256": "6d918c4ad95a97d58e5ee361f0cf36843c7f36aa9a12814d363f0960715aefdb"
+  },
+  {
+    "path": "world_model_probe_rjob/encoder_adapters/__init__.py",
+    "source": "world_model_probe_rjob/encoder_adapters/__init__.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "6a7216dcf862f0ba132b017a8c3e289875f0002e611c7bf5cb0c1f253526d2e3",
+    "release_sha256": "6a7216dcf862f0ba132b017a8c3e289875f0002e611c7bf5cb0c1f253526d2e3"
+  },
+  {
+    "path": "world_model_probe_rjob/encoder_adapters/base.py",
+    "source": "world_model_probe_rjob/encoder_adapters/base.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b9b5155548341356a10d2bdb03786c2525ecdd7eecff290857f8dc169b38fe25",
+    "release_sha256": "b9b5155548341356a10d2bdb03786c2525ecdd7eecff290857f8dc169b38fe25"
+  },
+  {
+    "path": "world_model_probe_rjob/encoder_adapters/internvideo_next.py",
+    "source": "world_model_probe_rjob/encoder_adapters/internvideo_next.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b86ce18533174cc7b0d3de6c1eb2aaa51e1c75ba30a05e304a21dff15f997234",
+    "release_sha256": "b86ce18533174cc7b0d3de6c1eb2aaa51e1c75ba30a05e304a21dff15f997234"
+  },
+  {
+    "path": "world_model_probe_rjob/encoder_adapters/ivideogpt.py",
+    "source": "world_model_probe_rjob/encoder_adapters/ivideogpt.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "b6fb90bfddac01461ec1bc5705b38236a56056c4ce1ef253c1bbfea6a01387e5",
+    "release_sha256": "b6fb90bfddac01461ec1bc5705b38236a56056c4ce1ef253c1bbfea6a01387e5"
+  },
+  {
+    "path": "world_model_probe_rjob/encoder_adapters/ivideogpt_adapted.py",
+    "source": "world_model_probe_rjob/encoder_adapters/ivideogpt_adapted.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "c43bbaeb4962b004dbdfee18ce94ecc1d025871dfddd140224d7d9b1a627c9ad",
+    "release_sha256": "c43bbaeb4962b004dbdfee18ce94ecc1d025871dfddd140224d7d9b1a627c9ad"
+  },
+  {
+    "path": "world_model_probe_rjob/encoder_adapters/videomaev2.py",
+    "source": "world_model_probe_rjob/encoder_adapters/videomaev2.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "761cadd2dc39f76862be3775d6e099653e87d10bee351d5614c540a007cf706a",
+    "release_sha256": "761cadd2dc39f76862be3775d6e099653e87d10bee351d5614c540a007cf706a"
+  },
+  {
+    "path": "world_model_probe_rjob/ivideogpt_adapt_config.py",
+    "source": "world_model_probe_rjob/ivideogpt_adapt_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "be98ea68c1f586a368c4502d6155f577b38cd1d19e4744712685fdd9825a2a69",
+    "release_sha256": "be98ea68c1f586a368c4502d6155f577b38cd1d19e4744712685fdd9825a2a69"
+  },
+  {
+    "path": "world_model_probe_rjob/ivideogpt_adapt_data.py",
+    "source": "world_model_probe_rjob/ivideogpt_adapt_data.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "f86277da63650f2a3d686ae81804e6c781760c39e3332573388f26dd87c8e3ee",
+    "release_sha256": "f86277da63650f2a3d686ae81804e6c781760c39e3332573388f26dd87c8e3ee"
+  },
+  {
+    "path": "world_model_probe_rjob/ivideogpt_adapt_model.py",
+    "source": "world_model_probe_rjob/ivideogpt_adapt_model.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "12cbb5bb4197ac19ba63e431fc70cc8aabb6baa2aaa1c312e1d48deef43ff3d0",
+    "release_sha256": "12cbb5bb4197ac19ba63e431fc70cc8aabb6baa2aaa1c312e1d48deef43ff3d0"
+  },
+  {
+    "path": "world_model_probe_rjob/ivideogpt_adapted_probe_config.py",
+    "source": "world_model_probe_rjob/ivideogpt_adapted_probe_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "43d9f84778f1231ec9e6a216ecaeda9f23ff3cbde4ac23f1b5359b6b411db13d",
+    "release_sha256": "43d9f84778f1231ec9e6a216ecaeda9f23ff3cbde4ac23f1b5359b6b411db13d"
+  },
+  {
+    "path": "world_model_probe_rjob/ivideogpt_config.py",
+    "source": "world_model_probe_rjob/ivideogpt_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "4c31a8cdbe610c28b3d1d54cb0683354c467257abcdd4b5d989bcedcfa07105d",
+    "release_sha256": "4c31a8cdbe610c28b3d1d54cb0683354c467257abcdd4b5d989bcedcfa07105d"
+  },
+  {
+    "path": "world_model_probe_rjob/physics_consistency_encoder.py",
+    "source": "world_model_probe_rjob/physics_consistency_encoder.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "125514363c4bf3d323f2b43900c3961ef0464ce659642de6ffdec6bd09bdb30c",
+    "release_sha256": "125514363c4bf3d323f2b43900c3961ef0464ce659642de6ffdec6bd09bdb30c"
+  },
+  {
+    "path": "world_model_probe_rjob/train_ivideogpt_adapt.py",
+    "source": "world_model_probe_rjob/train_ivideogpt_adapt.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "27dec30ea9e01c04c30f02d6019a90562104248277477df47be9137fb711dfe7",
+    "release_sha256": "27dec30ea9e01c04c30f02d6019a90562104248277477df47be9137fb711dfe7"
+  },
+  {
+    "path": "world_model_probe_rjob/train_ivideogpt_adapted_probe.py",
+    "source": "world_model_probe_rjob/train_ivideogpt_adapted_probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "dbd23a5012b762911c78376548468087d15a222de451d4daed0d958c63f11552",
+    "release_sha256": "dbd23a5012b762911c78376548468087d15a222de451d4daed0d958c63f11552"
+  },
+  {
+    "path": "world_model_probe_rjob/train_ivideogpt_probe.py",
+    "source": "world_model_probe_rjob/train_ivideogpt_probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "1555acad85e5e2de53b189f0720ab2ec5b3216287ffb9d49f7e98ea41ee2aa67",
+    "release_sha256": "1555acad85e5e2de53b189f0720ab2ec5b3216287ffb9d49f7e98ea41ee2aa67"
+  },
+  {
+    "path": "world_model_probe_rjob/train_world_model_probe.py",
+    "source": "world_model_probe_rjob/train_world_model_probe.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "92e5684baf40a15162b2888652eb1158846845e3149c2fafe7277a1fb2cf03dd",
+    "release_sha256": "92e5684baf40a15162b2888652eb1158846845e3149c2fafe7277a1fb2cf03dd"
+  },
+  {
+    "path": "world_model_probe_rjob/world_model_config.py",
+    "source": "world_model_probe_rjob/world_model_config.py",
+    "reason": "Entry point or transitive local import required by a formal experiment",
+    "source_sha256": "a18051e7114eb889f1368cc52e0de6ebf6a62d0e24826384d3b4e989ac5a2784",
+    "release_sha256": "a18051e7114eb889f1368cc52e0de6ebf6a62d0e24826384d3b4e989ac5a2784"
+  }
+]

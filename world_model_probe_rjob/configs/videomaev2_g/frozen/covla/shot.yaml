@@ -1,0 +1,13 @@
+# Same COVLA weather-OOD shot protocol; only the frozen encoder changes.
+base_config: covla_probe_rjob/configs/covla/weather_ood/shot/zero/covla_shot_conv.yaml
+
+train:
+  arch: videomaev2_g
+  encoder_family: videomaev2
+  checkpoint_key: model
+  encoder_checkpoint: VideoMAEv2/checkpoints/mae-g/vit_g_hybrid_pt_1200e.pth
+  encoder_dtype: float16
+  attention_implementation: sdpa
+  videomae_temporal_mode: full
+  encoder_microbatch_size: 1
+  output_dir: time-jepa/outputs_world_model/videomaev2_g/frozen/covla/weather_ood/shot/conv1x1_seed239

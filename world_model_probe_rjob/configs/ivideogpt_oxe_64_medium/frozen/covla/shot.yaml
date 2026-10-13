@@ -1,0 +1,13 @@
+# Exact COVLA weather-OOD zero shot protocol; only the encoder is replaced.
+base_config: covla_probe_rjob/configs/covla/weather_ood/shot/zero/covla_shot_conv.yaml
+
+train:
+  arch: ivideogpt_oxe_64_medium
+  encoder_family: ivideogpt
+  checkpoint_key: huggingface
+  encoder_checkpoint: iVideoGPT/checkpoints/ivideogpt-oxe-64-act-free-medium/transformer/model.safetensors
+  encoder_dtype: float32
+  attention_implementation: sdpa
+  window_frames: 16
+  context_frames: 2
+  output_dir: time-jepa/outputs_world_model/ivideogpt_oxe_64_medium/frozen/covla/weather_ood/shot/conv1x1_seed239

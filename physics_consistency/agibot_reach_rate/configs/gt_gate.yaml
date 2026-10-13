@@ -1,0 +1,42 @@
+protocol: agibot_arm_reach_rate_current_v1
+selection_split: encoder_train
+threshold_split: probe_train
+validation_split: probe_val
+
+data:
+  agibot_root: data/agibot
+  tasks: [3400, 3401, 3402, 3404, 3405, 3477, 3641, 3705, 3777, 4053]
+  split_dir: time-jepa/splits
+  split_prefix: agibot_top_head
+  gate_view: observation.images.top_head
+  use_meta_episodes_only: true
+  slice_stride_seconds: 12.8
+  limits: {}
+
+sampling:
+  num_frames: 64
+  image_size: 384
+  fps: 5.0
+  tubelet_size: 2
+  max_time_delta: 0.05
+
+kinematics:
+  urdf: physics_consistency/agibot/assets/G2_NO_GRIPPER.urdf
+  sha256: 76d056b159af5ffc1aa9a7d7b931f6221f6cff5818e10fe4af4b7552162f0aef
+
+gate:
+  progress_every: 100
+  thresholds:
+    left: &arm_thresholds
+      min_valid_fraction: 0.95
+      max_fk_mean_m: 0.01
+      max_fk_p95_m: 0.02
+      min_raw_identity_pearson: 0.995
+      max_raw_identity_nmae: 0.05
+      min_urdf_oracle_pearson: 0.99
+      max_urdf_oracle_nmae: 0.10
+    right:
+      <<: *arm_thresholds
+
+output:
+  dir: physics_consistency/agibot_reach_rate/results/gt_gate

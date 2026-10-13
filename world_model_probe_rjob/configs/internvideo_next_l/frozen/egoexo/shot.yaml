@@ -1,0 +1,11 @@
+# Inherit the exact EgoExo exo124/view03-OOD easy-5D shot protocol.
+base_config: covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/zero/egoexo_conv_9d.yaml
+
+train:
+  arch: internvideo_next_l
+  encoder_family: internvideo_next
+  checkpoint_key: huggingface
+  encoder_checkpoint: InternVideo/checkpoints/internvideo_next_large_p14_res224_f16/model.safetensors
+  encoder_dtype: float16
+  kernel_mode: auto
+  output_dir: time-jepa/outputs_world_model/internvideo_next_l/frozen/egoexo/exo124_view3ood/shot/conv1x1

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this repository. A paper citation will be added after the arXiv preprint is available."
+type: software
+title: "Time-JEPA: Grounding Video World Models with Physical Time Series"
+version: 0.1.1-preprint
+repository-code: "https://github.com/Lishenyi2004/Time-JEPA"
+authors:
+  - family-names: Li
+    given-names: Shenyi
+  - family-names: Zhang
+    given-names: Ziyang
+  - family-names: Wu
+    given-names: Wen
+  - family-names: Liu
+    given-names: Ming
+  - family-names: Zhang
+    given-names: Chao

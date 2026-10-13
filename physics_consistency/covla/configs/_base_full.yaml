@@ -1,0 +1,50 @@
+experiment:
+  phase: full
+  seed: 0
+
+output:
+  root: physics_consistency/covla/results/model_runs/full_split6305_64f5fps_strict
+
+data:
+  covla_root: data/CoVLA-Dataset
+  split_dir: time-jepa/splits/covla_weather_ood
+  train_split: probe_train
+  val_split: probe_val
+  # This exact order is enforced by bank_common.py.
+  eval_splits: [test, weather_ood_test]
+  limits: {}
+
+sampling:
+  num_frames: 64
+  image_size: 384
+  frame_stride: 5
+  frame_span: null
+  tubelet_size: 2
+  video_fps: 20.0
+
+stats:
+  cache: physics_consistency/covla/results/cache/covla_4fps_train_stats_seed239.json
+  seed: 239
+  max_videos: 2000
+
+optimization:
+  epochs: 15
+  batch_size: 16
+  lr: 1.0e-4
+  start_lr: null
+  final_lr: 1.0e-6
+  warmup_epochs: 1
+  lr_schedule: cosine
+  weight_decay: 0.01
+  final_weight_decay: null
+
+runtime:
+  device: cuda
+  num_workers: 4
+  video_num_threads: 1
+  use_bfloat16: false
+
+consistency:
+  gt_gate_metrics: physics_consistency/covla/results/gt_gate/gt_gate_metrics.json
+  permutations: 1000
+  bootstrap_replicates: 2000

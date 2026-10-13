@@ -1,0 +1,14 @@
+Time-JEPA: Grounding Video World Models with Physical Time Series
+Authors: Shenyi Li, Ziyang Zhang, Wen Wu, Ming Liu, Chao Zhang.
+Repository: https://github.com/Lishenyi2004/Time-JEPA
+
+This project builds on V-JEPA 2.1. Preserve the original Meta copyright
+and MIT license in LICENSE, the supplied APACHE-LICENSE, and upstream
+notices in source files. The existing code license is retained.
+
+The manuscript is under review at ICLR 2027 and the arXiv preprint is
+pending submission. No accepted conference publication is claimed.
+
+Code licensing does not grant rights to source datasets or derived
+data. See DATA-LICENSES.md for the separately scoped AgiBot metadata
+license and the locally generated CoVLA/Ego-Exo4D metadata policy.

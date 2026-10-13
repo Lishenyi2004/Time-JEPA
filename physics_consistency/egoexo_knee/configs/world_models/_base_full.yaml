@@ -1,0 +1,11 @@
+base: ../_base_full.yaml
+
+output:
+  root: physics_consistency/egoexo_knee/results/world_models/model_runs
+
+optimization:
+  batch_size: 2
+
+runtime:
+  num_workers: 2
+  use_bfloat16: false

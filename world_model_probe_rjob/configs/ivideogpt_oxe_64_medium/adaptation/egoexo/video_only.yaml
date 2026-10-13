@@ -1,0 +1,57 @@
+model:
+  base_snapshot: iVideoGPT/checkpoints/ivideogpt-oxe-64-act-free-medium
+  input_frames: 64
+  input_size: 64
+  window_frames: 16
+  context_frames: 2
+  target_group_size: 2
+  hidden_size: 1024
+  attention_implementation: sdpa
+
+data:
+  domain: egoexo
+  root: data/EgoExo4D_minimal
+  encoder_train_split: time-jepa/splits/egoexo_exo124_view3ood_encoder_train.json
+  expected_encoder_train_windows: 7000
+  manifest_path: time-jepa/splits/egoexo_exo124_view3ood_split_manifest.json
+  split_prefix: egoexo_exo124_view3ood
+  video_views:
+    - view01
+    - view02
+    - view04
+  video_backend: decord
+  ffmpeg_timeout: 120
+  slice_stride_seconds: 12.8
+  max_time_delta: 0.05
+  pose_fps: 30.0
+  min_views: 2
+  smooth_window: 5
+  frames: 64
+  fps: 5
+  tubelet_size: 2
+
+optimization:
+  mode: video_only
+  epochs: 20
+  per_device_batch_size: 1
+  gradient_accumulation_steps: 8
+  lr: 3.0e-5
+  start_lr: 3.0e-6
+  final_lr: 1.0e-6
+  warmup_epochs: 1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  seed: 239
+
+physical:
+  enabled: false
+
+runtime:
+  output_dir: outputs_world_model/ivideogpt_oxe_64_medium/video_only/egoexo/encoder
+  num_workers: 10
+  persistent_workers: true
+  pin_memory: true
+  save_every_epochs: 1
+  log_every_updates: 10
+  mixed_precision: bf16
+

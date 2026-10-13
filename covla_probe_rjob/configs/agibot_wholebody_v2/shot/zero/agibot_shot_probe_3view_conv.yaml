@@ -1,0 +1,77 @@
+# P-3V shot control: recover eight summaries from the base V-JEPA2 encoder.
+dataset: agibot
+ood: none
+agibot_root: data/agibot
+agibot_tasks:
+  - 3400
+  - 3401
+  - 3402
+  - 3404
+  - 3405
+  - 3477
+  - 3641
+  - 3705
+  - 3777
+  - 4053
+agibot_video_key: observation.images.top_head
+agibot_train_video_keys:
+  - observation.images.top_head
+  - observation.images.hand_left
+  - observation.images.hand_right
+agibot_seen_video_keys:
+  - observation.images.hand_left
+  - observation.images.hand_right
+agibot_ood_video_keys:
+  - observation.images.head_left_fisheye
+  - observation.images.head_right_fisheye
+agibot_shot_ood_protocol: same_side
+agibot_use_meta_episodes_only: true
+agibot_split_ratios: 70,15,5,10
+agibot_split_dir: time-jepa/splits
+agibot_split_prefix: agibot_top_head
+agibot_fps: 5.0
+agibot_slice_stride_seconds: 12.8
+agibot_max_time_delta: 0.05
+agibot_video_backend: ffmpeg
+agibot_ffmpeg_timeout: 120
+agibot_train_num_samples: 4500
+agibot_val_num_samples: 1500
+agibot_train_sample_seed: 239
+agibot_val_sample_seed: 240
+arch: vitg_384
+encoder_family: vjepa2_1
+checkpoint_key: auto
+encoder_checkpoint: vjepa2_1_vitg_384.pt
+output_dir: time-jepa/outputs_time_encoder_auto/agibot_wholebody_v2/shot/zero/probe_3view/agibot_shot_conv
+target_mode: state
+targets:
+  - wholebody_related_shot_v2
+probe_type: conv1x1
+probe_depth: 1
+probe_hidden_dim: 0
+tubelet_size: 2
+epochs: 15
+batch_size: 8
+num_workers: 10
+lr: 1.0e-4
+start_lr:
+final_lr: 1.0e-6
+warmup_epochs: 1
+lr_schedule: cosine
+weight_decay: 0.01
+final_weight_decay:
+train_split: probe_train
+val_split: probe_val
+test_split: test
+max_train_videos: 0
+max_val_videos: 0
+max_test_videos: 0
+frame_span: 128
+frame_stride: 0
+video_num_threads: 1
+keep_state_cache: false
+seed: 0
+device: cuda
+use_bfloat16: false
+tensorboard_dir:
+no_tensorboard: false

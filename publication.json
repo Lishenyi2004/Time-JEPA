@@ -1,0 +1,40 @@
+{
+  "title": "Time-JEPA: Grounding Video World Models with Physical Time Series",
+  "paper_status": "preprint_in_preparation",
+  "conference_submission": {
+    "venue": "ICLR",
+    "year": 2027,
+    "status": "under_review"
+  },
+  "arxiv_url": null,
+  "github_url": "https://github.com/Lishenyi2004/Time-JEPA",
+  "authors": [
+    {
+      "given-names": "Shenyi",
+      "family-names": "Li",
+      "openreview": "https://openreview.net/profile?id=~Shenyi_Li1"
+    },
+    {
+      "given-names": "Ziyang",
+      "family-names": "Zhang",
+      "openreview": "https://openreview.net/profile?id=~Ziyang_Zhang5"
+    },
+    {
+      "given-names": "Wen",
+      "family-names": "Wu",
+      "openreview": "https://openreview.net/profile?id=~Wen_Wu2"
+    },
+    {
+      "given-names": "Ming",
+      "family-names": "Liu",
+      "openreview": "https://openreview.net/profile?id=~Ming_Liu6"
+    },
+    {
+      "given-names": "Chao",
+      "family-names": "Zhang",
+      "openreview": "https://openreview.net/profile?id=~Chao_Zhang20"
+    }
+  ],
+  "dataset_hosting": "original_sources_only",
+  "release_version": "0.1.1-preprint"
+}

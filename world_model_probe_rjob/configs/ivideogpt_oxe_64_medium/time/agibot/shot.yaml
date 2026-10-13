@@ -1,0 +1,8 @@
+base_config: world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/agibot/shot.yaml
+
+train:
+  agibot_shot_ood_protocol: same_side
+  adapted_transformer_checkpoint: outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/encoder/checkpoints/last/transformer/model.safetensors
+  adaptation_mode: time
+  adaptation_epoch: 19
+  output_dir: time-jepa/outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/shot/probe_3view/conv1x1

@@ -1,0 +1,3 @@
+# Optional iVideoGPT dependency; use a separate environment when needed.
+# Version read from the existing ivideogpt_probe environment.
+diffusers==0.39.0

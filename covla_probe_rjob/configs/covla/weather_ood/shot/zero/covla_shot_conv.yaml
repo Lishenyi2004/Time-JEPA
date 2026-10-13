@@ -1,0 +1,46 @@
+dataset: covla
+covla_root: data/CoVLA-Dataset
+ood: none
+arch: vitg_384
+encoder_family: vjepa2_1
+checkpoint_key: auto
+encoder_checkpoint: vjepa2_1_vitg_384.pt
+output_dir: time-jepa/outputs_weather_ood/covla_split6305_64f5fps_strict/shot/zero/covla_shot_conv_seed239
+target_mode: state
+targets:
+  - steeringAngleDeg
+  - velocities_calib[1]
+  - accelerations_calib[1]
+probe_type: conv1x1
+probe_depth: 1
+probe_hidden_dim: 0
+tubelet_size: 2
+epochs: 15
+batch_size: 16
+num_workers: 4
+lr: 1.0e-4
+start_lr:
+final_lr: 1.0e-6
+warmup_epochs: 1
+lr_schedule: cosine
+weight_decay: 0.01
+final_weight_decay:
+train_ratio: 0.8
+val_ratio: 0.1
+split_dir: time-jepa/splits/covla_weather_ood
+train_split: probe_train
+val_split: probe_val
+test_split: test
+covla_ood_test_split: weather_ood_test
+max_train_videos: 0
+max_val_videos: 0
+max_test_videos: 0
+frame_span: null
+frame_stride: 4
+video_num_threads: 1
+keep_state_cache: false
+seed: 239
+device: cuda
+use_bfloat16: false
+tensorboard_dir:
+no_tensorboard: false

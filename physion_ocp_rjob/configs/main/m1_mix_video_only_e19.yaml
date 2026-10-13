@@ -1,0 +1,30 @@
+name: m1_mix_video_only_e19
+checkpoint: outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar
+dataset_root: data/physion_v1_5
+output_dir: physion_ocp_rjob/outputs/m1_mix_video_only_e19/main
+
+model:
+  model_name: vit_giant_xformers
+  resolution: 384
+  patch_size: 16
+  tubelet_size: 2
+  img_temporal_dim_size: null
+  strict_checkpoint: true
+
+extraction:
+  num_frames: 4
+  frame_gap_ms: 150
+  aggregation: spatial_mean
+  batch_size: 4
+  num_workers: 4
+  use_bfloat16: true
+  feature_dtype: float16
+  seed: 239
+  max_train_samples: null
+  max_test_samples: null
+
+probe:
+  protocol: all_scenarios
+  cross_validation_folds: 5
+  max_iter: 20000
+  device: cuda

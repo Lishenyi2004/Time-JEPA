@@ -1,0 +1,8 @@
+base_config: world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/egoexo/shot.yaml
+
+train:
+  adapted_transformer_checkpoint: outputs_world_model/ivideogpt_oxe_64_medium/time/egoexo/encoder/checkpoints/last/transformer/model.safetensors
+  adaptation_mode: time
+  adaptation_epoch: 17
+  output_dir: time-jepa/outputs_world_model/ivideogpt_oxe_64_medium/time/egoexo/exo124_view3ood/shot/conv1x1
+

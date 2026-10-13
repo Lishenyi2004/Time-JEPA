@@ -1,0 +1,72 @@
+model:
+  base_snapshot: iVideoGPT/checkpoints/ivideogpt-oxe-64-act-free-medium
+  input_frames: 64
+  input_size: 64
+  window_frames: 16
+  context_frames: 2
+  target_group_size: 2
+  hidden_size: 1024
+  attention_implementation: sdpa
+
+data:
+  domain: agibot
+  root: data/agibot
+  encoder_train_split: time-jepa/splits/agibot_top_head_encoder_train.json
+  encoder_train_num_samples: 15000
+  video_keys:
+    - observation.images.top_head
+    - observation.images.hand_left
+    - observation.images.hand_right
+  tasks:
+    - 3400
+    - 3401
+    - 3402
+    - 3404
+    - 3405
+    - 3477
+    - 3641
+    - 3705
+    - 3777
+    - 4053
+  video_backend: ffmpeg
+  ffmpeg_timeout: 120
+  use_meta_episodes_only: true
+  slice_stride_seconds: 12.8
+  max_windows_per_episode:
+  max_time_delta: 0.05
+  frames: 64
+  fps: 5
+  tubelet_size: 2
+
+optimization:
+  mode: time
+  epochs: 20
+  per_device_batch_size: 1
+  gradient_accumulation_steps: 8
+  lr: 3.0e-5
+  start_lr: 3.0e-6
+  final_lr: 1.0e-6
+  warmup_epochs: 1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  seed: 239
+
+physical:
+  enabled: true
+  targets:
+    type: wholebody_cartesian_v2
+  stats_cache: time-jepa/cache/agibot_3view_top_head_hand_left_hand_right_wholebody_cartesian_v2_64f5fps_stats.json
+  head_type: conv1x1
+  lambda_time: 0.1
+  lambda_warmup_steps: 250
+  smooth_l1_beta: 0.5
+
+runtime:
+  output_dir: outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/encoder
+  num_workers: 10
+  persistent_workers: true
+  pin_memory: true
+  save_every_epochs: 1
+  log_every_updates: 10
+  mixed_precision: bf16
+

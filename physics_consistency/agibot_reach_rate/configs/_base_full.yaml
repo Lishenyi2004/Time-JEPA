@@ -1,0 +1,76 @@
+experiment:
+  phase: full
+  protocol_name: agibot_arm_reach_rate_current_v1
+  seed: 0
+
+output:
+  root: physics_consistency/agibot_reach_rate/results/model_runs
+
+data:
+  agibot_root: data/agibot
+  tasks: [3400, 3401, 3402, 3404, 3405, 3477, 3641, 3705, 3777, 4053]
+  split_dir: time-jepa/splits
+  split_prefix: agibot_top_head
+  train_split: probe_train
+  val_split: probe_val
+  train_views:
+    - observation.images.top_head
+    - observation.images.hand_left
+    - observation.images.hand_right
+  id_views:
+    - observation.images.top_head
+    - observation.images.hand_left
+    - observation.images.hand_right
+  ood_views:
+    - observation.images.head_left_fisheye
+    - observation.images.head_right_fisheye
+  use_meta_episodes_only: true
+  video_backend: ffmpeg
+  ffmpeg_timeout: 120
+  slice_stride_seconds: 12.8
+  limits: {}
+
+evaluation:
+  mode: test
+
+sampling:
+  num_frames: 64
+  image_size: 384
+  fps: 5.0
+  tubelet_size: 2
+  max_time_delta: 0.05
+
+probe:
+  # q14 and endpoint-v6 are 20 completely independent scalar probes.
+  type: independent_linear
+  hidden_dim: 0
+
+stats:
+  cache: physics_consistency/agibot_reach_rate/results/cache/agibot_q14_endpoint_v6_probe_train_stats_seed239.json
+  seed: 239
+  max_rows: 0
+
+optimization:
+  epochs: 15
+  batch_size: 8
+  lr: 1.0e-4
+  start_lr: null
+  final_lr: 1.0e-6
+  warmup_epochs: 1
+  lr_schedule: cosine
+  weight_decay: 0.01
+  final_weight_decay: null
+
+runtime:
+  device: cuda
+  num_workers: 8
+  video_num_threads: 1
+  use_bfloat16: false
+
+kinematics:
+  urdf: physics_consistency/agibot/assets/G2_NO_GRIPPER.urdf
+  gt_gate_metrics: physics_consistency/agibot_reach_rate/results/gt_gate/gt_gate_metrics.json
+
+reach_rate:
+  primary_metric: active_formula_mae
+  time_shift_tokens: 1

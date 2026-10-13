@@ -1,0 +1,5 @@
+# Optional PSG-JEPA training dependencies; keep separate from the jepa snapshot.
+# Versions read from the existing psgjepa environment.
+lightning==2.6.1
+omegaconf==2.3.0
+stable-pretraining==0.1.6

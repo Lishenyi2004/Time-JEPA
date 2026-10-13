@@ -1,0 +1,12 @@
+# Paper-standard AgiBot n15000 comparison; launch with 2 GPUs, batch 8/GPU.
+# Current: 4500/1500 rows. Future: same sample selection, then future eligibility filter.
+base_config: covla_probe_rjob/configs/agibot_wholebody_v2/readout/time/agibot_readout_probe_3view_conv.yaml
+train:
+  arch: psg_jepa_vitg
+  encoder_family: psg_jepa
+  checkpoint_key: exported_encoder_projector
+  encoder_checkpoint: outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/last.pt
+  upstream_root: third_party/PSG-JEPA
+  training_variant: psg_static
+  frame_microbatch_size: 32
+  output_dir: outputs_external/psg_jepa_vitg/probes/agibot_static_g_port_seed239_n15000/readout_conv1x1_seed0

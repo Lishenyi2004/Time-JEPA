@@ -1,0 +1,96 @@
+# Paper-standard AgiBot n15000; fresh released-checkpoint initialization.
+# PSG-Full-g-Port: H_s + pairwise H_d + adjacent-pair H_v on matched ViT-g.
+seed: 239
+
+upstream:
+  repo_root: third_party/PSG-JEPA
+
+output_dir: outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000
+
+data:
+  params_path: configs/train_time_jepa/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_15000.yaml
+  state_stats_path: time-jepa/cache/agibot_3view_top_head_hand_left_hand_right_wholebody_cartesian_v2_64f5fps_stats.json
+  action_stats_path: time-jepa/cache/agibot_psg_action40_5fps_grid_stats.json
+  video_backend: ffmpeg
+  ffmpeg_timeout: 120
+
+loader:
+  base_window_batch_size: 1
+  num_workers: 10
+  persistent_workers: true
+  prefetch_factor: 3
+  pin_memory: true
+
+model:
+  model_name: vit_giant_xformers
+  checkpoint_path: vjepa2_1_vitg_384.pt
+  image_size: 384
+  patch_size: 16
+  max_num_frames: 64
+  tubelet_size: 2
+  frame_chunk_size: 8
+  use_activation_checkpointing: true
+  raw_action_dim: 40
+  state_dim: 18
+
+wm:
+  history_size: 3
+  num_preds: 1
+  # Upstream Tiny uses z_dim=hidden_dim=192.  Preserve that rule for ViT-g.
+  embed_dim: 1408
+
+predictor:
+  depth: 6
+  heads: 16
+  mlp_dim: 2048
+  dim_head: 64
+  dropout: 0.1
+  emb_dropout: 0.0
+
+loss:
+  sigreg:
+    weight: 0.09
+  grounding:
+    variant: full
+    weight: 0.1
+    hidden_dim: 256
+    # H_s: the complete matched 18-D panel.
+    state_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    # H_d: delta of waist PCs, 3-D left/right endpoints, and grippers.
+    joint_idx: [2, 3, 4, 5, 6, 7, 8, 9, 16, 17]
+    # H_v: base translational/angular speed and signed endpoint velocity.
+    vel_idx: [0, 1, 10, 11, 12, 13, 14, 15]
+
+optimizer:
+  type: AdamW
+  lr: 3.0e-5
+  start_lr: 3.0e-6
+  min_lr: 1.0e-6
+  weight_decay: 0.01
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  warmup_epochs: 1
+
+comparison:
+  # Paper-standard 5,000 physical windows x 3 views; do not use quota7000.
+  data_protocol: standard15000
+  effective_global_window_batch: 64
+  enforce_formal_batch: true
+
+checkpoint:
+  every_n_epochs: 1
+  save_last: true
+  export_encoder: true
+  resume_path: null
+
+trainer:
+  max_epochs: 20
+  accelerator: gpu
+  devices: 8
+  num_nodes: 1
+  strategy: ddp
+  precision: bf16-mixed
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 8
+  log_every_n_steps: 8
+  limit_train_batches: auto

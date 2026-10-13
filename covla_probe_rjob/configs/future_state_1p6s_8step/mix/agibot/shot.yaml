@@ -1,0 +1,83 @@
+# Materialized eight-horizon overrides from the formal experiment launcher.
+dataset: agibot
+ood: none
+agibot_root: data/agibot
+agibot_tasks:
+- 3400
+- 3401
+- 3402
+- 3404
+- 3405
+- 3477
+- 3641
+- 3705
+- 3777
+- 4053
+agibot_video_key: observation.images.top_head
+agibot_train_video_keys:
+- observation.images.top_head
+- observation.images.hand_left
+- observation.images.hand_right
+agibot_seen_video_keys:
+- observation.images.hand_left
+- observation.images.hand_right
+agibot_ood_video_keys:
+- observation.images.head_left_fisheye
+- observation.images.head_right_fisheye
+agibot_use_meta_episodes_only: true
+agibot_split_ratios: 70,15,5,10
+agibot_split_dir: time-jepa/splits
+agibot_split_prefix: agibot_top_head
+agibot_fps: 5.0
+agibot_slice_stride_seconds: 12.8
+agibot_max_time_delta: 0.05
+agibot_video_backend: ffmpeg
+agibot_ffmpeg_timeout: 120
+agibot_train_num_samples: 4500
+agibot_val_num_samples: 1500
+agibot_train_sample_seed: 239
+agibot_val_sample_seed: 240
+arch: vitg_384
+encoder_family: vjepa2_1
+checkpoint_key: auto
+encoder_checkpoint: outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar
+output_dir: time-jepa/outputs_future_state/covla_agibot_egoexo_1p6s_8step/mix_e19/agibot/shot/future_conv1x1_8step_seed0
+target_mode: future_state
+future_horizon_seconds: 1.6
+future_horizons_seconds:
+- 0.2
+- 0.4
+- 0.6
+- 0.8
+- 1.0
+- 1.2
+- 1.4
+- 1.6
+targets:
+- wholebody_related_shot_v2
+probe_type: future_conv1x1
+probe_depth: 1
+probe_hidden_dim: 0
+tubelet_size: 2
+epochs: 15
+batch_size: 8
+num_workers: 10
+lr: 0.0001
+start_lr: null
+final_lr: 1.0e-06
+warmup_epochs: 1
+lr_schedule: cosine
+weight_decay: 0.01
+final_weight_decay: null
+train_split: probe_train
+val_split: probe_val
+test_split: test
+frame_span: 128
+frame_stride: 0
+video_num_threads: 1
+keep_state_cache: false
+seed: 0
+device: cuda
+use_bfloat16: false
+tensorboard_dir: null
+no_tensorboard: false

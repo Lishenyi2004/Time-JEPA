@@ -1,0 +1,10 @@
+base: ../_base_full.yaml
+
+experiment:
+  model_name: multidomain_time
+
+encoder:
+  backend: vjepa2_1
+  arch: vitg_384
+  checkpoint_key: auto
+  checkpoint: outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar

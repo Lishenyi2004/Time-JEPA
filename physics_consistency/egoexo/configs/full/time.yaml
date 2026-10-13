@@ -1,0 +1,9 @@
+base: ../_base_full.yaml
+experiment:
+  model_name: time
+encoder:
+  backend: vjepa2_1
+  arch: vitg_384
+  checkpoint_key: auto
+  checkpoint: outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar
+

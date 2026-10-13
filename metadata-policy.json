@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "data_hosting": "original_sources_only",
+  "restricted_metadata": [
+    {
+      "path": "physics_consistency/covla/results/cache/covla_4fps_train_stats_seed239.json",
+      "domain": "covla",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "physics_consistency/covla/train_independent_head_bank.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "physics_consistency/egoexo/results/cache/egoexo_arm4_probe_train_stats_seed239.json",
+      "domain": "egoexo",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "physics_consistency/egoexo/train_independent_head_bank.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "physics_consistency/egoexo_knee/results/cache/egoexo_knee4_probe_train_stats_seed239.json",
+      "domain": "egoexo",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "physics_consistency/egoexo_knee/train_independent_head_bank.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/cache/covla_weather_ood_encoder_train_6305_64f5fps_strict_vEgo_aEgo_yaw_rate_stats.json",
+      "domain": "covla",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "covla_jepa_rjob/train_from_yaml.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/cache/egoexo_exo124_view3ood_m2c_1d_pelvis_speed_64f5fps_stats.json",
+      "domain": "egoexo",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "covla_jepa_rjob/train_from_yaml.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/cache/egoexo_exo124_view3ood_m2c_5d_motion_only_64f5fps_stats.json",
+      "domain": "egoexo",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "covla_jepa_rjob/train_from_yaml.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/cache/egoexo_exo124_view3ood_whole9_shot_easy_v1_64f5fps_stats.json",
+      "domain": "egoexo",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "covla_jepa_rjob/train_from_yaml.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/cache/egoexo_exo124_view3ood_whole_body_compact_v2_64f5fps_stats.json",
+      "domain": "egoexo",
+      "kind": "normalization",
+      "availability": "generate",
+      "preparation_entrypoint": "covla_jepa_rjob/train_from_yaml.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_encoder_train.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_probe_train.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_probe_val.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_quarantine.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_split_manifest_weather_ood.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_test.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_weather_ood_day_holdout.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_weather_ood_high_conf_test.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/covla_weather_ood/covla_weather_ood_test.json",
+      "domain": "covla",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/egoexo_exo124_view3ood_encoder_train.json",
+      "domain": "egoexo",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/egoexo_exo124_view3ood_probe_train.json",
+      "domain": "egoexo",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/egoexo_exo124_view3ood_probe_val.json",
+      "domain": "egoexo",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/egoexo_exo124_view3ood_split_manifest.json",
+      "domain": "egoexo",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    },
+    {
+      "path": "time-jepa/splits/egoexo_exo124_view3ood_test.json",
+      "domain": "egoexo",
+      "kind": "split_metadata",
+      "availability": "generate",
+      "preparation_entrypoint": "scripts/prepare_metadata.py",
+      "reason": "Excluded from public redistribution pending source permission; regenerate locally from authorized source data."
+    }
+  ],
+  "retained_metadata": [
+    {
+      "path_prefix": "time-jepa/splits/agibot_",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "path_prefix": "time-jepa/cache/agibot_",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "path_prefix": "physics_consistency/agibot_reach_rate/results/cache/",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "local_only_prefixes": [
+    "time-jepa/splits/covla_weather_ood/",
+    "time-jepa/splits/egoexo_",
+    "time-jepa/cache/covla_",
+    "time-jepa/cache/egoexo_",
+    "physics_consistency/covla/results/cache/",
+    "physics_consistency/egoexo/results/cache/",
+    "physics_consistency/egoexo_knee/results/cache/"
+  ]
+}

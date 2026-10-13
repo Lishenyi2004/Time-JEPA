@@ -1,0 +1,34 @@
+output_dir: physics_consistency/egoexo_knee/results/gt_gate
+
+data:
+  egoexo_root: data/EgoExo4D_minimal
+  split_dir: time-jepa/splits
+  split_prefix: egoexo_exo124_view3ood
+  manifest_path: time-jepa/splits/egoexo_exo124_view3ood_split_manifest.json
+  slice_stride_seconds: 12.8
+  limits: {}
+
+selection_split: probe_train
+validation_split: probe_val
+
+sampling:
+  num_frames: 64
+  fps: 5.0
+  tubelet_size: 2
+  max_time_delta: 0.05
+
+pose:
+  fps: 30.0
+  min_views: 2
+  smooth_window: 5
+
+gate:
+  active_quantile: 0.75
+  min_valid_rate: 0.35
+  max_oracle_relative_mae: 0.12
+  min_supplementary_auroc: 0.75
+  min_supplementary_margin_m: 0.03
+
+runtime:
+  progress_every: 100
+

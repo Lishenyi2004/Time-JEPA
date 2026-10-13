@@ -1,0 +1,13 @@
+base: ../_base_full.yaml
+
+output:
+  # Isolated from the completed V-JEPA 2.1 consistency matrix.
+  root: physics_consistency/egoexo/results/world_models/model_runs
+
+runtime:
+  num_workers: 2
+  use_bfloat16: false
+
+optimization:
+  # Shared across all four encoders; safe for 64-frame InternVideo/iVideoGPT.
+  batch_size: 2

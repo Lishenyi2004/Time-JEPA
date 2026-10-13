@@ -1,0 +1,710 @@
+[
+  {
+    "config": "covla_probe_rjob/configs/covla/weather_ood/readout/time/covla_readout_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla/weather_ood/readout/video_only/covla_readout_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20/e17.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla/weather_ood/shot/time/covla_shot_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla/weather_ood/shot/video_only/covla_shot_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20/e17.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/full_misaligned/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2d_take_derangement/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2d_take_derangement/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/reduced_5d_motion_only/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_5d_motion_only/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_5d_motion_only/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/readout/reduced_1d_pelvis_speed/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_1d_pelvis_speed/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_1d_pelvis_speed/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/shot/reduced_5d_motion_only/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_5d_motion_only/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_5d_motion_only/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a4/shot/reduced_1d_pelvis_speed/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_1d_pelvis_speed/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_ablation/exo124_view3ood/a4_m2c_1d_pelvis_speed/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/readout/full_aligned/egoexo_linear.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/readout/video_only/egoexo_linear.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/shot/full_aligned/egoexo_linear.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/ablation_a3/shot/video_only/egoexo_linear.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/sensor_robustness/gaussian_noise_1p0sigma/readout/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_sensor_robustness/exo124_view3ood/gaussian_noise_1p0sigma/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_sensor_robustness/exo124_view3ood/gaussian_noise_1p0sigma/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/sensor_robustness/time_offset_0p8s/readout/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_sensor_robustness/exo124_view3ood/time_offset_0p8s/encoder_seed239_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_sensor_robustness/exo124_view3ood/time_offset_0p8s/encoder_seed239_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/time/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/video_only/egoexo_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/time/egoexo_conv_9d.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/shot/video_only/egoexo_conv_9d.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/covla/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/covla/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/egoexo/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/egoexo/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/agibot/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_agibot_egoexo/mix_exposure_agibot15000/agibot/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_temporal_attention.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_temporal_attention_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_temporal_attention_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_local_attention.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_local_attention_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_local_attention_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h0_conv1x1.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h0_conv1x1_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h0_conv1x1_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h4_global_attention.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_global_attention_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_global_attention_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h3_strong_dense_fusion.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h3_strong_dense_fusion_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h3_strong_dense_fusion_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/readout/h2_large_k3.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h2_large_k3_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h2_large_k3_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_temporal_attention.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_temporal_attention_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_temporal_attention_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_local_attention.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_local_attention_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_local_attention_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h0_conv1x1.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h0_conv1x1_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h0_conv1x1_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h4_global_attention.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_global_attention_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h4_global_attention_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h3_strong_dense_fusion.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h3_strong_dense_fusion_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h3_strong_dense_fusion_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/egoexo_head_sweep/exo124_view3ood/whole/shot/h2_large_k3.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h2_large_k3_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo_head_sweep/exo124_view3ood_whole9/h2_large_k3_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_egoexo/mix_exposure/egoexo/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_egoexo/mix_exposure_covla_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_egoexo/mix_exposure_covla_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_egoexo/mix_exposure/egoexo/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_egoexo/mix_exposure_covla_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_egoexo/mix_exposure_covla_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_egoexo/egoexo_only/egoexo/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_egoexo/egoexo_only_exo124_view3ood_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_egoexo/egoexo_only_exo124_view3ood_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/covla_egoexo/egoexo_only/egoexo/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_egoexo/egoexo_only_exo124_view3ood_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_egoexo/egoexo_only_exo124_view3ood_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/time/agibot_readout_probe_3view_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/agibot_wholebody_v2/readout/video_only/agibot_readout_probe_3view_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/e16.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/time/agibot_shot_probe_3view_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/agibot_wholebody_v2/shot/video_only/agibot_shot_probe_3view_conv.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/e16.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/mix_e19/covla/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/mix_e19/egoexo/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/mix_e19/agibot/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/video_only_e19/covla/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/video_only_e19/covla/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/video_only_e19/egoexo/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/video_only_e19/egoexo/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/video_only_e19/agibot/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/video_only_e19/agibot/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_law_rjob/probes/configs/future_law_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_law_rjob/probes/configs/future_time_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_law_rjob/probes/configs/current_law_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_law_rjob/probes/configs/future_time_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_law_rjob/probes/configs/current_law_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_law_rjob/probes/configs/future_law_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/last.pth.tar"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/covla/readout.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/covla/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/covla/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/covla/shot.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/covla/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/covla/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/egoexo/readout.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/egoexo/encoder/checkpoints/epoch_017/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/egoexo/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/egoexo/shot.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/egoexo/encoder/checkpoints/epoch_017/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/egoexo/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/agibot/readout.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/time/agibot/shot.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/time/agibot_n15000/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/covla/readout.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/covla/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/covla/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/covla/shot.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/covla/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/covla/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/egoexo/readout.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/egoexo/encoder/checkpoints/epoch_017/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/egoexo/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/egoexo/shot.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/egoexo/encoder/checkpoints/epoch_017/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/egoexo/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/agibot/readout.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/agibot_n15000/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/agibot_n15000/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/video_only/agibot/shot.yaml",
+    "key": "adapted_transformer_checkpoint",
+    "paper_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/agibot_n15000/encoder/checkpoints/epoch_019/transformer/model.safetensors",
+    "release_checkpoint": "outputs_world_model/ivideogpt_oxe_64_medium/video_only/agibot_n15000/encoder/checkpoints/last/transformer/model.safetensors"
+  },
+  {
+    "config": "grasp_eval_rjob/configs/m1_mix_video_only_e19.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "grasp_eval_rjob/configs/m2_mix_time_e19.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "physion_ocp_rjob/configs/main/m1_mix_video_only_e19.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "physion_ocp_rjob/configs/main/m2_mix_time_e19.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_future_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_future_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/full_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_full_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_future_readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "external_baselines/psg_jepa/configs/probe_vitg_n15000/static_future_shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/encoder_final.pt",
+    "release_checkpoint": "outputs_external/psg_jepa_vitg/agibot_static_g_port_seed239_n15000/last.pt"
+  },
+  {
+    "config": "physics_consistency/covla/configs/full/time.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/covla/configs/full/video_only.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20/e17.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/covla/configs/full/multidomain_video.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/covla/configs/full/law.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_time_jepa_law_video_pts_v2_alpha0p5_seed239_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/covla/configs/full/multidomain.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo/configs/full/time.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo/configs/full/video_only.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo/configs/full/multidomain_video.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo/configs/full/multidomain.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo_knee/configs/full/time.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo_knee/configs/full/video_only.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/e15.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_video_only_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo_knee/configs/full/multidomain_video.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/egoexo_knee/configs/full/multidomain.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/agibot_reach_rate/configs/full/time.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/agibot_reach_rate/configs/full/video_only.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/e16.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_video_only_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/agibot_reach_rate/configs/full/multidomain_video.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_video_only_seed239/last.pth.tar"
+  },
+  {
+    "config": "physics_consistency/agibot_reach_rate/configs/full/multidomain.yaml",
+    "key": "checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_single_domain/agibot_seen.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_single_domain/agibot_unseen.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_single_domain/egoexo_unseen.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_single_domain/covla_unseen.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_single_domain/covla_seen.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/weather_ood/covla_vitg384_64f5fps_strict_time_jepa_conv1x1_final_split6305_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_single_domain/egoexo_seen.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/e19.pth.tar",
+    "release_checkpoint": "outputs/egoexo/egoexo_exo124_view3ood_vitg384_64f_time_jepa_conv1x1_final_whole_body_compact_v2_lr3e-5_e20/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/agibot_single_n15000_e17/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1s/agibot_single_n15000_e17/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/e17.pth.tar",
+    "release_checkpoint": "outputs/agibot/agibot_3view_top_head_hand_left_hand_right_vitg384_64f_time_jepa_conv1x1_final_wholebody_cartesian_v2_lr3e-5_e20_n15000/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/covla/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/covla/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/agibot/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/agibot/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/egoexo/readout.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  },
+  {
+    "config": "covla_probe_rjob/configs/future_state_1p6s_8step/mix/egoexo/shot.yaml",
+    "key": "encoder_checkpoint",
+    "paper_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/e19.pth.tar",
+    "release_checkpoint": "outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar"
+  }
+]

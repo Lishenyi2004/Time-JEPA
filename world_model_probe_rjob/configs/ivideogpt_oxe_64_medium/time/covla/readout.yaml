@@ -1,0 +1,8 @@
+base_config: world_model_probe_rjob/configs/ivideogpt_oxe_64_medium/frozen/covla/readout.yaml
+
+train:
+  adapted_transformer_checkpoint: outputs_world_model/ivideogpt_oxe_64_medium/time/covla/encoder/checkpoints/last/transformer/model.safetensors
+  adaptation_mode: time
+  adaptation_epoch: 19
+  output_dir: time-jepa/outputs_world_model/ivideogpt_oxe_64_medium/time/covla/weather_ood/readout/conv1x1_seed239
+

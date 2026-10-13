@@ -1,0 +1,13 @@
+# Exact AgiBot whole-body-v2 three-view zero readout protocol.
+base_config: covla_probe_rjob/configs/agibot_wholebody_v2/readout/zero/agibot_readout_probe_3view_conv.yaml
+
+train:
+  arch: ivideogpt_oxe_64_medium
+  encoder_family: ivideogpt
+  checkpoint_key: huggingface
+  encoder_checkpoint: iVideoGPT/checkpoints/ivideogpt-oxe-64-act-free-medium/transformer/model.safetensors
+  encoder_dtype: float32
+  attention_implementation: sdpa
+  window_frames: 16
+  context_frames: 2
+  output_dir: time-jepa/outputs_world_model/ivideogpt_oxe_64_medium/frozen/agibot_wholebody_v2/readout/probe_3view/conv1x1

@@ -1,0 +1,9 @@
+base: ../_base_full.yaml
+experiment:
+  model_name: zero
+encoder:
+  backend: vjepa2_1
+  arch: vitg_384
+  checkpoint_key: auto
+  checkpoint: vjepa2_1_vitg_384.pt
+

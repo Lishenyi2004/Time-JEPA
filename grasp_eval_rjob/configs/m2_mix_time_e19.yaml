@@ -1,0 +1,39 @@
+name: m2_mix_time_e19
+checkpoint: outputs/covla_agibot_egoexo/mix_exposure_covla_agibot15000_egoexo_vitg384_64f5fps_time_jepa_seed239/last.pth.tar
+checkpoint_sha256: 9d6859517388551ae5fff85a231d9b2e9ce469c7a7a497bee375a984b871b721
+dataset_root: external_baselines/grasp/data/videos/level2
+data_audit: grasp_eval_rjob/artifacts/data_audit.json
+output_dir: grasp_eval_rjob/outputs/m2_mix_time_e19
+
+model:
+  model_name: vit_giant_xformers
+  resolution: 384
+  patch_size: 16
+  tubelet_size: 2
+  pred_depth: 24
+  pred_embed_dim: 384
+  pred_num_heads: 12
+  num_mask_tokens: 2
+  levels_predictor: 4
+  img_temporal_dim_size: null
+  strict_checkpoint: true
+  checkpoint_mmap: true
+  weights_dtype: float32
+
+evaluation:
+  frames_per_clip: 16
+  frame_step: 10
+  stride: 2
+  context_frames: 2
+  chunk_size: 1
+  num_workers: 2
+  decord_num_threads: 1
+  use_bfloat16: true
+  seed: 239
+  max_pairs: null
+
+scoring:
+  bootstrap_samples: 10000
+  bootstrap_seed: 239
+  minimum_nondegraded_properties: 6
+  require_leave_largest_gain_out_positive: true

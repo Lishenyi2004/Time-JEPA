@@ -1,0 +1,109 @@
+{
+  "agibot_root": "data/agibot",
+  "tasks": [
+    "3400",
+    "3401",
+    "3402",
+    "3404",
+    "3405",
+    "3477",
+    "3641",
+    "3705",
+    "3777",
+    "4053"
+  ],
+  "seed": 0,
+  "id_view": "observation.images.top_head",
+  "ood_views": [
+    "observation.images.hand_left",
+    "observation.images.hand_right"
+  ],
+  "key_format": "task_{task_id}/{session_id}/episode_{episode_index:06d}/window_{window_idx:06d}",
+  "frames_per_clip": 64,
+  "fps": 5.0,
+  "slice_stride_seconds": 12.8,
+  "episode_split_ratios": {
+    "encoder_train": 0.7,
+    "probe_train": 0.15,
+    "probe_val": 0.05,
+    "test": 0.1
+  },
+  "requested_counts": {
+    "encoder_train": 7000,
+    "probe_train": 1500,
+    "probe_val": 500,
+    "test": 1000
+  },
+  "counts": {
+    "encoder_train": 7000,
+    "probe_train": 1500,
+    "probe_val": 500,
+    "test": 1000
+  },
+  "capacity_windows": {
+    "encoder_train": 30138,
+    "probe_train": 6509,
+    "probe_val": 2188,
+    "test": 4455
+  },
+  "episode_counts": {
+    "encoder_train": 5006,
+    "probe_train": 1069,
+    "probe_val": 354,
+    "test": 730
+  },
+  "per_task_total": {
+    "3400": {
+      "episodes": 548,
+      "windows": 2786
+    },
+    "3401": {
+      "episodes": 952,
+      "windows": 8473
+    },
+    "3402": {
+      "episodes": 274,
+      "windows": 2279
+    },
+    "3404": {
+      "episodes": 312,
+      "windows": 2513
+    },
+    "3405": {
+      "episodes": 13,
+      "windows": 74
+    },
+    "3477": {
+      "episodes": 264,
+      "windows": 1464
+    },
+    "3641": {
+      "episodes": 1682,
+      "windows": 12353
+    },
+    "3705": {
+      "episodes": 44,
+      "windows": 261
+    },
+    "3777": {
+      "episodes": 2727,
+      "windows": 11697
+    },
+    "4053": {
+      "episodes": 343,
+      "windows": 1390
+    }
+  },
+  "view_presence_episodes": {
+    "observation.images.top_head": 7159,
+    "observation.images.hand_left": 7159,
+    "observation.images.hand_right": 7159
+  },
+  "skipped": {},
+  "files": {
+    "encoder_train": "time-jepa/splits/agibot_top_head_encoder_train.json",
+    "probe_train": "time-jepa/splits/agibot_top_head_probe_train.json",
+    "probe_val": "time-jepa/splits/agibot_top_head_probe_val.json",
+    "test": "time-jepa/splits/agibot_top_head_test.json"
+  }
+}

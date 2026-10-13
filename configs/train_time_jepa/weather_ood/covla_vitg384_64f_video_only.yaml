@@ -1,0 +1,124 @@
+app: vjepa_2_1
+nodes: 1
+tasks_per_node: 1
+cpus_per_task: 8
+mem_per_gpu: 80G
+folder: outputs/weather_ood/covla_vitg384_64f5fps_strict_video_only_split6305_lr3e-5_e20
+data:
+  dataset_type: CoVLAVideoDataset
+  datasets:
+  - data/CoVLA-Dataset
+  datasets_weights: null
+  encoder_train_split: time-jepa/splits/covla_weather_ood/covla_encoder_train.json
+  require_encoder_train_split: true
+  expected_encoder_train_videos: 6305
+  batch_size: 8
+  crop_size: 384
+  patch_size: 16
+  dataset_fpcs:
+  - 64
+  tubelet_size: 2
+  fps: 5
+  strict_time_sampling: true
+  num_workers: 2
+  persistent_workers: true
+  pin_mem: false
+data_aug:
+  auto_augment: false
+  motion_shift: false
+  random_resize_aspect_ratio:
+  - 0.75
+  - 1.35
+  random_resize_scale:
+  - 0.3
+  - 1.0
+  reprob: 0.0
+loss:
+  loss_exp: 1.0
+  predict_all: true
+  reg_coeff: 0.0
+  shift_by_n: 0
+  weight_distance_loss: true
+mask:
+- aspect_ratio:
+  - 0.75
+  - 1.5
+  full_complement: false
+  max_keep: null
+  max_temporal_keep: 1.0
+  num_blocks: 8
+  spatial_scale:
+  - 0.15
+  - 0.15
+  temporal_scale:
+  - 1.0
+  - 1.0
+- aspect_ratio:
+  - 0.75
+  - 1.5
+  full_complement: false
+  max_keep: null
+  max_temporal_keep: 1.0
+  num_blocks: 2
+  spatial_scale:
+  - 0.7
+  - 0.7
+  temporal_scale:
+  - 1.0
+  - 1.0
+meta:
+  dtype: bfloat16
+  eval_freq: 100
+  load_checkpoint: true
+  read_checkpoint: vjepa2_1_vitg_384.pt
+  save_every_freq: 1
+  seed: 239
+  tensorboard: true
+  tqdm: true
+  use_sdpa: true
+model:
+  has_cls_first: false
+  img_temporal_dim_size: null
+  interpolate_rope: true
+  is_causal: false
+  lambda_value_img: 0.0
+  lambda_value_vid: 0.5
+  local_window:
+  - -1
+  - -1
+  - -1
+  modality_embedding: true
+  model_name: vit_giant_xformers
+  n_registers: 0
+  n_registers_predictor: 0
+  normalize_predictor: false
+  pred_depth: 24
+  pred_embed_dim: 384
+  pred_is_causal: false
+  pred_local_window:
+  - -1
+  - -1
+  - -1
+  pred_num_heads: 12
+  uniform_power: true
+  use_activation_checkpointing: true
+  use_mask_tokens: true
+  use_rope: true
+  vit_conv: false
+  zero_init_mask_tokens: true
+optimization:
+  ema:
+  - 0.9995
+  - 0.9999
+  epochs: 20
+  final_lr: 0.000001
+  final_weight_decay: 0.01
+  ipe: null
+  ipe_scale: 1.0
+  lr: 0.00003
+  start_lr: 0.000003
+  warmup: 1
+  weight_decay: 0.01
+time_jepa:
+  enabled: false
+  disable_horizontal_flip: true

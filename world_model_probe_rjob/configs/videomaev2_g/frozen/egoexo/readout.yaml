@@ -1,0 +1,13 @@
+# Same EgoExo exo124/view03-OOD 9D readout protocol; only the encoder changes.
+base_config: covla_probe_rjob/configs/egoexo/exo124_view3ood/whole/readout/zero/egoexo_conv.yaml
+
+train:
+  arch: videomaev2_g
+  encoder_family: videomaev2
+  checkpoint_key: model
+  encoder_checkpoint: VideoMAEv2/checkpoints/mae-g/vit_g_hybrid_pt_1200e.pth
+  encoder_dtype: float16
+  attention_implementation: sdpa
+  videomae_temporal_mode: full
+  encoder_microbatch_size: 1
+  output_dir: time-jepa/outputs_world_model/videomaev2_g/frozen/egoexo/exo124_view3ood/readout/conv1x1

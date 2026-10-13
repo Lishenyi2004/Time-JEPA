@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "description": "Fixed generation arguments and split checksums; no sample IDs or source annotations.",
+  "domains": {
+    "covla": {
+      "dataset_root": "data/CoVLA-Dataset",
+      "generator": "time-jepa/make_covla_weather_ood_splits.py",
+      "root_flag": "--covla-root",
+      "output_dir": "time-jepa/splits/covla_weather_ood",
+      "arguments": [
+        "--weather-samples",
+        "10",
+        "--weather-frame-stride",
+        "60",
+        "--minimum-rainy-votes",
+        "8",
+        "--high-confidence-threshold",
+        "0.70"
+      ],
+      "expected_splits": [
+        {
+          "filename": "covla_encoder_train.json",
+          "count": 6305,
+          "sha256": "add4af402846ab9b5d769bd1878b8f3a25107142cb01f796fb95acec3ad6286f"
+        },
+        {
+          "filename": "covla_probe_train.json",
+          "count": 1349,
+          "sha256": "16507a27e85aaad89145a2ea088b182c9eedd7dede96d024a105d52f592baacc"
+        },
+        {
+          "filename": "covla_probe_val.json",
+          "count": 449,
+          "sha256": "e0b5ada047e2c3ba9faf0e7854acd83deee97415d5b33756aa0692b34a4875f8"
+        },
+        {
+          "filename": "covla_quarantine.json",
+          "count": 2,
+          "sha256": "ef3efc69e7c0ca3b21e23ecf9dd64b9a479f58c889b4312504eccf66f083cd7f"
+        },
+        {
+          "filename": "covla_test.json",
+          "count": 900,
+          "sha256": "c268b3b9bebc4b6e793d42fc32eeffbfd20378c60e2240ddb276af723ea38055"
+        },
+        {
+          "filename": "covla_weather_ood_day_holdout.json",
+          "count": 995,
+          "sha256": "38a3f2516a90f6b0e12633044cfac7d635d21b096c6d4f4402f476592b3dfbff"
+        },
+        {
+          "filename": "covla_weather_ood_high_conf_test.json",
+          "count": 460,
+          "sha256": "d28195b05509d380b7e8ea8d36a29693cc45d030dbb85c300c16ed2e59548d65"
+        },
+        {
+          "filename": "covla_weather_ood_test.json",
+          "count": 521,
+          "sha256": "7edab2b56ec06c7a3bed8a4dbc5f9deb51a8e80baecc4f573a7fe645478b4203"
+        }
+      ]
+    },
+    "egoexo": {
+      "dataset_root": "data/EgoExo4D_minimal",
+      "generator": "time-jepa/make_egoexo_splits.py",
+      "root_flag": "--root",
+      "output_dir": "time-jepa/splits",
+      "arguments": [
+        "--prefix",
+        "egoexo_exo124_view3ood",
+        "--seed",
+        "239",
+        "--frames-per-clip",
+        "64",
+        "--fps",
+        "5",
+        "--slice-stride-seconds",
+        "12.8",
+        "--view-protocol",
+        "exo_view_ood",
+        "--seen-views",
+        "view01,view02,view04",
+        "--ood-views",
+        "view03"
+      ],
+      "expected_splits": [
+        {
+          "filename": "egoexo_exo124_view3ood_encoder_train.json",
+          "count": 7000,
+          "sha256": "9b948a636c744da0fe5fa71e44c7d913ecb58f4f23d68eab1c53cf0f444760a2"
+        },
+        {
+          "filename": "egoexo_exo124_view3ood_probe_train.json",
+          "count": 1500,
+          "sha256": "e8bb7da3e3c0479973840813e896c2624c15b671ba3e6d12b5d21738c9950190"
+        },
+        {
+          "filename": "egoexo_exo124_view3ood_probe_val.json",
+          "count": 500,
+          "sha256": "38819e1b18efc0a94511ee22fce77e5237460491073c6924704efd6c6884a461"
+        },
+        {
+          "filename": "egoexo_exo124_view3ood_test.json",
+          "count": 1000,
+          "sha256": "8f729888569bd6bbe86fd93b4e48b80a633e0691d0e7fcfd08c02737b6671542"
+        }
+      ]
+    }
+  }
+}

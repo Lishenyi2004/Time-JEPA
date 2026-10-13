@@ -1,0 +1,65 @@
+experiment:
+  phase: full
+  seed: 0
+
+output:
+  root: physics_consistency/egoexo_knee/results/model_runs
+
+data:
+  egoexo_root: data/EgoExo4D_minimal
+  split_dir: time-jepa/splits
+  split_prefix: egoexo_exo124_view3ood
+  manifest_path: time-jepa/splits/egoexo_exo124_view3ood_split_manifest.json
+  train_split: probe_train
+  val_split: probe_val
+  train_views: [view01, view02, view04]
+  id_views: [view01, view02, view04]
+  ood_views: [view03]
+  video_backend: auto
+  ffmpeg_timeout: 120
+  slice_stride_seconds: 12.8
+  limits: {}
+
+evaluation:
+  mode: test
+
+sampling:
+  num_frames: 64
+  image_size: 384
+  fps: 5.0
+  tubelet_size: 2
+  max_time_delta: 0.05
+
+pose:
+  fps: 30.0
+  min_views: 2
+  smooth_window: 5
+
+probe:
+  type: independent_linear
+
+stats:
+  cache: physics_consistency/egoexo_knee/results/cache/egoexo_knee4_probe_train_stats_seed239.json
+  seed: 239
+  max_rows: 0
+
+optimization:
+  epochs: 15
+  batch_size: 8
+  lr: 1.0e-4
+  start_lr: null
+  final_lr: 1.0e-6
+  warmup_epochs: 1
+  lr_schedule: cosine
+  weight_decay: 0.01
+  final_weight_decay: null
+
+runtime:
+  device: cuda
+  num_workers: 8
+  video_num_threads: 1
+  use_bfloat16: false
+
+kinematics:
+  gt_gate_metrics: physics_consistency/egoexo_knee/results/gt_gate/gt_gate_metrics.json
+

@@ -1,0 +1,30 @@
+name: m0_official_vjepa21
+checkpoint: vjepa2_1_vitg_384.pt
+dataset_root: data/physion_v1_5
+output_dir: physion_ocp_rjob/outputs/m0_official_vjepa21/main
+
+model:
+  model_name: vit_giant_xformers
+  resolution: 384
+  patch_size: 16
+  tubelet_size: 2
+  img_temporal_dim_size: 1
+  strict_checkpoint: true
+
+extraction:
+  num_frames: 4
+  frame_gap_ms: 150
+  aggregation: spatial_mean
+  batch_size: 4
+  num_workers: 4
+  use_bfloat16: true
+  feature_dtype: float16
+  seed: 239
+  max_train_samples: null
+  max_test_samples: null
+
+probe:
+  protocol: all_scenarios
+  cross_validation_folds: 5
+  max_iter: 20000
+  device: cuda

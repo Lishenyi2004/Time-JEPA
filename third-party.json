@@ -1,0 +1,48 @@
+[
+  {
+    "name": "VideoMAEv2",
+    "url": "https://github.com/OpenGVLab/VideoMAEv2.git",
+    "revision": "29eab1e8a588d1b3ec0cdec7b03a86cca491b74b",
+    "directory": "VideoMAEv2",
+    "source_required": true
+  },
+  {
+    "name": "iVideoGPT",
+    "url": "https://github.com/thuml/iVideoGPT.git",
+    "revision": "d601d5cac9e96c6aa0c17cb37ed6a7c7ca1fb210",
+    "directory": "iVideoGPT",
+    "source_required": true,
+    "checkpoint_repository": "thuml/ivideogpt-oxe-64-act-free-medium",
+    "checkpoint_revision": "0076304ff7698d90d48ac6036022f5eff0ae2f3e"
+  },
+  {
+    "name": "PSG-JEPA",
+    "url": "https://github.com/Haodong-Yan/PSG-JEPA.git",
+    "revision": "3bf67a47a9143f9f4fb4d39f839143c92902714c",
+    "directory": "third_party/PSG-JEPA",
+    "source_required": true
+  },
+  {
+    "name": "InternVideo",
+    "url": "https://github.com/OpenGVLab/InternVideo.git",
+    "revision": "3965eef16e2dadd0ea6c8d0cc29c8a3039df52e3",
+    "source_required": false,
+    "checkpoint_repository": "revliter/internvideo_next_large_p14_res224_f16",
+    "checkpoint_revision": "b14495944fe821fbc2fbdd7f01404508ba0d5a6f",
+    "note": "Adapter loads modeling_config.py and modeling_internvideo_next.py from the pinned Hugging Face snapshot."
+  },
+  {
+    "name": "GRASP",
+    "url": "https://github.com/i-machine-think/grasp.git",
+    "revision": "676d13a1b5d4d86bc3d834529193bd7cce7d764f",
+    "source_required": false,
+    "note": "Dataset/protocol source; the local evaluator runs independently."
+  },
+  {
+    "name": "Physion evaluator",
+    "url": "https://github.com/neuroailab/physion_evaluator.git",
+    "revision": "03924d4a4c518044a279c10f286335bb11a1a709",
+    "source_required": false,
+    "note": "Protocol source; the local evaluator runs independently."
+  }
+]

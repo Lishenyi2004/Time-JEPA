@@ -1,0 +1,39 @@
+name: m0_official_vjepa21
+checkpoint: vjepa2_1_vitg_384.pt
+checkpoint_sha256: b417628f1618c8bd52c0f419800b802f65794288c6ef2ff85c1341a1ae587cba
+dataset_root: external_baselines/grasp/data/videos/level2
+data_audit: grasp_eval_rjob/artifacts/data_audit.json
+output_dir: grasp_eval_rjob/outputs/m0_official_vjepa21
+
+model:
+  model_name: vit_giant_xformers
+  resolution: 384
+  patch_size: 16
+  tubelet_size: 2
+  pred_depth: 24
+  pred_embed_dim: 384
+  pred_num_heads: 12
+  num_mask_tokens: 8
+  levels_predictor: 4
+  img_temporal_dim_size: 1
+  strict_checkpoint: true
+  checkpoint_mmap: true
+  weights_dtype: float32
+
+evaluation:
+  frames_per_clip: 16
+  frame_step: 10
+  stride: 2
+  context_frames: 2
+  chunk_size: 1
+  num_workers: 2
+  decord_num_threads: 1
+  use_bfloat16: true
+  seed: 239
+  max_pairs: null
+
+scoring:
+  bootstrap_samples: 10000
+  bootstrap_seed: 239
+  minimum_nondegraded_properties: 6
+  require_leave_largest_gain_out_positive: true
