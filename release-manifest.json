@@ -40,8 +40,8 @@
   {
     "path": "README.md",
     "generated": true,
-    "reason": "Release documentation, dependency snapshot, packaging, or validation tooling",
-    "release_sha256": "3283e4120c8cab5e867dba1385590e981acbc53ee1dc0182b7c96f848a941ad4"
+    "reason": "Project overview, paper figures and exact result tables, with installation and reproduction entry points",
+    "release_sha256": "243f516111494fc23ff1bcda40dbdefa1331ce4e81f76629f20d367d0178f605"
   },
   {
     "path": "app/scaffold.py",
@@ -1098,6 +1098,54 @@
     "generated": true,
     "reason": "Verified real-data GPU integration and CoVLA OOD sample-limit repair",
     "release_sha256": "258dace05741d142884287437d8bc1bf9dcb318ff7d4a580ba7f45daf7679e54"
+  },
+  {
+    "path": "docs/assets/README.md",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "385515ceff094e409c20ca2bf2e68f4fbef4f4cda3f89220e5a4a9d22aadaf45"
+  },
+  {
+    "path": "docs/assets/architecture.pdf",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "a97ad6304235e8b2cfe5f4b16d0468f0dd4d47d183dda631ccc2a5835cdbfdb1"
+  },
+  {
+    "path": "docs/assets/architecture.png",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "ce261457bbd0f2bbda572de2bed9e65c6137205c790c93b5744857b93a2bc30f"
+  },
+  {
+    "path": "docs/assets/external-evaluation.pdf",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "3f1d8c5d6f6280c73db7d070c18ff8ea5d2b7fb6a1a480a3be157c24f167fde9"
+  },
+  {
+    "path": "docs/assets/external-evaluation.png",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "78db5f8f7cfc3e5dd08c149b3857efbc5cdc53426425bd0f51af27c1694abb9b"
+  },
+  {
+    "path": "docs/assets/figure-provenance.json",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "23bcb218d72ea379950cc88af9c413995317e70b9e0672d79a992f0d10f9515d"
+  },
+  {
+    "path": "docs/assets/multidomain.pdf",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "ee14a0b3ea3b30498a7ddb5101f62b6e52f53c46c56af32f81adc6e5cd8e2b6a"
+  },
+  {
+    "path": "docs/assets/multidomain.png",
+    "generated": true,
+    "reason": "Paper figure or figure provenance for the public project README",
+    "release_sha256": "e1619d972d503c7468d4154956ed8c9051e8a57389da6ac10c3b263f668aff29"
   },
   {
     "path": "docs/checkpoints.md",

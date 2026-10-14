@@ -1,0 +1,48 @@
+{
+  "paper_title": "Time-JEPA: Grounding Video World Models with Physical Time Series",
+  "rendering": {
+    "library": "PyMuPDF",
+    "version": "1.28.2",
+    "target_width_pixels": 2000,
+    "background": "white",
+    "content_changes": false
+  },
+  "figures": [
+    {
+      "name": "architecture",
+      "paper_caption": "Time-JEPA training and evaluation",
+      "latex_label": "fig:time_jepa_overview",
+      "source_figure": "figures/author_20260923/time_jepa_architecture_03_mixed.pdf",
+      "source_sha256": "a97ad6304235e8b2cfe5f4b16d0468f0dd4d47d183dda631ccc2a5835cdbfdb1",
+      "pdf": "architecture.pdf",
+      "png": "architecture.png",
+      "png_sha256": "ce261457bbd0f2bbda572de2bed9e65c6137205c790c93b5744857b93a2bc30f",
+      "width": 2000,
+      "height": 1367
+    },
+    {
+      "name": "multidomain",
+      "paper_caption": "Current-state decoding gains from multi-domain training",
+      "latex_label": "fig:multidomain_gain",
+      "source_figure": "figures/author_20260923/multidomain.pdf",
+      "source_sha256": "ee14a0b3ea3b30498a7ddb5101f62b6e52f53c46c56af32f81adc6e5cd8e2b6a",
+      "pdf": "multidomain.pdf",
+      "png": "multidomain.png",
+      "png_sha256": "e1619d972d503c7468d4154956ed8c9051e8a57389da6ac10c3b263f668aff29",
+      "width": 2000,
+      "height": 782
+    },
+    {
+      "name": "external-evaluation",
+      "paper_caption": "External physical evaluations",
+      "latex_label": "fig:external_physical",
+      "source_figure": "figures/generated/external_physical_three_panel.pdf",
+      "source_sha256": "3f1d8c5d6f6280c73db7d070c18ff8ea5d2b7fb6a1a480a3be157c24f167fde9",
+      "pdf": "external-evaluation.pdf",
+      "png": "external-evaluation.png",
+      "png_sha256": "78db5f8f7cfc3e5dd08c149b3857efbc5cdc53426425bd0f51af27c1694abb9b",
+      "width": 2000,
+      "height": 721
+    }
+  ]
+}
